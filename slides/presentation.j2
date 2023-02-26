@@ -43,17 +43,17 @@
 
         h1 {
             font-size: 5em;
-            margin:0;
+            margin: 0;
         }
 
         h2 {
             font-size: 3em;
-            margin:0;
+            margin: 0;
         }
 
-        h3{
+        h3 {
             font-size: 2em;
-            margin:0;
+            margin: 0;
         }
 
         section > h2 {
@@ -115,33 +115,32 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            gap:25px;
+            gap: 25px;
         }
 
-        .topic{
-            display:flex;
+        .topic {
+            display: flex;
             align-content: center;
             align-items: center;
             flex-direction: column;
-            gap:25px;
+            gap: 25px;
             background-color: var(--esn-dark-blue);
             flex-grow: 1;
             justify-content: center;
         }
-        .topic > *{
-            margin:0;
-            color:var(--esn-cyan);
+
+        .topic > * {
+            margin: 0;
+            color: var(--esn-cyan);
         }
 
-        .topic > h2{
-            color:white;
+        .topic > h2 {
+            color: white;
         }
 
-        .topic > h3{
-            color:var(--esn-magenta);
+        .topic > h3 {
+            color: var(--esn-magenta);
         }
-
-
 
 
         .answer {
@@ -196,9 +195,10 @@
                         {% include "question_slide.j2" %}
                     {% endfor %}
                 {% endfor %}
+                {% include "break.j2" %}
             {% endfor %}
-            {% include "break.j2" %}
         {% endfor %}
+        {% include "break.j2" %}
         {% include "end.j2" %}
     </div>
 </div>
