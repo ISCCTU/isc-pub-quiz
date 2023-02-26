@@ -4,7 +4,8 @@ A script to generate ISC Pub Quizzes as an HTML presentation. The quiz is define
 ## TODO:
 * improve layouts & make it look better in general
 * support audio questions
-* end slide
+* possibly support a "sorting" question (although that can technically be done using the simple question type)
+* create the end slide
 
 ## Quiz definition
 The quiz is defined using a `.yaml` file.
