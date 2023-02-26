@@ -5,6 +5,7 @@ A script to generate ISC Pub Quizzes as an HTML presentation. The quiz is define
 * improve layouts & make it look better in general
 * support audio questions
 * possibly support a "sorting" question (although that can technically be done using the simple question type)
+* create the rules slide
 * create the end slide
 
 ## Quiz definition
