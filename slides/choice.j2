@@ -1,23 +1,19 @@
-<section>
-    <h2>{{topic.name}}: {%if show_answer%}Answer{%else%}Question{%endif%} #{{question_idx}}</h2>
-    <div class="container">
-        <div class="col">
-            {{question.text}}
+<div class="container">
+    <div class="col">
+        {{ question.text }}
 
-            <ol class="choices">
-            {%for choice in question.choices%}
-            <li
-            {%if show_answer  and question.correct_idx==loop.index0%}
-            class="answer"
-            {%endif%}>
-            {{choice}}
-            </li>
-            {%endfor%}
-                </ol>
-        </div>
-        <div class="col">
-            <img src="{{question.img_src}}">
-        </div>
+        <ol class="choices">
+            {% for choice in question.choices %}
+                <li
+                        {% if show_answer  and question.correct_idx==loop.index0 %}
+                            class="answer"
+                        {% endif %}>
+                    {{ choice }}
+                </li>
+            {% endfor %}
+        </ol>
     </div>
-    {%include "footer.html"%}
-</section>
+    <div class="col">
+        <img src="{{ question.img_src }}">
+    </div>
+</div>

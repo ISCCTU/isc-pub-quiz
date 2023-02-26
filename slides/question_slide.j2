@@ -1,0 +1,13 @@
+<section>
+    <div class="question-title">
+        <h2>{{ topic.name }}: {% if show_answer %}Answer{% else %}Question{% endif %} #{{ question_idx }}</h2>
+    </div>
+    <div class="question-body">
+        {% if question.type=="simple" %}
+            {% include "simple.j2" %}
+        {% elif question.type=="choice" %}
+            {% include "choice.j2" %}
+        {% endif %}
+    </div>
+    {% include "footer.html" %}
+</section>

@@ -1,17 +1,13 @@
-<section>
-    <h2>{{topic.name}}: {%if show_answer%}Answer{%else%}Question{%endif%} #{{question_idx}}</h2>
-    <div class="container">
-        <div class="col">
-            {{question.text}}
-            {%if show_answer%}
+<div class="container">
+    <div class="col">
+        {{ question.text }}
+        {% if show_answer %}
             <div class="answer">
-            {{question.answer}}
+                {{ question.answer }}
             </div>
-            {%endif%}
-        </div>
-        <div class="col">
-            <img src="{{question.img_src}}">
-        </div>
+        {% endif %}
     </div>
-    {%include "footer.html"%}
-</section>
+    <div class="col">
+        <img src="{{ question.img_src }}">
+    </div>
+</div>

@@ -1,6 +1,6 @@
 date: 10/10/2022
 place: ISC Point (možná)
-template: presentation.html
+template: presentation.j2
 topics_per_block: 2
 topics:
   - name: Events from 2022
