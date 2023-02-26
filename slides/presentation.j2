@@ -49,6 +49,10 @@
             font-size: 3em;
         }
 
+        h3{
+            font-size: 2em;
+        }
+
         section > h2 {
             /*line-height: 1;*/
         {#margin: 25px;#} margin: 0;
@@ -109,6 +113,31 @@
             gap:25px;
         }
 
+        .topic{
+            display:flex;
+            align-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap:25px;
+            background-color: var(--esn-dark-blue);
+            flex-grow: 1;
+            justify-content: center;
+        }
+        .topic > *{
+            margin:0;
+            color:var(--esn-cyan);
+        }
+
+        .topic > h2{
+            color:white;
+        }
+
+        .topic > h3{
+            color:var(--esn-magenta);
+        }
+
+
+
 
         .answer {
             font-weight: 700 !important;
@@ -156,6 +185,7 @@
         {% for block in blocks %}
             {% for show_answer in [false, true] %}
                 {% for topic in block %}
+                    {% include "topic.j2" %}
                     {% for question in topic.questions %}
                         {% set question_idx=loop.index %}
                         {% include "question_slide.j2" %}
