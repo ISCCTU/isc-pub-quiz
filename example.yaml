@@ -1,0 +1,52 @@
+date: 10/10/2022
+place: ISC Point (možná)
+template: presentation.html
+topics_per_block: 2
+topics:
+  - name: Events from 2022
+    questions:
+#      - type: simple
+#        text:
+#        answer:
+#        img_src:
+      - type: simple
+        text: In January, a mobile puzzle game became popular. Each day you could solve one puzzle. What is the name of the game?
+        answer: Wordle
+        img_src: https://epe.brightspotcdn.com/dims4/default/29f18bd/2147483647/strip/true/crop/1695x1150+13+0/resize/840x570!/quality/90/?url=https%3A%2F%2Fepe-brightspot.s3.amazonaws.com%2F63%2F28%2Fde4bad4f405ea84452275b46b7df%2Fwordle-02022022.jpg
+
+      - type: simple
+        text: >
+          At the 2022 Oscars Ceremony, Will Smith went on the podium to slap Chris Rock, after Chris Rock said the following about this wife, when he compared her to a movie character: "Love you Jada, ________ can’t wait to see it!"
+        answer: >
+          "Love you Jada, GI Jane 2 can’t wait to see it"
+        img_src: https://upload.wikimedia.org/wikipedia/en/1/18/Will_Smith_slaps_Chris_Rock.jpg
+
+      - type: simple
+        text: In April of this year, trial with a large social media coverage between Johnny Depp and Amber Heard took place. What was the name of Depp’s attorney?
+        answer: Camille Vasquez
+        img_src: https://media.cnn.com/api/v1/images/stellar/prod/220628083352-johnny-depp-pirates-caribbean-restricted.jpg?c=original
+
+      - type: simple
+        text: King Charles is the oldest monarch to ever ascend the British throne. What is his age?
+        answer: 73
+        img_src: https://ichef.bbci.co.uk/news/2048/cpsprodpb/0E84/production/_126661730_img_6908.jpg
+
+      - type: simple
+        text: In September a large hurricane hit Florida, US. What was the name of the hurricane?
+        answer: Hurrican Ian
+        img_src:  https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29.jpg/800px-Dramatic_Views_of_Hurricane_Florence_from_the_International_Space_Station_From_9_12_%2842828603210%29.jpg
+
+  - name: Alcoholic Beverages
+    questions:
+      - type: simple
+        text: What does the gravity (°) of beer stand for?
+        answer: Percent of the content of dissolved sugars which are measured when the beer is already brewed, just before fermentation.
+        img_src:  https://www.prazdroj.cz/cospospohzeg/uploads/2021/08/Asset__7-1080x1080.png
+
+      - type: choice
+        text: What country is Tatra Tea from?
+        answer: Slovakia
+        wrong: # will be shuffled
+          - Czechia
+          - Russia
+          - Hungary
