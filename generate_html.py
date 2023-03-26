@@ -26,6 +26,9 @@ def parse_question(topic: Dict[str, Any], question: Dict[str, Any], question_idx
         question["choices"] = choices
         question["correct_idx"] = correct_idx
     return question
+    # elif question["type"] == "musical":
+    #     question["audio_file"] = question["file"]
+    # return question
 
 
 if __name__ == "__main__":
@@ -42,6 +45,7 @@ if __name__ == "__main__":
         "date": quiz_config["date"],
         "place": quiz_config["place"],
         "blocks": [],
+        "countdown_duration_minutes": quiz_config["countdown_duration_minutes"]
     }
     for t, topic in enumerate(quiz_config["topics"]):
         if t % quiz_config["topics_per_block"] == 0:

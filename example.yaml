@@ -3,6 +3,7 @@ place: ISC Point (možná)
 template: presentation.j2
 output: output.html
 topics_per_block: 2
+countdown_duration_minutes: 3
 topics:
   - name: Events from 2022
     questions:
@@ -10,6 +11,11 @@ topics:
 #        text:
 #        answer:
 #        img_src:
+      - type: musical
+        text: What is the name of this song?
+        answer: Zadok The Priest
+        audio_file: assets/music/zadok.m4a
+
       - type: simple
         text: In January, a mobile puzzle game became popular. Each day you could solve one puzzle. What is the name of the game?
         answer: Wordle

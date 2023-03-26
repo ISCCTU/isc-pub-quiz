@@ -7,6 +7,8 @@
             {% include "simple.j2" %}
         {% elif question.type=="choice" %}
             {% include "choice.j2" %}
+        {% elif question.type=="musical" %}
+            {% include "musical.j2" %}
         {% endif %}
     </div>
     {% include "footer.html" %}

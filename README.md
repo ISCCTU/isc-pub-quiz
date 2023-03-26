@@ -24,9 +24,10 @@ topics:
   ...
 ```
 The `questions` entry is again a list of questions.
-Currently, two question types are defined:
+Currently, three question types are defined:
 * Simple: A basic question-answer pair.
 * Choice: A question with a list of answers - a), b), etc. The wrong answers will be shuffled and the correct one will be placed at a random spot among them.
+* Musical: A question where the player must identify the music played
 ```yaml
 type: simple
 text: Question text that will be shown.
@@ -44,6 +45,13 @@ wrong:
   - of
   - wrong
   - answers.
+img_src: Image to be shown alongside the question.
+```
+```yaml
+type: musical
+text: Question text that will be shown.
+answer: The correct answer.
+wrong:
 img_src: Image to be shown alongside the question.
 ```
 
