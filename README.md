@@ -32,7 +32,8 @@ Currently, three question types are defined:
 type: simple
 text: Question text that will be shown.
 answer: The correct answer.
-img_src: Image to be shown alongside the question.
+question_img_src: Image to be shown alongside the question.
+answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
 ```
 and
 ```yaml
@@ -45,14 +46,18 @@ wrong:
   - of
   - wrong
   - answers.
-img_src: Image to be shown alongside the question.
+question_img_src: Image to be shown alongside the question.
+answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
+
 ```
 ```yaml
 type: musical
 text: Question text that will be shown.
 answer: The correct answer.
 wrong:
-img_src: Image to be shown alongside the question.
+question_img_src: Image to be shown alongside the question.
+answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
+
 ```
 
 
@@ -63,6 +68,7 @@ place: ISC Point
 template: presentation.j2
 output: output.html
 topics_per_block: 2
+countdown_duration_minutes: How long will the countdown last? (Feature not implemented yet)
 ```
 Most of it should be self-explanatory, except the last one.
 The quiz will have a block of `topics_per_block` topics (e.g. 2), then a break will be inserted, so that the organizers have time to "grade" the quizzes. Afterwards, the correct answers are shown, followed by another set of topics.

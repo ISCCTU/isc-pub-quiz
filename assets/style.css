@@ -47,8 +47,8 @@ section {
 }
 
 section img {
-    max-width: 95%;
-    max-height: 95%;
+    max-width: 30vw;
+    max-height: 50vh;
 }
 
 .vertical-center {
