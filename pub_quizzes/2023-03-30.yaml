@@ -37,3 +37,37 @@ topics:
         text: A mind-control rogram run by the CIA from 1953 to 1973. It tested many different substances such as LSD on unwilling participants. What was its name?
         answer: MK-ULTRA
         question_img_src: https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/mk-ultra-anson-mount-feature.jpg
+  - name: The colors of ESN
+    questions:
+      - type: simple
+        text: In Technická street in the Dejvice campus, there's an alley of trees. Do you know what ornamental tree species is there?
+        answer: cherry blossom/Japanese cherry/sakura 
+        question_img_src: https://mestemnakole.cz/app/uploads/2019/05/jm_technicka_01.jpg
+
+
+      - type: simple
+        text: There are five ESN sections in Prague. Can you name at least four of them? (three = 0.5p)
+        answer: ISC CTU, ESN UCT, ESN CU, ESN CZU, ESN VSE
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/a/a7/Prague_%286365119737%29.jpg
+        answer_img_src: https://scontent.fprg5-1.fna.fbcdn.net/v/t1.6435-9/89070613_1295901077274153_5221783971045572608_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Da80x49yAkwAX9og0Tw&_nc_ht=scontent.fprg5-1.fna&oh=00_AfA9Jx_EW-PTHyhr-PCIZBUxLJ6YLPb5VQkhS3uxxn7e9A&oe=6447F001
+
+      - type: simple
+        text: Scheele's Green or Schloss Green was a favourite colour of the Victorians of the 19th century. A compound of which metalloid element made it so toxic to humans?
+        answer: arsenic
+        question_img_src: https://scontent-prg1-1.xx.fbcdn.net/v/t1.6435-9/181305116_115184310707849_3152226569222127614_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=GsM25ddiLt0AX97Gn_R&_nc_ht=scontent-prg1-1.xx&oh=00_AfC9TpTJj3iXCVCvUb4WtVIpBOmmnKBfXcSS6RA7DNKcFg&oe=6447FC64
+
+      - type: simple
+        text: What does the ESN logo, the ESN star, represent?
+        answer: it represents the ESN members standing in a circle as if they were holding hands
+        question_img_src: https://esn.org/sites/default/files/new_vi_2019.png
+      
+      - type: simple
+        text: We associate the ocean with the color blue. However, this is only true when we are close enough to the surface. Based on the sunlight they receive, we can sort the ocean by depth. Can you sort the five zones correctly, from most shallow? (midnight zone, twilight zone, hadal zone, the abyss, sunlight zone)
+        answer: [sunlight zone (<200m), twilight zone (200-1000m), midnight zone (1000-4000m), the abyss (4000-6000m), hadal zone (>6000m)]
+        question_img_src: https://static.vecteezy.com/system/resources/thumbnails/001/625/224/original/deep-blue-underwater-with-sunlight-rays-shining-through-ocean-surface-free-video.jpg
+
+      # optional tipovačka
+      # - type: simple
+      #   text: How many local ESN sections are there?
+      #   answer: 511
+      #   question_img_src: https://lh3.googleusercontent.com/VeDln0ZNLJdPl26gJVimc-ERDQW2S1douicddUycjegowDNlKs1BVJuDDl0lZ9eqVJwKWh2j2fJiqCUpZvI8Ov83U5CvH3X1cE1EVsJ3rVOR3kv1YJh31CVE4NoemnWlUzQB7Vbu
