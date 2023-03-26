@@ -1,0 +1,20 @@
+date: 30/03/2023
+place: Loď Pivovar
+template: presentation.j2
+output: output.html
+topics_per_block: 2
+countdown_duration_minutes: 3
+topics:
+  - name: Events from 2023
+    questions:
+#      - type: simple
+#        text:
+#        answer:
+#        img_src:
+  - name: Conspiracy theories
+    questions:
+#      - type: simple
+#        text:
+#        answer:
+#        img_src:
+
