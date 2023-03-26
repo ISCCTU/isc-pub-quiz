@@ -11,6 +11,7 @@ As of right now, the asset folder is necessary to show the presentation properly
 * possibly support a "sorting" question (although that can technically be done using the simple question type)
 * create the rules slide
 * create the end slide
+* auto download illustration image (with a potential override, of course)
 
 ## Quiz definition
 The quiz is defined using a `.yaml` file.
