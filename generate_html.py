@@ -42,6 +42,7 @@ if __name__ == "__main__":
         "date": quiz_config["date"],
         "place": quiz_config["place"],
         "blocks": [],
+        "countdown_duration_minutes": quiz_config["countdown_duration_minutes"]
     }
     for t, topic in enumerate(quiz_config["topics"]):
         if t % quiz_config["topics_per_block"] == 0:

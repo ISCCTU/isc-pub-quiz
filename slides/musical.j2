@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="col">
+        {{ question.text }}
+        {% if show_answer %}
+            <div class="answer">
+                {{ question.answer }}
+            </div>
+        {% endif %}
+    </div>
+    <div class="col">
+    {% include "right_pane_picture.j2" %}
+    {% if question.audio_file %}
+    <audio controls>
+        <source src="{{ question.audio_file }}" type="audio/mpeg">
+        Your browser does not support the audio element. I tested this functionality in Safari and Firefox.
+    </audio>
+    {% endif %}
+    </div>
+</div>

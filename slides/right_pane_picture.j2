@@ -1,0 +1,13 @@
+{% if question.question_img_src and not question.answer_img_src %}
+    <img src="{{ question.question_img_src }}">
+{% elif question.question_img_src and question.answer_img_src %}
+    {% if show_answer %}
+        <img src="{{ question.answer_img_src }}">
+    {% else %}
+        <img src="{{ question.question_img_src }}">
+    {% endif %}
+{% elif not question.question_img_src and question.answer_img_src %}
+    {% if show_answer %}
+    <img src="{{ question.answer_img_src }}">
+    {% endif %}
+{% endif %}
