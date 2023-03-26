@@ -7,14 +7,33 @@ countdown_duration_minutes: 3
 topics:
   - name: Events from 2023
     questions:
-#      - type: simple
-#        text:
-#        answer:
-#        img_src:
+     - type: simple
+       text:
+       answer:
+       question_img_src:
   - name: Conspiracy theories
     questions:
-#      - type: simple
-#        text:
-#        answer:
-#        img_src:
+      - type: simple
+        text: At the end of the Second World War, some well-known Nazis, such as Eichmann or Mengele fled. What is the name of this country, where allegedly even Hitler himself escaped to?
+        answer: Argentina
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/HitlersManyFaces.jpg/800px-HitlersManyFaces.jpg
 
+      - type: simple
+        text: Between the years 2012 and 2015, a mysterious accout started posting elaborate riddles on an online forum known as 4chan. These puzzles focused heavily on data security, cryptography and internet anonymity and was listed as the "top 5 eeries, unsolved mysteries of the internet" by The Washington Post. What is the nickname given to these puzzles?
+        answer: Cicada 3301
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/7/7e/Cicada_3301_logo.jpg
+
+      - type: simple
+        text: Flat Earth is an archaic and scientifically disproven conception of the Earth's shape as a plane or disk, although the theory has a rising following nowadays. Who performed the first known scientific measurement and calculation of Earth's circumference in about 240 BC?
+        answer: Eratosthenes
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/b/ba/Sacrobosco-1550-B3r-detail01.jpg
+        
+      - type: simple
+        text: In July 1969, astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the surface of the moon — or did they? What are is rumored to have been the filming location for the "staged landing" (originally from the book "We Never Went to the Moon")?
+        answer: Area 51
+        question_img_src: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*n9MrTiqExccfb4DgZ6IrUQ.jpeg
+
+      - type: simple
+        text: A mind-control rogram run by the CIA from 1953 to 1973. It tested many different substances such as LSD on unwilling participants. What was its name?
+        answer: MK-ULTRA
+        question_img_src: https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/mk-ultra-anson-mount-feature.jpg
