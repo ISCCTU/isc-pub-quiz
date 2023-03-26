@@ -1,158 +1,164 @@
 :root {
-    --esn-dark-blue: #2E3192;
-    --esn-cyan: #00AEEF;
-    --esn-green: #7AC143;
-    --esn-magenta: #EC008C;
+  --esn-dark-blue: #2E3192;
+  --esn-cyan: #00AEEF;
+  --esn-green: #7AC143;
+  --esn-magenta: #EC008C;
 }
 
 section :is(h1, h2, h3, h4, h5, h6) {
-    font-family: 'Bebas Neue', sans-serif !important;
-    font-weight: 700 !important;
+  font-family: 'Bebas Neue', sans-serif !important;
+  font-weight: 700 !important;
 }
 
 section div,
 section p {
-    font-family: 'Kelson Sans', sans-serif !important;
+  font-family: 'Kelson Sans', sans-serif !important;
 }
 
 h1 {
-    font-size: 5em;
-    margin: 0;
+  font-size: 5em;
+  margin: 0;
 }
 
 h2 {
-    font-size: 3em;
-    margin: 0;
+  font-size: 3em;
+  margin: 0;
 }
 
 h3 {
-    font-size: 2em;
-    margin: 0;
+  font-size: 2em;
+  margin: 0;
 }
 
 .controls-arrow {
-    color: var(--esn-dark-blue);
+  color: var(--esn-dark-blue);
 }
 
 body {
-    font-size: 2em;
-    color: var(--esn-dark-blue);
+  font-size: 2em;
+  color: var(--esn-dark-blue);
 }
 
 section {
-    flex-direction: column;
-    height: 100%;
-    background-color: white;
-    line-height: 1.25;
+  flex-direction: column;
+  height: 100%;
+  background-color: white;
+  line-height: 1.25;
 }
 
 section img {
-    max-width: 30vw;
-    max-height: 50vh;
+  max-width: 30vw;
+  max-height: 50vh;
 }
 
 .vertical-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .choices {
-    list-style-type: lower-latin !important;
+  list-style-type: lower-latin !important;
 }
 
 .reveal-viewport {
-    background-color: var(--esn-cyan);
+  background-color: var(--esn-cyan);
 }
 
 .container {
-    display: flex;
-    height: 100%;
-    gap: 50px;
+  display: flex;
+  height: 100%;
+  gap: 50px;
 }
 
 .col {
-    flex: 1;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 25px;
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .topic {
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 25px;
-    background-color: var(--esn-dark-blue);
-    flex-grow: 1;
-    justify-content: center;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  background-color: var(--esn-dark-blue);
+  flex-grow: 1;
+  justify-content: center;
 }
 
 .topic>* {
-    margin: 0;
-    color: var(--esn-cyan);
+  margin: 0;
+  color: var(--esn-cyan);
 }
 
 .topic>h2 {
-    color: white;
+  color: white;
 }
 
 .topic>h3 {
-    color: var(--esn-magenta);
+  color: var(--esn-magenta);
 }
 
 
 .answer {
-    font-weight: 700 !important;
-    color: var(--esn-magenta);
+  font-weight: 700 !important;
+  color: var(--esn-magenta);
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    background-color: white;
-    padding: 10px 5% 10px 5%;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  background-color: white;
+  padding: 10px 5% 10px 5%;
 
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .footer img {
-    margin: 0;
+  margin: 0;
 }
 
 .question-title {
-    height: 150px;
-    padding: 0 50px 0 50px;
-    background-color: var(--esn-magenta);
-    font-size: 100%;
+  height: 150px;
+  padding: 0 50px 0 50px;
+  background-color: var(--esn-magenta);
+  font-size: 100%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
 }
 
 .question-body {
-    flex-grow: 1;
-    padding: 50px;
-    background-color: white;
+  flex-grow: 1;
+  padding: 50px;
+  background-color: white;
 }
 
-.question{
+.question {
   padding: 50px;
   background-color: var(--esn-cyan);
-  display:flex;
+  display: flex;
   flex-direction: column;
   height: calc(100vh - 150px);
 }
 
-.present{
+.present {
   background-color: var(--esn-cyan);
+}
+
+ul {
+  line-height: 2;
+  text-align: left;
+  margin-top: 0;
 }
