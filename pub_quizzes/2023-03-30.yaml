@@ -37,13 +37,12 @@ topics:
         text: A mind-control rogram run by the CIA from 1953 to 1973. It tested many different substances such as LSD on unwilling participants. What was its name?
         answer: MK-ULTRA
         question_img_src: https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/mk-ultra-anson-mount-feature.jpg
-  - name: The colors of ESN
+  - name: The colours of ESN
     questions:
       - type: simple
         text: In Technická street in the Dejvice campus, there's an alley of trees. Do you know what ornamental tree species is there?
         answer: cherry blossom/Japanese cherry/sakura 
         question_img_src: https://mestemnakole.cz/app/uploads/2019/05/jm_technicka_01.jpg
-
 
       - type: simple
         text: There are five ESN sections in Prague. Can you name at least four of them? (three = 0.5p)
@@ -71,3 +70,34 @@ topics:
       #   text: How many local ESN sections are there?
       #   answer: 511
       #   question_img_src: https://lh3.googleusercontent.com/VeDln0ZNLJdPl26gJVimc-ERDQW2S1douicddUycjegowDNlKs1BVJuDDl0lZ9eqVJwKWh2j2fJiqCUpZvI8Ov83U5CvH3X1cE1EVsJ3rVOR3kv1YJh31CVE4NoemnWlUzQB7Vbu
+  - name: Famous composers
+    questions:
+      - type: musical
+        text: This orchestral piece is called "Grand March." It is often played during military processions and graduations, and was originally featured in an opera about a love triangle which is taking place during the war between Ethiopia and Egypt. <p>Which Italian composer is the author of this piece?</p>
+        answer: Giuseppe Verdi (opera Aida)
+        audio_file: assets/music/verdi.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg/600px-Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Primo_ritratto_boldiniano_di_Verdi.jpg/440px-Primo_ritratto_boldiniano_di_Verdi.jpg
+      - type: musical
+        text: This musical piece was created by a Greek composer Vangelis. Originally created for a 1981 film, but was also used as the theme music of the 2012 London Olympics. <p> What is the name of this musical piece? (The film has the same name) </p>
+        answer: Chariots of Fire
+        audio_file: assets/music/chariots.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/5/53/VangelisElGrecopremiereDE2.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/en/e/ef/Charleson_on_beach.jpg
+      - type: musical
+        text: This musical composer was a member of a Russian composer group The Mighty Five. After visiting an art museum, he was inspired to compose a well known suite. This theme from the suite is called The Promenade. <p> What is the composer's name?</p>
+        answer: Modest Petrovich Mussorgsky (Pictures At An Exhibition)
+        audio_file: assets/music/mussorgskij.m4a
+        question_img_src: https://upload.wikimedia.org/score/3/i/3iqo2yt9xia7h9puaves50jtzo2og7g/3iqo2yt9.png
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Modest_Musorgskiy%2C_1870.jpg/424px-Modest_Musorgskiy%2C_1870.jpg
+      - type: musical
+        text: This film score was composed by an American composer Alan Silvestri. In which film tetralogy did this theme music appear?
+        answer: The Avengers
+        audio_file: assets/music/avengers.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Alan_Silvestri_2009.jpg/440px-Alan_Silvestri_2009.jpg
+        answer_img_src: https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg
+      - type: musical
+        text: This dreamy and impressionistic piano piece was created by a French impressionist composer, and is often featured in films, TV shows, and adverts. <p>What is the name of the composer and the musical piece? (½p for just the composer, or just the name of the piece)</p>
+        answer: Claude Debussy - Clair De Lune
+        audio_file: assets/music/clairdelune.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Claude_Debussy_atelier_Nadar.jpg/440px-Claude_Debussy_atelier_Nadar.jpg
