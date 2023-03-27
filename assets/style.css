@@ -116,9 +116,9 @@ section img {
 .footer {
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 150px;
   background-color: white;
-  padding: 10px 5% 10px 5%;
+  padding: 30px 5% 30px 5%;
 
   box-sizing: border-box;
 }
