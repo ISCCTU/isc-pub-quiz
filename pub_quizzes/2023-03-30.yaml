@@ -5,12 +5,19 @@ output: output.html
 topics_per_block: 2
 countdown_duration_minutes: 3
 topics:
-  - name: Events from 2023
+  - name: 2023
     questions:
      - type: simple
-       text:
-       answer:
-       question_img_src:
+       text: The 2023 IIHF Men's Ice Hockey World Championship was originally supposed to take place in Saint Petersburg in Russia. <p> After Russia was stripped of hosting rights, which two european cities are co-hosting this tournament, happening in May 2023? </p>
+       answer: Riga (Latvia) and Tampere (Finland)
+       question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/1/15/IIHF_logo.svg/240px-IIHF_logo.svg.png
+       answer_img_src: https://upload.wikimedia.org/wikipedia/en/2/21/2023_IIHF_World_Championship.png
+     - type: simple
+       text: Which 1997 film was re-released in cinemas worldwide in February of this year? The film is currently the fourth highest grossing film of all time.
+       answer: Titanic
+       question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/James_Cameron_by_Gage_Skidmore.jpg/440px-James_Cameron_by_Gage_Skidmore.jpg
+       answer_img_src: https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png
+
   - name: Conspiracy theories
     questions:
       - type: simple
@@ -101,3 +108,11 @@ topics:
         answer: Claude Debussy - Clair De Lune
         audio_file: assets/music/clairdelune.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Claude_Debussy_atelier_Nadar.jpg/440px-Claude_Debussy_atelier_Nadar.jpg
+  - name: Music from all around the world
+    questions:
+      - type: musical
+        text: This orchestral piece is called "Grand March." It is often played during military processions and graduations, and was originally featured in an opera about a love triangle which is taking place during the war between Ethiopia and Egypt. <p>Which Italian composer is the author of this piece?</p>
+        answer: Giuseppe Verdi (opera Aida)
+        audio_file: assets/music/verdi.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg/600px-Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Primo_ritratto_boldiniano_di_Verdi.jpg/440px-Primo_ritratto_boldiniano_di_Verdi.jpg
