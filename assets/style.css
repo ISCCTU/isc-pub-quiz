@@ -143,6 +143,7 @@ section img {
   flex-grow: 1;
   padding: 50px;
   background-color: white;
+  max-height: calc(100vh - 400px);
 }
 
 .question {
@@ -166,13 +167,31 @@ ul {
 @media only screen and (max-width: 1500px) {
   .question-title {
     font-size: 2vw;
-  }
-  .question-body{
-    font-size: 2vw;
+    height: 100px;
   }
 
-  .footer{
+  .question-body {
+    font-size: 2vw;
+    padding: 5%;
+  }
+
+  .footer {
     height: 80px;
     padding: 10px 5% 10px 5%;
+  }
+
+  .container {
+    flex-direction: column-reverse;
+    gap: 10%;
+  }
+
+  .col {
+    height: 50%;
+    width: 100%;
+  }
+
+  .col img {
+    max-width: 90%;
+    max-height: 90%;
   }
 }
