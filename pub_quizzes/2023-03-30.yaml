@@ -81,7 +81,7 @@ topics:
       - type: simple
         text: Scheele's Green or Schloss Green was a favourite colour of the Victorians of the 19th century. A compound of which metalloid element made it so toxic to humans?
         answer: arsenic
-        question_img_src: https://scontent-prg1-1.xx.fbcdn.net/v/t1.6435-9/181305116_115184310707849_3152226569222127614_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=GsM25ddiLt0AX97Gn_R&_nc_ht=scontent-prg1-1.xx&oh=00_AfC9TpTJj3iXCVCvUb4WtVIpBOmmnKBfXcSS6RA7DNKcFg&oe=6447FC64
+        question_img_src: http://images.summitmedia-digital.com/esquiremagph/images/gallery/3888/MAINPARISGREEN.jpg
 
       - type: simple
         text: What does the ESN logo, the ESN star, represent?
@@ -175,3 +175,35 @@ topics:
         question_img_src: assets/images/rickroll.webp
         answer_img_src: https://i.kym-cdn.com/entries/icons/original/000/000/007/bd6.jpg
         
+    - name: Sitcoms from the 80 & 90s
+      questions: 
+      - type: simple
+        text: Out of the main characters of the show Friends, who was the only one who hasn't lived with Rachel?
+        answer: Chandler
+        question_img_src: https://www.chicagotribune.com/resizer/mM5Tp2XJDj2vldBQApP2alqPmeM=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/tronc/KPOUUXOCXBCFJEKOR54A4MTACE.jpg
+        # answer_img_src:
+
+      - type: simple
+        text: In Season 6 of the BBC series Red Dwar, what character gave Arnold Rimmer a Light Bee capable of producing hard light holograms?
+        answer: Legion
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/6/60/ArnoldRimmer1.jpg/250px-ArnoldRimmer1.jpg
+        answer_img_src: https://i.stack.imgur.com/sZ6fn.jpg
+
+      - type: simple
+        text:
+        answer: the simpsons
+        question_img_src:
+        answer_img_src:
+
+      - type: simple
+        text: What is the name of the show, as well as name of the character shown in the picture?
+        answer: ALF ("Alien Life Form")
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/8/89/GordonShumway.png
+        answer_img_src: https://pics.filmaffinity.com/ALF_TV_Series-895372602-large.jpg
+
+      - type: simple
+        text: >
+          What peculiar item does Mr. Bean use in episode "Goodnight Mr. Bean, Act 3: Sleeping trouble" to turn off the lights?
+        answer: handgun
+        question_img_src: https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg
+        answer_img_src: https://img-9gag-fun.9cache.com/photo/apg7bZD_460s.jpg
