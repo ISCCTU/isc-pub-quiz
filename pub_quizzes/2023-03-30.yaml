@@ -44,6 +44,7 @@ topics:
         text: A mind-control rogram run by the CIA from 1953 to 1973. It tested many different substances such as LSD on unwilling participants. What was its name?
         answer: MK-ULTRA
         question_img_src: https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/mk-ultra-anson-mount-feature.jpg
+
   - name: The colours of ESN
     questions:
       - type: simple
@@ -108,6 +109,7 @@ topics:
         answer: Claude Debussy - Clair De Lune
         audio_file: assets/music/clairdelune.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Claude_Debussy_atelier_Nadar.jpg/440px-Claude_Debussy_atelier_Nadar.jpg
+
   - name: Music from all around the world
     questions:
       - type: musical
@@ -116,3 +118,32 @@ topics:
         audio_file: assets/music/verdi.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg/600px-Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Primo_ritratto_boldiniano_di_Verdi.jpg/440px-Primo_ritratto_boldiniano_di_Verdi.jpg
+  
+  - name: What do you meme
+    questions:
+      - type: simple
+        text: In what movie can you see the main character dance as the kid in the gif?
+        answer: Spider-Man 3 (2007)
+        question_img_src: assets/images/bully-maquire.gif
+        answer_img_src: https://media.tenor.com/9qZhM0uswAYAAAAd/bully-maguire-dance.gif
+      - type: simple
+        text: The “is this a ______?” meme originated as a screencap from a ‘90s anime series called “The Brave Fighter of Sun Fighbird.” What did the character originally mistake the butterfly for?
+        answer: Pigeon
+        question_img_src: https://i.imgflip.com/7g4a9k.jpg
+        answer_img_src: https://cdn.vox-cdn.com/thumbor/AEAYleA4hR0GpYTGkNcHh174G2c=/0x0:500x375/1120x0/filters:focal(0x0:500x375):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10835833/n4scgse21iuz.jpg
+      - type: simple
+        text: This famous character is often mistaken for Jesus. What is his name? (Half point for the name of the movies)
+        answer: Obi-Wan Kenobi
+        question_img_src: https://preview.redd.it/rhctzrawji621.jpg?width=640&crop=smart&auto=webp&v=enabled&s=d9c7f239f69a8684bf9a73d997869e2a867b6390
+        answer_img_src: https://api.time.com/wp-content/uploads/2015/12/star-wars-episode-iii-revenge-of-the-sith-obi-wan.jpg
+      - type: simple
+        text: In December 2019 United States politician Bernie Sanders said in his fundraising video a sentence. What did Bernie asked for?
+        answer: financial support
+        question_img_src: https://i.imgflip.com/7g5554.jpg
+        answer_img_src: https://i.kym-cdn.com/entries/icons/original/000/032/559/cover1.jpg
+      - type: simple
+        text: What is the term for the internet prank and meme in which an unexpected appearance of the music video for the 1987 Rick Astley song "Never Gonna Give You Up" is "planted" into an unrelated link? The meme's popularity dates back to 2008.
+        answer: Rickrolling
+        question_img_src: assets/images/rickroll.webp
+        answer_img_src: https://i.kym-cdn.com/entries/icons/original/000/000/007/bd6.jpg
+        
