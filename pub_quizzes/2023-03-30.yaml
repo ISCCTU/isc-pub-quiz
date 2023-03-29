@@ -40,40 +40,40 @@ topics:
   - name: Conspiracy theories
     questions:
       - type: simple
-        text: At the end of the Second World War, some well-known Nazis, such as Eichmann or Mengele fled. What is the name of this country, where allegedly even Hitler himself escaped to?
+        text: At the end of the Second World War, some well-known Nazis, such as Eichmann or Mengele, fled Germany. What is the name of this country, where allegedly even Hitler himself escaped to?
         answer: Argentina
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/HitlersManyFaces.jpg/800px-HitlersManyFaces.jpg
 
       - type: simple
-        text: Between the years 2012 and 2015, a mysterious accout started posting elaborate riddles on an online forum known as 4chan. These puzzles focused heavily on data security, cryptography and internet anonymity and was listed as the "top 5 eeries, unsolved mysteries of the internet" by The Washington Post. What is the nickname given to these puzzles?
+        text: Between the years 2012 and 2015, a mysterious accout started posting elaborate riddles on an online forum known as 4chan. These puzzles focused heavily on data security, cryptography and internet anonymity and were listed as the "top 5 eeries, unsolved mysteries of the internet" by The Washington Post. What is the nickname given to these puzzles?
         answer: Cicada 3301
         question_img_src: https://upload.wikimedia.org/wikipedia/en/7/7e/Cicada_3301_logo.jpg
 
       - type: simple
-        text: Flat Earth is an archaic and scientifically disproven conception of the Earth's shape as a plane or disk, although the theory has a rising following nowadays. Who performed the first known scientific measurement and calculation of Earth's circumference in about 240 BC?
-        answer: Eratosthenes
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/b/ba/Sacrobosco-1550-B3r-detail01.jpg
-        
-      - type: simple
-        text: In July 1969, astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the surface of the moon — or did they? What are is rumored to have been the filming location for the "staged landing" (originally from the book "We Never Went to the Moon")?
+        text: In July 1969, astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the surface of the moon — or did they? What is rumored to have been the secret filming location for the "staged landing" (originally from the book "We Never Went to the Moon")?
         answer: Area 51
         question_img_src: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*n9MrTiqExccfb4DgZ6IrUQ.jpeg
+        
+      - type: simple
+        text: Flat Earth is an archaic and scientifically disproven conception of the Earth's shape as a plane or disk, although the theory has a rising following nowadays. What greek polymath, known also for his contribution to algorithms, performed the first known scientific measurement and calculation of Earth's circumference in about 240 BC?
+        answer: Eratosthenes
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/b/ba/Sacrobosco-1550-B3r-detail01.jpg
 
       - type: simple
-        text: A mind-control rogram run by the CIA from 1953 to 1973. It tested many different substances such as LSD on unwilling participants. What was its name?
+        text: A mind-control program run by the CIA from 1953 to 1973 tested many different substances such as LSD on unwilling participants. What was its name?
         answer: MK-ULTRA
         question_img_src: https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/mk-ultra-anson-mount-feature.jpg
 
   - name: The colours of ESN
     questions:
       - type: simple
-        text: In Technická street in the Dejvice campus, there's an alley of trees. Do you know what ornamental tree species is there?
+        text: In Technická street in the Dejvice campus, there's an alley of trees. Do you know what ornamental tree species can you find there?
         answer: cherry blossom/Japanese cherry/sakura 
         question_img_src: https://mestemnakole.cz/app/uploads/2019/05/jm_technicka_01.jpg
         answer_img_src: https://media.cvut.cz/sites/media/files/styles/large/public/content/photos/0c442e51-0169-49ae-99e9-6e7e9b1497df/bb696e06-24c3-48a5-98e3-48642ec2a102.jpg?itok=UvlCgcQr
 
       - type: simple
-        text: There are five ESN sections in Prague. Can you name at least four of them? (three = 0.5p)
+        text: There are five local ESN sections in Prague. Can you name at least four of them?
         answer: ISC CTU, ESN UCT, ESN CU, ESN CZU, ESN VSE
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/a/a7/Prague_%286365119737%29.jpg
         answer_img_src: https://scontent.fprg5-1.fna.fbcdn.net/v/t1.6435-9/89070613_1295901077274153_5221783971045572608_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Da80x49yAkwAX9og0Tw&_nc_ht=scontent.fprg5-1.fna&oh=00_AfA9Jx_EW-PTHyhr-PCIZBUxLJ6YLPb5VQkhS3uxxn7e9A&oe=6447F001
@@ -85,7 +85,7 @@ topics:
 
       - type: simple
         text: What does the ESN logo, the ESN star, represent?
-        answer: it represents the ESN members standing in a circle as if they were holding hands
+        answer: It represents the ESN members standing in a circle as if they were holding hands.
         question_img_src: https://esn.org/sites/default/files/new_vi_2019.png
       
       - type: simple
