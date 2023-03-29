@@ -191,10 +191,10 @@ topics:
         answer_img_src: https://i.stack.imgur.com/sZ6fn.jpg
 
       - type: simple
-        text: dawdad
-        answer: the simpsons
-        question_img_src: g
-        answer_img_src: r
+        text: Before getting their own prime-time show, the Simpsons aired three seasons of shorts as a recurring segment on a Fox variety TV series.
+        answer: The Tracey Ullman Show
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/4/47/Simpsons_on_Tracey_Ullman.png
+        # answer_img_src: 
 
       - type: simple
         text: What is the name of the show, as well as name of the character shown in the picture?
