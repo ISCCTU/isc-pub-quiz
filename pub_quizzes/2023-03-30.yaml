@@ -7,17 +7,36 @@ countdown_duration_minutes: 3
 topics:
   - name: Events of 2023
     questions:
-     - type: simple
-       text: The 2023 IIHF Men's Ice Hockey World Championship was originally supposed to take place in Saint Petersburg in Russia. <p> After Russia was stripped of hosting rights, which two european cities are co-hosting this tournament, happening in May 2023? </p>
-       answer: Riga (Latvia) and Tampere (Finland)
-       question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/1/15/IIHF_logo.svg/240px-IIHF_logo.svg.png
-       answer_img_src: https://upload.wikimedia.org/wikipedia/en/2/21/2023_IIHF_World_Championship.png
-     - type: simple
-       text: Which 1997 film was re-released in cinemas worldwide in February of this year? The film is currently the fourth highest grossing film of all time.
-       answer: Titanic
-       question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/James_Cameron_by_Gage_Skidmore.jpg/440px-James_Cameron_by_Gage_Skidmore.jpg
-       answer_img_src: https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png
+      - type: simple
+        text: The year started with a politician known as "Lula" becoming the 39th president of what country on January 1st?
+        answer: (Federative Republic of) Brazil
+        question_img_src: https://president.cz/wp-content/uploads/2021/07/President-Maslo-Solene.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg/800px-Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg
 
+      - type: simple
+        text: The 2023 IIHF Men's Ice Hockey World Championship was originally supposed to take place in Saint Petersburg in Russia. <p> After Russia was stripped of hosting rights, which two european cities are co-hosting this tournament, happening in May 2023? </p>
+        answer: Riga (Latvia) and Tampere (Finland)
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/1/15/IIHF_logo.svg/240px-IIHF_logo.svg.png
+        answer_img_src: https://upload.wikimedia.org/wikipedia/en/2/21/2023_IIHF_World_Championship.png
+
+      - type: simple
+        text: Which 1997 film was re-released in cinemas worldwide in February of this year? The film is currently the fourth highest grossing film of all time.
+        answer: Titanic
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/James_Cameron_by_Gage_Skidmore.jpg/440px-James_Cameron_by_Gage_Skidmore.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png
+
+      - type: simple
+        text: On March 14, OpenAI released a new version of its popular language model used in a popular chatbot. Bseides the chatbot, you can encounter it in Microsoft's search engine Bing. What is the name of this product?
+        answer: GPT4
+        question_img_src: https://ichef.bbci.co.uk/news/976/cpsprodpb/16953/production/_127899429_gettyimages-991619332.jpg
+        answer_img_src: https://pbs.twimg.com/media/FrMkI7AXsAgOYl5.jpg:large
+
+      - type: simple
+        text: A magnitude-7.8 earthquake hit which two countries in the early hours of the morning of 6 February?
+        answer: Turkey and Syria
+        question_img_src: https://images.newscientist.com/wp-content/uploads/2023/02/06130629/SEI_143101336.jpg
+        answer_img_src: https://www.telegraph.co.uk/content/dam/world-news/2023/02/10/TELEMMGLPICT000324932159_trans_NvBQzQNjv4BqejI1gRHJsOsGt35KcRG671HmPOpeFd0SyQx9dn7kM_w.jpeg
+      
   - name: Conspiracy theories
     questions:
       - type: simple
@@ -53,7 +72,6 @@ topics:
         question_img_src: https://mestemnakole.cz/app/uploads/2019/05/jm_technicka_01.jpg
         answer_img_src: https://media.cvut.cz/sites/media/files/styles/large/public/content/photos/0c442e51-0169-49ae-99e9-6e7e9b1497df/bb696e06-24c3-48a5-98e3-48642ec2a102.jpg?itok=UvlCgcQr
 
-
       - type: simple
         text: There are five ESN sections in Prague. Can you name at least four of them? (three = 0.5p)
         answer: ISC CTU, ESN UCT, ESN CU, ESN CZU, ESN VSE
@@ -88,24 +106,28 @@ topics:
         audio_file: assets/music/verdi.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg/600px-Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Primo_ritratto_boldiniano_di_Verdi.jpg/440px-Primo_ritratto_boldiniano_di_Verdi.jpg
+
       - type: musical
         text: This musical piece was created by a Greek composer Vangelis. Originally created for a 1981 film, but was also used as the theme music of the 2012 London Olympics. <p> What is the name of this musical piece? (The film has the same name) </p>
         answer: Chariots of Fire
         audio_file: assets/music/chariots.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/5/53/VangelisElGrecopremiereDE2.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/en/e/ef/Charleson_on_beach.jpg
+        
       - type: musical
         text: This musical composer was a member of a Russian composer group The Mighty Five. After visiting an art museum, he was inspired to compose a well known suite. This theme from the suite is called The Promenade. <p> What is the composer's name?</p>
         answer: Modest Petrovich Mussorgsky (Pictures At An Exhibition)
         audio_file: assets/music/mussorgskij.m4a
         question_img_src: https://upload.wikimedia.org/score/3/i/3iqo2yt9xia7h9puaves50jtzo2og7g/3iqo2yt9.png
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Modest_Musorgskiy%2C_1870.jpg/424px-Modest_Musorgskiy%2C_1870.jpg
+
       - type: musical
         text: This film score was composed by an American composer Alan Silvestri. In which film tetralogy did this theme music appear?
         answer: The Avengers
         audio_file: assets/music/avengers.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Alan_Silvestri_2009.jpg/440px-Alan_Silvestri_2009.jpg
         answer_img_src: https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg
+
       - type: musical
         text: This dreamy and impressionistic piano piece was created by a French impressionist composer, and is often featured in films, TV shows, and adverts. <p>What is the name of the composer and the musical piece? (½p for just the composer, or just the name of the piece)</p>
         answer: Claude Debussy - Clair De Lune
@@ -128,21 +150,25 @@ topics:
         answer: Spider-Man 3 (2007)
         question_img_src: assets/images/bully-maquire.gif
         answer_img_src: https://media.tenor.com/9qZhM0uswAYAAAAd/bully-maguire-dance.gif
+
       - type: simple
         text: The “is this a ______?” meme originated as a screencap from a ‘90s anime series called “The Brave Fighter of Sun Fighbird.” What did the character originally mistake the butterfly for?
         answer: Pigeon
         question_img_src: https://i.imgflip.com/7g4a9k.jpg
         answer_img_src: https://cdn.vox-cdn.com/thumbor/AEAYleA4hR0GpYTGkNcHh174G2c=/0x0:500x375/1120x0/filters:focal(0x0:500x375):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10835833/n4scgse21iuz.jpg
+
       - type: simple
         text: This famous character is often mistaken for Jesus. What is his name? (Half point for the name of the movies)
         answer: Obi-Wan Kenobi
         question_img_src: https://preview.redd.it/rhctzrawji621.jpg?width=640&crop=smart&auto=webp&v=enabled&s=d9c7f239f69a8684bf9a73d997869e2a867b6390
         answer_img_src: https://api.time.com/wp-content/uploads/2015/12/star-wars-episode-iii-revenge-of-the-sith-obi-wan.jpg
+
       - type: simple
         text: In December 2019 United States politician Bernie Sanders said in his fundraising video a sentence. What did Bernie asked for?
         answer: financial support
         question_img_src: https://i.imgflip.com/7g5554.jpg
         answer_img_src: https://i.kym-cdn.com/entries/icons/original/000/032/559/cover1.jpg
+
       - type: simple
         text: What is the term for the internet prank and meme in which an unexpected appearance of the music video for the 1987 Rick Astley song "Never Gonna Give You Up" is "planted" into an unrelated link? The meme's popularity dates back to 2008.
         answer: Rickrolling
