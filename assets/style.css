@@ -35,12 +35,12 @@ h3 {
 }
 
 body {
-  font-size: 2em;
+  font-size: 2.2em;
   color: var(--esn-dark-blue);
 }
 
-section{
-  height:100%;
+section {
+  height: 100%;
   flex-direction: column;
   line-height: 1.25;
 }
@@ -143,6 +143,7 @@ section img {
   padding: 50px;
   background-color: white;
   max-height: calc(100vh - 450px);
+  overflow: hidden;
 }
 
 .question {
