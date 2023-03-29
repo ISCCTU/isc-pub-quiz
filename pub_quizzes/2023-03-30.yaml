@@ -5,7 +5,7 @@ output: output.html
 topics_per_block: 2
 countdown_duration_minutes: 3
 topics:
-  - name: 2023
+  - name: Events of 2023
     questions:
      - type: simple
        text: The 2023 IIHF Men's Ice Hockey World Championship was originally supposed to take place in Saint Petersburg in Russia. <p> After Russia was stripped of hosting rights, which two european cities are co-hosting this tournament, happening in May 2023? </p>
@@ -50,6 +50,8 @@ topics:
         text: In Technická street in the Dejvice campus, there's an alley of trees. Do you know what ornamental tree species is there?
         answer: cherry blossom/Japanese cherry/sakura 
         question_img_src: https://mestemnakole.cz/app/uploads/2019/05/jm_technicka_01.jpg
+        answer_img_src: https://media.cvut.cz/sites/media/files/styles/large/public/content/photos/0c442e51-0169-49ae-99e9-6e7e9b1497df/bb696e06-24c3-48a5-98e3-48642ec2a102.jpg?itok=UvlCgcQr
+
 
       - type: simple
         text: There are five ESN sections in Prague. Can you name at least four of them? (three = 0.5p)
