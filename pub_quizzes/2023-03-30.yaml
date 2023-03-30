@@ -301,7 +301,7 @@ topics:
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/7/73/Bellerophon_riding_Pegasus_and_killing_the_Chimera%2C_Roman_mosaic%2C_the_Rolin_Museum_in_Autun%2C_France%2C_2nd_to_3rd_century_AD.jpg
         # answer_img_src:
          
-  - name: Geography??
+  - name: World of Wonder
     questions:
       - type: simple
         text: Which animals live in the Arctic and which in Antarctica? (1 mistake -> 0.5p) <p> Caribou, Penguins, Polar Bear, Sea lion, Walrus </p>
@@ -310,7 +310,7 @@ topics:
           Antarctica: Penguins, Sea lion
         question_img_src: http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcStZXxVICqglnA7Bz25T-xnuJlqLQbMerjfkgwHE5HpfgnUeBhlYOWp9iR41aMDhSKa7DnkSHpsiJQeay0
         answer_img_src: https://www.bioexpedition.com/wp-content/uploads/2020/04/photo-1570113353806-63f8cd19c970.jpg
-        
+
     - type: simple
         text: The onomatopoeic name of a famous flightless bird, Kiwi, originates from what language?
         answer: Māori
