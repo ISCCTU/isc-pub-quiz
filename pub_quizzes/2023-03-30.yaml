@@ -26,7 +26,7 @@ topics:
         answer_img_src: https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png
 
       - type: simple
-        text: On March 14, OpenAI released a new version of its popular language model used in a popular chatbot. Bseides the chatbot, you can encounter it in Microsoft's search engine Bing. What is the name of this product?
+        text: On March 14, OpenAI released a new version of its popular language model used in a popular chatbot. Besides the chatbot, you can encounter it in Microsoft's search engine Bing. What is the name of this product?
         answer: GPT4
         question_img_src: https://ichef.bbci.co.uk/news/976/cpsprodpb/16953/production/_127899429_gettyimages-991619332.jpg
         answer_img_src: https://pbs.twimg.com/media/FrMkI7AXsAgOYl5.jpg:large
@@ -168,7 +168,7 @@ topics:
         text: From which country is this band, which sings this 70s hit song?
         audio_file: assets/music/rasputin.m4a
         answer: Germany (Boney M.)
-        question_img_src: https://static.wikia.nocookie.net/justdance/images/9/92/Rasputin_jd2_gameplay.png/revision/latest?cb=20190110172826
+        question_img_src: https://i.ytimg.com/vi/O3Uc26tXML8/maxresdefault.jpg
         answer_img_src: https://lastfm.freetls.fastly.net/i/u/ar0/4e0d61e1d66c55a172f6dca75387d848.jpg
 
   - name: Sports Trivia
