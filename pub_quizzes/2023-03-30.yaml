@@ -312,9 +312,23 @@ topics:
           Antarctica: Penguins, Sea lion
         question_img_src: http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcStZXxVICqglnA7Bz25T-xnuJlqLQbMerjfkgwHE5HpfgnUeBhlYOWp9iR41aMDhSKa7DnkSHpsiJQeay0
         answer_img_src: https://www.bioexpedition.com/wp-content/uploads/2020/04/photo-1570113353806-63f8cd19c970.jpg
-
-    - type: simple
+      - type: simple
         text: The onomatopoeic name of a famous flightless bird, Kiwi, originates from what language?
         answer: Māori
         question_img_src: http://cdn.shopify.com/s/files/1/0266/5817/7121/articles/iStock-806101702_1200x1200.jpg?v=1649660571
+      - type: simple
+        text: How many pairs of wings does a bee have?
+        answer: Two
+        question_img_src: https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/973/158973248_3301c1.jpg
+        answer_img_src: https://sites.google.com/site/hutchingsbeeservice/_/rsrc/1363566705977/home/bee-anatomy/Bee%20top%20view.png
+      - type: simple
+        text: What's the name of the largest rodent? An adult can waight as much as an adult human.
+        answer: CAPYBARA
+        question_img_src: https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-f3qxzs_4923c203.jpeg
+        answer_img_src: https://cdn.britannica.com/77/191677-050-3CBF2834/Capybara.jpg
+      - type: simple
+        text: Which bird can fly backwards?
+        answer: hummingbird
+        question_img_src: https://i.imgflip.com/7gfnpr.jpg
+        answer_img_src: https://www.searchenginejournal.com/wp-content/uploads/2022/03/google-hummingbird-623189e488ff2-sej-1280x720.jpg
     
