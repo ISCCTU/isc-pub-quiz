@@ -156,12 +156,6 @@ topics:
         answer: Sweden (ABBA)
         audio_file: assets/music/abba.m4a
 
-      - type: musical
-        text: From which country is this band, which sings this 70s hit song?
-        audio_file: assets/music/rasputin.m4a
-        answer: Germany (Boney M.)
-        question_img_src: https://static.wikia.nocookie.net/justdance/images/9/92/Rasputin_jd2_gameplay.png/revision/latest?cb=20190110172826
-        answer_img_src: https://lastfm.freetls.fastly.net/i/u/ar0/4e0d61e1d66c55a172f6dca75387d848.jpg
         
       - type: musical
         text: This band won the Eurovision Song Contest in 2022. Which country did they represent?
@@ -169,8 +163,14 @@ topics:
         audio_file: assets/music/kalush.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Eurovision_Song_Contest.svg/500px-Eurovision_Song_Contest.svg.png
         answer_img_src: https://i.guim.co.uk/img/media/44d3449562ac6cf61050d4737496c1a7e1bfdd23/0_367_5507_3305/master/5507.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=9cb42cd33178926153e39e6eeb3e9c1d
+      - type: musical
+        text: From which country is this band, which sings this 70s hit song?
+        audio_file: assets/music/rasputin.m4a
+        answer: Germany (Boney M.)
+        question_img_src: https://static.wikia.nocookie.net/justdance/images/9/92/Rasputin_jd2_gameplay.png/revision/latest?cb=20190110172826
+        answer_img_src: https://lastfm.freetls.fastly.net/i/u/ar0/4e0d61e1d66c55a172f6dca75387d848.jpg
 
-  - name: Sports trivia
+  - name: Sports Trivia
     questions:
       - type: simple
         text: In which year did Slovakia's men's national team became the World Champions in Ice hockey?
@@ -183,7 +183,25 @@ topics:
         answer: Michael Phelps
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg/660px-40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/440px-Michael_Phelps_Rio_Olympics_2016.jpg
-
+      - type: choice
+        text: Which of these countries has never won the football World Cup?
+        answer: Portugal
+        wrong: # will be shuffled
+          - Uruguay
+          - Spain
+          - England
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/FIFA_World_Cup_Trophy_%28Jules_Rimet_Trophy%29_at_National_Football_Museum%2C_Manchester_02.jpg/300px-FIFA_World_Cup_Trophy_%28Jules_Rimet_Trophy%29_at_National_Football_Museum%2C_Manchester_02.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Portugal_national_football_team_World_Cup_2018.jpg/440px-Portugal_national_football_team_World_Cup_2018.jpg
+      - type: simple
+        text: What is the term used to describe the position on an american football team responsible for leading the offense and typically handling the ball on every play?
+        answer: A quarterback
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg/500px-Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mike_Quinn.JPG/340px-Mike_Quinn.JPG
+      - type: simple
+        text: To which record-breaking sprinter belongs this signature victory pose? The athlete retired in 2017 after winning a total of 23 gold medals in various competitions.
+        answer: Usain Bolt
+        question_img_src: https://ichef.bbci.co.uk/news/976/cpsprodpb/73B5/production/_126412692_d26e6934-d9de-4433-a2cf-f7a45bbad26a.jpg
+        answer_img_src: http://globalsherpa.org/wp-content/uploads/2012/12/usain-bolt-victory-pose-london-olympics.jpg
   - name: What do you meme
     questions:
       - type: simple
