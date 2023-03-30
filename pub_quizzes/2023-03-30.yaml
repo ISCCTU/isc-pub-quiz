@@ -64,7 +64,7 @@ topics:
         answer: MK-ULTRA
         question_img_src: https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/mk-ultra-anson-mount-feature.jpg
 
-  - name: The colours of ESN
+  - name: Colours of ESN
     questions:
       - type: simple
         text: In Technická street in the Dejvice campus, there's an alley of trees. Do you know what ornamental tree species can you find there?
@@ -203,6 +203,7 @@ topics:
         answer: Usain Bolt
         question_img_src: https://ichef.bbci.co.uk/news/976/cpsprodpb/73B5/production/_126412692_d26e6934-d9de-4433-a2cf-f7a45bbad26a.jpg
         answer_img_src: http://globalsherpa.org/wp-content/uploads/2012/12/usain-bolt-victory-pose-london-olympics.jpg
+        
   - name: What do you meme
     questions:
       - type: simple
