@@ -160,9 +160,8 @@ section img {
 .question-body {
   flex-grow: 1;
   padding: 50px;
-  background-color: var(--esn-off-white);
+  background-color: white;
   max-height: calc(100vh - 450px);
-  overflow: hidden;
 }
 
 .question {
