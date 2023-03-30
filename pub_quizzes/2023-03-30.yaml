@@ -278,12 +278,14 @@ topics:
         question_img_src: https://www.planetguide.net/wp-content/uploads/2020/06/orion-constellation.webp
         answer_img_src: https://www.worldhistory.org/uploads/images/6243.jpg?v=1643824827
 
-      - type: simple
+      - type: choice
         text: What was left in Pandora's box after she released misery and evil?
-        # todo change to options
-        answer: Hope 
-        question_img_src: https://cdn.britannica.com/63/131663-050-173DA80F/Artist-box-Pandora-interpretation-evil-misery.jpg
-        # answer_img_src:
+        answer: Hope
+        wrong: # will be shuffled
+          - Happiness
+          - Optimism
+          - Dream
+          - Coca-Cola
 
       - type: simple
         text: What's the name of the greek goddess of retribution?
