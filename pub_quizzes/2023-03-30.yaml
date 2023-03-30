@@ -109,7 +109,7 @@ topics:
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Primo_ritratto_boldiniano_di_Verdi.jpg/440px-Primo_ritratto_boldiniano_di_Verdi.jpg
 
       - type: musical
-        text: This musical piece was created by a Greek composer Vangelis. Originally created for a 1981 film, but was also used as the theme music of the 2012 London Olympics. <p> What is the name of this musical piece? (The film has the same name) </p>
+        text: This musical piece was created by a Greek composer Vangelis. Originally created for a 1981 film, but was also used as the theme music of the 2012 London Olympics. <p> What is the name of this musical piece? (The film has the same name.) </p>
         answer: Chariots of Fire
         audio_file: assets/music/chariots.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/5/53/VangelisElGrecopremiereDE2.jpg
@@ -143,22 +143,26 @@ topics:
         audio_file: assets/music/aurora.m4a
         question_img_src: https://patch.com/img/cdn20/getty/25052038/20211116/042157/styles/patch_image/public/gettyimages-1289481257___16162045891.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aurora_performing_at_the_Electric_Castle_festival_-_51995266103_%28cropped%29.jpg/440px-Aurora_performing_at_the_Electric_Castle_festival_-_51995266103_%28cropped%29.jpg
+
       - type: musical
         text: In which country was the lead singer of this world famous band born?
         audio_file: assets/music/freddie.m4a
         answer: Zanzibar / Tanzania (Freddie Mercury)
         question_img_src: https://cdn.filestackcontent.com/crop=d:[0,0,1920,960]/pjpg=q:90/compress/FWPlsXDT6bDsb5iBeIUQ
         answer_img_src: https://cdn.britannica.com/38/200938-050-E22981D1/Freddie-Mercury-Live-Aid-Queen-Wembley-Stadium-July-13-1985.jpg
+
       - type: musical
         text: This band became world famous in the 70s. Which country are they from?
         answer: Sweden (ABBA)
         audio_file: assets/music/abba.m4a
+
       - type: musical
         text: From which country is this band, which sings this 70s hit song?
         audio_file: assets/music/rasputin.m4a
         answer: Germany (Boney M.)
         question_img_src: https://static.wikia.nocookie.net/justdance/images/9/92/Rasputin_jd2_gameplay.png/revision/latest?cb=20190110172826
         answer_img_src: https://lastfm.freetls.fastly.net/i/u/ar0/4e0d61e1d66c55a172f6dca75387d848.jpg
+        
       - type: musical
         text: This band won the Eurovision Song Contest in 2022. Which country did they represent?
         answer: Ukraine (Kalush Orchestra)
@@ -173,6 +177,7 @@ topics:
         answer: 2002
         question_img_src: https://img.cas.sk/cas/1280px-c2/1290671.jpg
         answer_img_src: https://iihfstorage.blob.core.windows.net/iihf-media/iihfmvc/media/2020wm/news/slovakia-2002wm-news.jpg
+
       - type: simple
         text: Which swimmer currently holds the record as being the most decorated Olympic athlete of all time, by winning a total of 28 Olympic medals during their career?
         answer: Michael Phelps
@@ -251,22 +256,26 @@ topics:
         answer: Orion
         question_img_src: https://www.planetguide.net/wp-content/uploads/2020/06/orion-constellation.webp
         answer_img_src: https://www.worldhistory.org/uploads/images/6243.jpg?v=1643824827
+
       - type: simple
         text: What was left in Pandora's box after she released misery and evil?
         # todo change to options
         answer: Hope 
         question_img_src: https://cdn.britannica.com/63/131663-050-173DA80F/Artist-box-Pandora-interpretation-evil-misery.jpg
         # answer_img_src:
+
       - type: simple
         text: What's the name of the greek goddess of retribution?
         answer: Nemesis
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/ADurerFortunaengraving.jpg/800px-ADurerFortunaengraving.jpg
         # answer_img_src:
+
       - type: simple
         text: What was the food of the gods, said to give eternal life to those who ate it?
         answer: Ambrosia
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/c/c9/WLANL_-_MicheleLovesArt_-_Museum_Boijmans_Van_Beuningen_-_Istoriato_schotel%2C_de_maaltijd_der_Goden_op_de_Olympus.jpg
         # answer_img_src:
+        
       - type: simple
         text: What is the name of the winged horse in Greek mythology?
         answer: Pegasus
