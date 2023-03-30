@@ -155,7 +155,6 @@ topics:
         text: This band became world famous in the 70s. Which country are they from?
         answer: Sweden (ABBA)
         audio_file: assets/music/abba.m4a
-
         
       - type: musical
         text: This band won the Eurovision Song Contest in 2022. Which country did they represent?
@@ -203,7 +202,7 @@ topics:
         answer: Usain Bolt
         question_img_src: https://ichef.bbci.co.uk/news/976/cpsprodpb/73B5/production/_126412692_d26e6934-d9de-4433-a2cf-f7a45bbad26a.jpg
         answer_img_src: http://globalsherpa.org/wp-content/uploads/2012/12/usain-bolt-victory-pose-london-olympics.jpg
-        
+
   - name: What do you meme
     questions:
       - type: simple
@@ -235,7 +234,7 @@ topics:
         answer: Rickrolling
         question_img_src: assets/images/rickroll.webp
         answer_img_src: https://i.kym-cdn.com/entries/icons/original/000/000/007/bd6.jpg
-        
+  
   - name: Sitcoms from the 80s & 90s
     questions: 
       - type: simple
@@ -302,3 +301,20 @@ topics:
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/7/73/Bellerophon_riding_Pegasus_and_killing_the_Chimera%2C_Roman_mosaic%2C_the_Rolin_Museum_in_Autun%2C_France%2C_2nd_to_3rd_century_AD.jpg
         # answer_img_src:
          
+  - name: Geography??
+    questions:
+      - type: simple
+        text: Which animals live in the Arctic and which in Antarctica? (1 mistake -> 0.5p) <p> Caribou, Penguins, Polar Bear, Sea lion, Walrus </p>
+        answer: >
+          Arctic: Caribou, Polar bears, Walrus
+          Antarctica: Penguins, Sea lion
+        question_img_src: http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcStZXxVICqglnA7Bz25T-xnuJlqLQbMerjfkgwHE5HpfgnUeBhlYOWp9iR41aMDhSKa7DnkSHpsiJQeay0
+        answer_img_src: https://www.bioexpedition.com/wp-content/uploads/2020/04/photo-1570113353806-63f8cd19c970.jpg
+    - type: simple
+        text: Which animals live in the Arctic and which in Antarctica? (1 mistake -> 0.5p) <p> Caribou, Penguins, Polar Bear, Sea lion, Walrus </p>
+        answer: >
+          Arctic: Caribou, Polar bears, Walrus
+          Antarctica: Penguins, Sea lion
+        question_img_src: http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcStZXxVICqglnA7Bz25T-xnuJlqLQbMerjfkgwHE5HpfgnUeBhlYOWp9iR41aMDhSKa7DnkSHpsiJQeay0
+        answer_img_src: https://www.bioexpedition.com/wp-content/uploads/2020/04/photo-1570113353806-63f8cd19c970.jpg
+    
