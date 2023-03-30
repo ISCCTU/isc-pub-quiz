@@ -154,7 +154,8 @@ topics:
       - type: musical
         text: This band became world famous in the 70s. Which country are they from?
         answer: Sweden (ABBA)
-        question_img_src: https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A68cb1de8-cbdd-11e8-8d0b-a6539b949662?source=ig
+        question_img_src: https://live-production.wcms.abc-cdn.net.au/3636d344a14141178b9b1fce3542996c?impolicy=wcms_crop_resize&cropH=1080&cropW=1918&xPos=1&yPos=0&width=862&height=485
+        answer_img_src: https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A68cb1de8-cbdd-11e8-8d0b-a6539b949662?source=ig
         audio_file: assets/music/abba.m4a
         
       - type: musical
