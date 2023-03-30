@@ -310,11 +310,9 @@ topics:
           Antarctica: Penguins, Sea lion
         question_img_src: http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcStZXxVICqglnA7Bz25T-xnuJlqLQbMerjfkgwHE5HpfgnUeBhlYOWp9iR41aMDhSKa7DnkSHpsiJQeay0
         answer_img_src: https://www.bioexpedition.com/wp-content/uploads/2020/04/photo-1570113353806-63f8cd19c970.jpg
+        
     - type: simple
-        text: Which animals live in the Arctic and which in Antarctica? (1 mistake -> 0.5p) <p> Caribou, Penguins, Polar Bear, Sea lion, Walrus </p>
-        answer: >
-          Arctic: Caribou, Polar bears, Walrus
-          Antarctica: Penguins, Sea lion
-        question_img_src: http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcStZXxVICqglnA7Bz25T-xnuJlqLQbMerjfkgwHE5HpfgnUeBhlYOWp9iR41aMDhSKa7DnkSHpsiJQeay0
-        answer_img_src: https://www.bioexpedition.com/wp-content/uploads/2020/04/photo-1570113353806-63f8cd19c970.jpg
+        text: The onomatopoeic name of a famous flightless bird, Kiwi, originates from what language?
+        answer: Māori
+        question_img_src: http://cdn.shopify.com/s/files/1/0266/5817/7121/articles/iStock-806101702_1200x1200.jpg?v=1649660571
     
