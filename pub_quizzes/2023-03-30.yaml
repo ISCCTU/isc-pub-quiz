@@ -184,12 +184,13 @@ topics:
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg/660px-40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/440px-Michael_Phelps_Rio_Olympics_2016.jpg
       - type: choice
-        text: Which of these countries has never won the football World Cup?
+        text: Which of these countries has never won the FIFA World Cup?
         answer: Portugal
         wrong: # will be shuffled
           - Uruguay
           - Spain
           - England
+          - Germany
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/FIFA_World_Cup_Trophy_%28Jules_Rimet_Trophy%29_at_National_Football_Museum%2C_Manchester_02.jpg/300px-FIFA_World_Cup_Trophy_%28Jules_Rimet_Trophy%29_at_National_Football_Museum%2C_Manchester_02.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Portugal_national_football_team_World_Cup_2018.jpg/440px-Portugal_national_football_team_World_Cup_2018.jpg
       - type: simple
