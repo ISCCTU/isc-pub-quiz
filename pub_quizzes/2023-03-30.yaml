@@ -239,7 +239,37 @@ topics:
 
       - type: simple
         text: >
-          What peculiar item does Mr. Bean use in episode "Goodnight Mr. Bean, Act 3: Sleeping trouble" to turn off the lights?
+          What peculiar item does Mr. Bean use in episode "Goodnight Mr. Bean, Act 3 Sleeping trouble" to turn off the lights?
         answer: handgun
         question_img_src: https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg
         answer_img_src: https://img-9gag-fun.9cache.com/photo/apg7bZD_460s.jpg
+
+  - name: Greek Mythology
+    questions:
+      - type: simple
+        text: Who was the mythical Greek hunter after whom a constellation is named?
+        answer: Orion
+        question_img_src: https://www.planetguide.net/wp-content/uploads/2020/06/orion-constellation.webp
+        answer_img_src: https://www.worldhistory.org/uploads/images/6243.jpg?v=1643824827
+      - type: simple
+        text: What was left in Pandora's box after she released misery and evil?
+        # todo change to options
+        answer: Hope 
+        question_img_src: https://cdn.britannica.com/63/131663-050-173DA80F/Artist-box-Pandora-interpretation-evil-misery.jpg
+        # answer_img_src:
+      - type: simple
+        text: What's the name of the greek goddess of retribution?
+        answer: Nemesis
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/ADurerFortunaengraving.jpg/800px-ADurerFortunaengraving.jpg
+        # answer_img_src:
+      - type: simple
+        text: What was the food of the gods, said to give eternal life to those who ate it?
+        answer: Ambrosia
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/c/c9/WLANL_-_MicheleLovesArt_-_Museum_Boijmans_Van_Beuningen_-_Istoriato_schotel%2C_de_maaltijd_der_Goden_op_de_Olympus.jpg
+        # answer_img_src:
+      - type: simple
+        text: What is the name of the winged horse in Greek mythology?
+        answer: Pegasus
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/7/73/Bellerophon_riding_Pegasus_and_killing_the_Chimera%2C_Roman_mosaic%2C_the_Rolin_Museum_in_Autun%2C_France%2C_2nd_to_3rd_century_AD.jpg
+        # answer_img_src:
+         
