@@ -6,12 +6,15 @@ The presentation uses [reveal.js](https://github.com/hakimel/reveal.js) for inte
 As of right now, the asset folder is necessary to show the presentation properly.
 
 ## TODO:
+* make it possible to make the text or image larger
+  * could be implemented by some dragable divider between the text and image columns
+* save the images locally so that internet is not needed
+  * this might need some YAML caching to detect changes in the definition
+* generate iframes with a results table 
+* implement the countdown
 * improve layouts & make it look better in general
-* support audio questions
 * possibly support a "sorting" question (although that can technically be done using the simple question type)
-* create the rules slide
-* create the end slide
-* auto download illustration image (with a potential override, of course)
+* auto search & download illustration image (with a potential override, of course)
 
 ## Quiz definition
 The quiz is defined using a `.yaml` file.
