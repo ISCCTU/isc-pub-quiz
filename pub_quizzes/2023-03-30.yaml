@@ -1,0 +1,342 @@
+date: 30/03/2023
+place: Loď Pivovar
+template: presentation.j2
+output: output.html
+topics_per_block: 2
+countdown_duration_minutes: 3
+topics:
+  - name: Events of 2023
+    questions:
+      - type: simple
+        text: The year started with a politician known as "Lula" becoming the 39th president of what country on January 1st?
+        answer: (Federative Republic of) Brazil
+        question_img_src: https://president.cz/wp-content/uploads/2021/07/President-Maslo-Solene.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg/800px-Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg
+
+      - type: simple
+        text: The 2023 IIHF Men's Ice Hockey World Championship was originally supposed to take place in Saint Petersburg in Russia. <p> After Russia was stripped of hosting rights, which two european cities are co-hosting this tournament, happening in May 2023? </p>
+        answer: Riga (Latvia) and Tampere (Finland)
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/1/15/IIHF_logo.svg/240px-IIHF_logo.svg.png
+        answer_img_src: https://upload.wikimedia.org/wikipedia/en/2/21/2023_IIHF_World_Championship.png
+
+      - type: simple
+        text: Which 1997 film was re-released in cinemas worldwide in February of this year? The film is currently the fourth highest grossing film of all time.
+        answer: Titanic
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/James_Cameron_by_Gage_Skidmore.jpg/440px-James_Cameron_by_Gage_Skidmore.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/en/1/18/Titanic_%281997_film%29_poster.png
+
+      - type: simple
+        text: On March 14, OpenAI released a new version of its popular language model used in a popular chatbot. Besides the chatbot, you can encounter it in Microsoft's search engine Bing. What is the name of this product?
+        answer: GPT4
+        question_img_src: https://ichef.bbci.co.uk/news/976/cpsprodpb/16953/production/_127899429_gettyimages-991619332.jpg
+        answer_img_src: https://pbs.twimg.com/media/FrMkI7AXsAgOYl5.jpg:large
+
+      - type: simple
+        text: A magnitude-7.8 earthquake hit which two countries in the early hours of the morning of 6 February?
+        answer: Turkey and Syria
+        question_img_src: https://images.newscientist.com/wp-content/uploads/2023/02/06130629/SEI_143101336.jpg
+        answer_img_src: https://www.telegraph.co.uk/content/dam/world-news/2023/02/10/TELEMMGLPICT000324932159_trans_NvBQzQNjv4BqejI1gRHJsOsGt35KcRG671HmPOpeFd0SyQx9dn7kM_w.jpeg
+      
+  - name: Conspiracy theories
+    questions:
+      - type: simple
+        text: At the end of the Second World War, some well-known Nazis, such as Eichmann or Mengele, fled Germany. What is the name of this country, where allegedly even Hitler himself escaped to?
+        answer: Argentina
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/HitlersManyFaces.jpg/800px-HitlersManyFaces.jpg
+
+      - type: simple
+        text: Between the years 2012 and 2015, a mysterious accout started posting elaborate riddles on an online forum known as 4chan. These puzzles focused heavily on data security, cryptography and internet anonymity and were listed as the "top 5 eeries, unsolved mysteries of the internet" by The Washington Post. What is the nickname given to these puzzles?
+        answer: Cicada 3301
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/7/7e/Cicada_3301_logo.jpg
+
+      - type: simple
+        text: In July 1969, astronauts Neil Armstrong and Buzz Aldrin became the first humans to land on the surface of the moon — or did they? What is rumored to have been the secret filming location for the "staged landing" (originally from the book "We Never Went to the Moon")?
+        answer: Area 51
+        question_img_src: https://miro.medium.com/v2/resize:fit:4800/format:webp/1*n9MrTiqExccfb4DgZ6IrUQ.jpeg
+        
+      - type: simple
+        text: Flat Earth is an archaic and scientifically disproven conception of the Earth's shape as a plane or disk, although the theory has a rising following nowadays. What greek polymath, known also for his contribution to algorithms, performed the first known scientific measurement and calculation of Earth's circumference in about 240 BC?
+        answer: Eratosthenes
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/b/ba/Sacrobosco-1550-B3r-detail01.jpg
+
+      - type: simple
+        text: A mind-control program run by the CIA from 1953 to 1973 tested many different substances such as LSD on unwilling participants. What was its name?
+        answer: MK-ULTRA
+        question_img_src: https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/10/mk-ultra-anson-mount-feature.jpg
+
+  - name: Colours of ESN
+    questions:
+      - type: simple
+        text: In Technická street in the Dejvice campus, there's an alley of trees. Do you know what ornamental tree species can you find there?
+        answer: cherry blossom/Japanese cherry/sakura 
+        question_img_src: https://mestemnakole.cz/app/uploads/2019/05/jm_technicka_01.jpg
+        answer_img_src: https://media.cvut.cz/sites/media/files/styles/large/public/content/photos/0c442e51-0169-49ae-99e9-6e7e9b1497df/bb696e06-24c3-48a5-98e3-48642ec2a102.jpg?itok=UvlCgcQr
+
+      - type: simple
+        text: There are five local ESN sections in Prague. Can you name at least four of them?
+        answer: ISC CTU, ESN UCT, ESN CU, ESN CZU, ESN VSE
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/a/a7/Prague_%286365119737%29.jpg
+        answer_img_src: https://scontent.fprg5-1.fna.fbcdn.net/v/t1.6435-9/89070613_1295901077274153_5221783971045572608_n.png?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=Da80x49yAkwAX9og0Tw&_nc_ht=scontent.fprg5-1.fna&oh=00_AfA9Jx_EW-PTHyhr-PCIZBUxLJ6YLPb5VQkhS3uxxn7e9A&oe=6447F001
+
+      - type: simple
+        text: Scheele's Green or Schloss Green was a favourite colour of the Victorians of the 19th century. A compound of which metalloid element made it so toxic to humans?
+        answer: arsenic
+        question_img_src: http://images.summitmedia-digital.com/esquiremagph/images/gallery/3888/MAINPARISGREEN.jpg
+
+      - type: simple
+        text: What does the ESN logo, the ESN star, represent?
+        answer: It represents the ESN members standing in a circle as if they were holding hands.
+        question_img_src: https://esn.org/sites/default/files/new_vi_2019.png
+      
+      - type: simple
+        text: We associate the ocean with the color blue. However, this is only true when we are close enough to the surface. Based on the sunlight they receive, we can sort the ocean by depth. Can you sort the five zones correctly, from most shallow? (midnight zone, twilight zone, hadal zone, the abyss, sunlight zone)
+        answer: sunlight zone (<200m), twilight zone (200-1000m), midnight zone (1000-4000m), the abyss (4000-6000m), hadal zone (>6000m)
+        question_img_src: https://static.vecteezy.com/system/resources/thumbnails/001/625/224/original/deep-blue-underwater-with-sunlight-rays-shining-through-ocean-surface-free-video.jpg
+
+  #     optional tipovačka
+  #     - type: simple
+  #       text: How many local ESN sections are there?
+  #       answer: 511
+  #       question_img_src: https://lh3.googleusercontent.com/VeDln0ZNLJdPl26gJVimc-ERDQW2S1douicddUycjegowDNlKs1BVJuDDl0lZ9eqVJwKWh2j2fJiqCUpZvI8Ov83U5CvH3X1cE1EVsJ3rVOR3kv1YJh31CVE4NoemnWlUzQB7Vbu
+
+  - name: Famous composers
+    questions:
+      - type: musical
+        text: This orchestral piece is called "Grand March." It is often played during military processions and graduations, and was originally featured in an opera about a love triangle which is taking place during the war between Ethiopia and Egypt. <p>Which Italian composer is the author of this piece?</p>
+        answer: Giuseppe Verdi (opera Aida)
+        audio_file: assets/music/verdi.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg/600px-Set_design_by_Edouard_Despléchin_for_Act2_sc2_of_Aida_by_Verdi_1871_Cairo_-_Gallica.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Primo_ritratto_boldiniano_di_Verdi.jpg/440px-Primo_ritratto_boldiniano_di_Verdi.jpg
+
+      - type: musical
+        text: This musical piece was created by a Greek composer Vangelis. Originally created for a 1981 film, but was also used as the theme music of the 2012 London Olympics. <p> What is the name of this musical piece? (The film has the same name.) </p>
+        answer: Chariots of Fire
+        audio_file: assets/music/chariots.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/5/53/VangelisElGrecopremiereDE2.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/en/e/ef/Charleson_on_beach.jpg
+        
+      - type: musical
+        text: This musical composer was a member of a Russian composer group The Mighty Five. After visiting an art museum, he was inspired to compose a well known suite. This theme from the suite is called The Promenade. <p> What is the composer's name?</p>
+        answer: Modest Petrovich Mussorgsky (Pictures At An Exhibition)
+        audio_file: assets/music/mussorgskij.m4a
+        question_img_src: https://upload.wikimedia.org/score/3/i/3iqo2yt9xia7h9puaves50jtzo2og7g/3iqo2yt9.png
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Modest_Musorgskiy%2C_1870.jpg/424px-Modest_Musorgskiy%2C_1870.jpg
+
+      - type: musical
+        text: This film score was composed by an American composer Alan Silvestri. In which film tetralogy did this theme music appear?
+        answer: The Avengers
+        audio_file: assets/music/avengers.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Alan_Silvestri_2009.jpg/440px-Alan_Silvestri_2009.jpg
+        answer_img_src: https://lumiere-a.akamaihd.net/v1/images/p_avengersendgame_19751_e14a0104.jpeg
+
+      - type: musical
+        text: This dreamy and impressionistic piano piece was created by a French impressionist composer, and is often featured in films, TV shows, and adverts. <p>What is the name of the composer and the musical piece? (½p for just the composer, or just the name of the piece)</p>
+        answer: Claude Debussy - Clair De Lune
+        audio_file: assets/music/clairdelune.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Claude_Debussy_atelier_Nadar.jpg/440px-Claude_Debussy_atelier_Nadar.jpg
+
+  - name: Sports Trivia
+    questions:
+      - type: simple
+        text: In which year did Slovakia's men's national team became the World Champions in Ice hockey?
+        answer: 2002
+        question_img_src: https://img.cas.sk/cas/1280px-c2/1290671.jpg
+        answer_img_src: https://iihfstorage.blob.core.windows.net/iihf-media/iihfmvc/media/2020wm/news/slovakia-2002wm-news.jpg
+
+      - type: simple
+        text: Which swimmer currently holds the record as being the most decorated Olympic athlete of all time, by winning a total of 28 Olympic medals during their career?
+        answer: Michael Phelps
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg/660px-40._Schwimmzonen-_und_Mastersmeeting_Enns_2017_100m_Brust_Herren_USC_Traun-9897.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Michael_Phelps_Rio_Olympics_2016.jpg/440px-Michael_Phelps_Rio_Olympics_2016.jpg
+      - type: choice
+        text: Which of these countries has never won the FIFA World Cup?
+        answer: Portugal
+        wrong: # will be shuffled
+          - Uruguay
+          - Spain
+          - England
+          - Germany
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/FIFA_World_Cup_Trophy_%28Jules_Rimet_Trophy%29_at_National_Football_Museum%2C_Manchester_02.jpg/300px-FIFA_World_Cup_Trophy_%28Jules_Rimet_Trophy%29_at_National_Football_Museum%2C_Manchester_02.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Portugal_national_football_team_World_Cup_2018.jpg/440px-Portugal_national_football_team_World_Cup_2018.jpg
+      - type: simple
+        text: What is the term used to describe the position on an american football team responsible for leading the offense and typically handling the ball on every play?
+        answer: A quarterback
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg/500px-Larry_Fitzgerald_catches_TD_at_2009_Pro_Bowl.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Mike_Quinn.JPG/340px-Mike_Quinn.JPG
+      - type: simple
+        text: To which record-breaking sprinter belongs this signature victory pose? The athlete retired in 2017 after winning a total of 23 gold medals in various competitions.
+        answer: Usain Bolt
+        question_img_src: https://ichef.bbci.co.uk/news/976/cpsprodpb/73B5/production/_126412692_d26e6934-d9de-4433-a2cf-f7a45bbad26a.jpg
+        answer_img_src: http://globalsherpa.org/wp-content/uploads/2012/12/usain-bolt-victory-pose-london-olympics.jpg
+
+  - name: What do you meme
+    questions:
+      - type: simple
+        text: In what movie can you see the main character dance as the kid in the gif?
+        answer: Spider-Man 3 (2007)
+        question_img_src: assets/images/bully-maquire.gif
+        answer_img_src: https://media.tenor.com/9qZhM0uswAYAAAAd/bully-maguire-dance.gif
+
+      - type: simple
+        text: The “is this a ______?” meme originated as a screencap from a ‘90s anime series called “The Brave Fighter of Sun Fighbird.” What did the character originally mistake the butterfly for?
+        answer: Pigeon
+        question_img_src: https://i.imgflip.com/7g4a9k.jpg
+        answer_img_src: https://cdn.vox-cdn.com/thumbor/AEAYleA4hR0GpYTGkNcHh174G2c=/0x0:500x375/1120x0/filters:focal(0x0:500x375):format(webp):no_upscale()/cdn.vox-cdn.com/uploads/chorus_asset/file/10835833/n4scgse21iuz.jpg
+
+      - type: simple
+        text: This famous character is often mistaken for Jesus. What is his name? (Half point for the name of the movies)
+        answer: Obi-Wan Kenobi
+        question_img_src: https://preview.redd.it/rhctzrawji621.jpg?width=640&crop=smart&auto=webp&v=enabled&s=d9c7f239f69a8684bf9a73d997869e2a867b6390
+        answer_img_src: https://api.time.com/wp-content/uploads/2015/12/star-wars-episode-iii-revenge-of-the-sith-obi-wan.jpg
+
+      - type: simple
+        text: In December 2019 United States politician Bernie Sanders said in his fundraising video a sentence. What did Bernie asked for?
+        answer: financial support
+        question_img_src: https://i.imgflip.com/7g5554.jpg
+        answer_img_src: https://i.kym-cdn.com/entries/icons/original/000/032/559/cover1.jpg
+
+      - type: simple
+        text: What is the term for the internet prank and meme in which an unexpected appearance of the music video for the 1987 Rick Astley song "Never Gonna Give You Up" is "planted" into an unrelated link? The meme's popularity dates back to 2008.
+        answer: Rickrolling
+        question_img_src: assets/images/rickroll.webp
+        answer_img_src: https://i.kym-cdn.com/entries/icons/original/000/000/007/bd6.jpg
+  
+  - name: Sitcoms from the 80s & 90s
+    questions: 
+      - type: simple
+        text: Out of the main characters of the show Friends, who was the only one who hasn't lived with Rachel?
+        answer: Chandler
+        question_img_src: https://www.chicagotribune.com/resizer/mM5Tp2XJDj2vldBQApP2alqPmeM=/1440x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/tronc/KPOUUXOCXBCFJEKOR54A4MTACE.jpg
+        answer_img_src:
+
+      - type: simple
+        text: In Season 6 of the BBC series Red Dwarf, what character gave Arnold Rimmer a Light Bee capable of producing hard light holograms?
+        answer: Legion
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/6/60/ArnoldRimmer1.jpg/250px-ArnoldRimmer1.jpg
+        answer_img_src: https://i.stack.imgur.com/sZ6fn.jpg
+
+      - type: simple
+        text: Before getting their own prime-time show, the Simpsons aired three seasons of shorts as a recurring segment on a Fox variety TV series. What's the name of the show?
+        answer: The Tracey Ullman Show
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/4/47/Simpsons_on_Tracey_Ullman.png
+        # answer_img_src: 
+
+      - type: simple
+        text: What is the name of the show, as well as name of the character shown in the picture?
+        answer: ALF ("Alien Life Form")
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/8/89/GordonShumway.png
+        # answer_img_src: https://pics.filmaffinity.com/ALF_TV_Series-895372602-large.jpg
+
+      - type: simple
+        text: >
+          What peculiar item does Mr. Bean use in episode "Goodnight Mr. Bean, Act 3 Sleeping trouble" to turn off the lights?
+        answer: handgun
+        question_img_src: https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/62455-shout-factory1-869b74b647b88045caac956956bd1ff8.jpg
+        answer_img_src: https://img-9gag-fun.9cache.com/photo/apg7bZD_460s.jpg
+
+  - name: Greek Mythology
+    questions:
+      - type: simple
+        text: Who was the mythical Greek hunter after whom a constellation is named?
+        answer: Orion
+        question_img_src: https://www.planetguide.net/wp-content/uploads/2020/06/orion-constellation.webp
+        answer_img_src: https://www.worldhistory.org/uploads/images/6243.jpg?v=1643824827
+
+      - type: choice
+        text: What was left in Pandora's box after she released misery and evil?
+        answer: Hope
+        wrong: # will be shuffled
+          - Happiness
+          - Optimism
+          - Dream
+          - Coca-Cola
+
+      - type: simple
+        text: What's the name of the greek goddess of retribution?
+        answer: Nemesis
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/ADurerFortunaengraving.jpg/800px-ADurerFortunaengraving.jpg
+        # answer_img_src:
+
+      - type: simple
+        text: What was the food of the gods, said to give eternal life to those who ate it?
+        answer: Ambrosia
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/c/c9/WLANL_-_MicheleLovesArt_-_Museum_Boijmans_Van_Beuningen_-_Istoriato_schotel%2C_de_maaltijd_der_Goden_op_de_Olympus.jpg
+        # answer_img_src:
+        
+      - type: simple
+        text: What is the name of the winged horse in Greek mythology?
+        answer: Pegasus
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/7/73/Bellerophon_riding_Pegasus_and_killing_the_Chimera%2C_Roman_mosaic%2C_the_Rolin_Museum_in_Autun%2C_France%2C_2nd_to_3rd_century_AD.jpg
+        # answer_img_src:
+         
+  - name: World of Wonder
+    questions:
+      - type: simple
+        text: Which animals live in the Arctic and which in Antarctica? (1 mistake -> 0.5p) <p> Caribou, Penguins, Polar Bear, Sea lion, Walrus </p>
+        answer: >
+          Arctic: Caribou, Polar bears, Walrus
+          Antarctica: Penguins, Sea lion
+        question_img_src: http://t0.gstatic.com/licensed-image?q=tbn:ANd9GcStZXxVICqglnA7Bz25T-xnuJlqLQbMerjfkgwHE5HpfgnUeBhlYOWp9iR41aMDhSKa7DnkSHpsiJQeay0
+        answer_img_src: https://www.bioexpedition.com/wp-content/uploads/2020/04/photo-1570113353806-63f8cd19c970.jpg
+      - type: simple
+        text: The onomatopoeic name of a famous flightless bird, Kiwi, originates from what language?
+        answer: Māori
+        question_img_src: http://cdn.shopify.com/s/files/1/0266/5817/7121/articles/iStock-806101702_1200x1200.jpg?v=1649660571
+      - type: simple
+        text: How many pairs of wings does a bee have?
+        answer: Two
+        question_img_src: https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/973/158973248_3301c1.jpg
+        answer_img_src: https://sites.google.com/site/hutchingsbeeservice/_/rsrc/1363566705977/home/bee-anatomy/Bee%20top%20view.png
+      - type: simple
+        text: What's the name of the largest rodent? An adult can weigh as much as an adult human.
+        answer: CAPYBARA
+        question_img_src: https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-f3qxzs_4923c203.jpeg
+        answer_img_src: https://cdn.britannica.com/77/191677-050-3CBF2834/Capybara.jpg
+      - type: simple
+        text: Which bird can fly backwards?
+        answer: hummingbird
+        question_img_src: https://i.imgflip.com/7gfnpr.jpg
+        answer_img_src: https://www.searchenginejournal.com/wp-content/uploads/2022/03/google-hummingbird-623189e488ff2-sej-1280x720.jpg
+
+  - name: World of Music
+    questions:
+      - type: musical
+        text: What country is this singer from? She gained international recognition for her unique vocals and distinctive style.
+        answer: Norway (Aurora)
+        audio_file: assets/music/aurora.m4a
+        question_img_src: https://patch.com/img/cdn20/getty/25052038/20211116/042157/styles/patch_image/public/gettyimages-1289481257___16162045891.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aurora_performing_at_the_Electric_Castle_festival_-_51995266103_%28cropped%29.jpg/440px-Aurora_performing_at_the_Electric_Castle_festival_-_51995266103_%28cropped%29.jpg
+
+      - type: musical
+        text: In which country was the lead singer of this world famous band born?
+        audio_file: assets/music/freddie.m4a
+        answer: Zanzibar / Tanzania (Freddie Mercury)
+        question_img_src: https://cdn.filestackcontent.com/crop=d:[0,0,1920,960]/pjpg=q:90/compress/FWPlsXDT6bDsb5iBeIUQ
+        answer_img_src: https://cdn.britannica.com/38/200938-050-E22981D1/Freddie-Mercury-Live-Aid-Queen-Wembley-Stadium-July-13-1985.jpg
+
+      - type: musical
+        text: This band became world famous in the 70s. Which country are they from?
+        answer: Sweden (ABBA)
+        question_img_src: https://live-production.wcms.abc-cdn.net.au/3636d344a14141178b9b1fce3542996c?impolicy=wcms_crop_resize&cropH=1080&cropW=1918&xPos=1&yPos=0&width=862&height=485
+        answer_img_src: https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A68cb1de8-cbdd-11e8-8d0b-a6539b949662?source=ig
+        audio_file: assets/music/abba.m4a
+        
+      - type: musical
+        text: This band won the Eurovision Song Contest in 2022. Which country did they represent?
+        answer: Ukraine (Kalush Orchestra)
+        audio_file: assets/music/kalush.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Eurovision_Song_Contest.svg/500px-Eurovision_Song_Contest.svg.png
+        answer_img_src: https://i.guim.co.uk/img/media/44d3449562ac6cf61050d4737496c1a7e1bfdd23/0_367_5507_3305/master/5507.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=9cb42cd33178926153e39e6eeb3e9c1d
+      - type: musical
+        text: From which country is this band, which sings this 70s hit song?
+        audio_file: assets/music/rasputin.m4a
+        answer: Germany (Boney M.)
+        question_img_src: https://i.ytimg.com/vi/O3Uc26tXML8/maxresdefault.jpg
+        answer_img_src: https://lastfm.freetls.fastly.net/i/u/ar0/4e0d61e1d66c55a172f6dca75387d848.jpg
+  - name: World of Wonder #2
+    questions:
+      - type: simple
+        text: How many tonnes of water flows each second thhrough Niagara falls? (according to Niagara falls state park website)
+        answer: 3 160 
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/a/ab/3Falls_Niagara.jpg
+        # answer_img_src: 
