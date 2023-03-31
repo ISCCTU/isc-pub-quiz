@@ -176,7 +176,7 @@ section img {
   background-color: var(--esn-cyan);
 }
 
-ul {
+ul, ol {
   line-height: 1.5;
   text-align: left;
   margin-top: 0;

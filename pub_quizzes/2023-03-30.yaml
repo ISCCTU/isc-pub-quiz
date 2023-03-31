@@ -90,7 +90,7 @@ topics:
       
       - type: simple
         text: We associate the ocean with the color blue. However, this is only true when we are close enough to the surface. Based on the sunlight they receive, we can sort the ocean by depth. Can you sort the five zones correctly, from most shallow? (midnight zone, twilight zone, hadal zone, the abyss, sunlight zone)
-        answer: [sunlight zone (<200m), twilight zone (200-1000m), midnight zone (1000-4000m), the abyss (4000-6000m), hadal zone (>6000m)]
+        answer: sunlight zone (<200m), twilight zone (200-1000m), midnight zone (1000-4000m), the abyss (4000-6000m), hadal zone (>6000m)
         question_img_src: https://static.vecteezy.com/system/resources/thumbnails/001/625/224/original/deep-blue-underwater-with-sunlight-rays-shining-through-ocean-surface-free-video.jpg
 
   #     optional tipovačka
@@ -134,42 +134,6 @@ topics:
         answer: Claude Debussy - Clair De Lune
         audio_file: assets/music/clairdelune.m4a
         question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Claude_Debussy_atelier_Nadar.jpg/440px-Claude_Debussy_atelier_Nadar.jpg
-
-  - name: World of Music
-    questions:
-      - type: musical
-        text: What country is this singer from? She gained international recognition for her unique vocals and distinctive style.
-        answer: Norway (Aurora)
-        audio_file: assets/music/aurora.m4a
-        question_img_src: https://patch.com/img/cdn20/getty/25052038/20211116/042157/styles/patch_image/public/gettyimages-1289481257___16162045891.jpg
-        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aurora_performing_at_the_Electric_Castle_festival_-_51995266103_%28cropped%29.jpg/440px-Aurora_performing_at_the_Electric_Castle_festival_-_51995266103_%28cropped%29.jpg
-
-      - type: musical
-        text: In which country was the lead singer of this world famous band born?
-        audio_file: assets/music/freddie.m4a
-        answer: Zanzibar / Tanzania (Freddie Mercury)
-        question_img_src: https://cdn.filestackcontent.com/crop=d:[0,0,1920,960]/pjpg=q:90/compress/FWPlsXDT6bDsb5iBeIUQ
-        answer_img_src: https://cdn.britannica.com/38/200938-050-E22981D1/Freddie-Mercury-Live-Aid-Queen-Wembley-Stadium-July-13-1985.jpg
-
-      - type: musical
-        text: This band became world famous in the 70s. Which country are they from?
-        answer: Sweden (ABBA)
-        question_img_src: https://live-production.wcms.abc-cdn.net.au/3636d344a14141178b9b1fce3542996c?impolicy=wcms_crop_resize&cropH=1080&cropW=1918&xPos=1&yPos=0&width=862&height=485
-        answer_img_src: https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A68cb1de8-cbdd-11e8-8d0b-a6539b949662?source=ig
-        audio_file: assets/music/abba.m4a
-        
-      - type: musical
-        text: This band won the Eurovision Song Contest in 2022. Which country did they represent?
-        answer: Ukraine (Kalush Orchestra)
-        audio_file: assets/music/kalush.m4a
-        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Eurovision_Song_Contest.svg/500px-Eurovision_Song_Contest.svg.png
-        answer_img_src: https://i.guim.co.uk/img/media/44d3449562ac6cf61050d4737496c1a7e1bfdd23/0_367_5507_3305/master/5507.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=9cb42cd33178926153e39e6eeb3e9c1d
-      - type: musical
-        text: From which country is this band, which sings this 70s hit song?
-        audio_file: assets/music/rasputin.m4a
-        answer: Germany (Boney M.)
-        question_img_src: https://i.ytimg.com/vi/O3Uc26tXML8/maxresdefault.jpg
-        answer_img_src: https://lastfm.freetls.fastly.net/i/u/ar0/4e0d61e1d66c55a172f6dca75387d848.jpg
 
   - name: Sports Trivia
     questions:
@@ -252,7 +216,7 @@ topics:
         answer_img_src: https://i.stack.imgur.com/sZ6fn.jpg
 
       - type: simple
-        text: Before getting their own prime-time show, the Simpsons aired three seasons of shorts as a recurring segment on a Fox variety TV series.
+        text: Before getting their own prime-time show, the Simpsons aired three seasons of shorts as a recurring segment on a Fox variety TV series. What's the name of the show?
         answer: The Tracey Ullman Show
         question_img_src: https://upload.wikimedia.org/wikipedia/en/4/47/Simpsons_on_Tracey_Ullman.png
         # answer_img_src: 
@@ -261,7 +225,7 @@ topics:
         text: What is the name of the show, as well as name of the character shown in the picture?
         answer: ALF ("Alien Life Form")
         question_img_src: https://upload.wikimedia.org/wikipedia/en/8/89/GordonShumway.png
-        answer_img_src: https://pics.filmaffinity.com/ALF_TV_Series-895372602-large.jpg
+        # answer_img_src: https://pics.filmaffinity.com/ALF_TV_Series-895372602-large.jpg
 
       - type: simple
         text: >
@@ -324,7 +288,7 @@ topics:
         question_img_src: https://image.pmgstatic.com/cache/resized/w663/files/images/film/posters/158/973/158973248_3301c1.jpg
         answer_img_src: https://sites.google.com/site/hutchingsbeeservice/_/rsrc/1363566705977/home/bee-anatomy/Bee%20top%20view.png
       - type: simple
-        text: What's the name of the largest rodent? An adult can waight as much as an adult human.
+        text: What's the name of the largest rodent? An adult can weigh as much as an adult human.
         answer: CAPYBARA
         question_img_src: https://lumiere-a.akamaihd.net/v1/images/open-uri20150422-20810-f3qxzs_4923c203.jpeg
         answer_img_src: https://cdn.britannica.com/77/191677-050-3CBF2834/Capybara.jpg
@@ -333,4 +297,46 @@ topics:
         answer: hummingbird
         question_img_src: https://i.imgflip.com/7gfnpr.jpg
         answer_img_src: https://www.searchenginejournal.com/wp-content/uploads/2022/03/google-hummingbird-623189e488ff2-sej-1280x720.jpg
-    
+
+  - name: World of Music
+    questions:
+      - type: musical
+        text: What country is this singer from? She gained international recognition for her unique vocals and distinctive style.
+        answer: Norway (Aurora)
+        audio_file: assets/music/aurora.m4a
+        question_img_src: https://patch.com/img/cdn20/getty/25052038/20211116/042157/styles/patch_image/public/gettyimages-1289481257___16162045891.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Aurora_performing_at_the_Electric_Castle_festival_-_51995266103_%28cropped%29.jpg/440px-Aurora_performing_at_the_Electric_Castle_festival_-_51995266103_%28cropped%29.jpg
+
+      - type: musical
+        text: In which country was the lead singer of this world famous band born?
+        audio_file: assets/music/freddie.m4a
+        answer: Zanzibar / Tanzania (Freddie Mercury)
+        question_img_src: https://cdn.filestackcontent.com/crop=d:[0,0,1920,960]/pjpg=q:90/compress/FWPlsXDT6bDsb5iBeIUQ
+        answer_img_src: https://cdn.britannica.com/38/200938-050-E22981D1/Freddie-Mercury-Live-Aid-Queen-Wembley-Stadium-July-13-1985.jpg
+
+      - type: musical
+        text: This band became world famous in the 70s. Which country are they from?
+        answer: Sweden (ABBA)
+        question_img_src: https://live-production.wcms.abc-cdn.net.au/3636d344a14141178b9b1fce3542996c?impolicy=wcms_crop_resize&cropH=1080&cropW=1918&xPos=1&yPos=0&width=862&height=485
+        answer_img_src: https://www.ft.com/__origami/service/image/v2/images/raw/ftcms%3A68cb1de8-cbdd-11e8-8d0b-a6539b949662?source=ig
+        audio_file: assets/music/abba.m4a
+        
+      - type: musical
+        text: This band won the Eurovision Song Contest in 2022. Which country did they represent?
+        answer: Ukraine (Kalush Orchestra)
+        audio_file: assets/music/kalush.m4a
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/thumb/e/e1/Eurovision_Song_Contest.svg/500px-Eurovision_Song_Contest.svg.png
+        answer_img_src: https://i.guim.co.uk/img/media/44d3449562ac6cf61050d4737496c1a7e1bfdd23/0_367_5507_3305/master/5507.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=9cb42cd33178926153e39e6eeb3e9c1d
+      - type: musical
+        text: From which country is this band, which sings this 70s hit song?
+        audio_file: assets/music/rasputin.m4a
+        answer: Germany (Boney M.)
+        question_img_src: https://i.ytimg.com/vi/O3Uc26tXML8/maxresdefault.jpg
+        answer_img_src: https://lastfm.freetls.fastly.net/i/u/ar0/4e0d61e1d66c55a172f6dca75387d848.jpg
+  - name: World of Wonder #2
+    questions:
+      - type: simple
+        text: How many tonnes of water flows each second thhrough Niagara falls? (according to Niagara falls state park website)
+        answer: 3 160 
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/a/ab/3Falls_Niagara.jpg
+        # answer_img_src: 
