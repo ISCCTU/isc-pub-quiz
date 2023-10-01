@@ -8,13 +8,68 @@ topics:
   - name: Events of 2023
     questions:
       - type: simple
+        text: Which of the neighbors of the Czech republic have held elections in 2023?
+        answer: All of them ;-)! Slovakia (parliament), Poland (parliament), Germany (several states), Austria (several states)
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
+        text: Azerbaijan launched a military offensive in what region on September 19, overcoming forces aligned with Armenia?
+        answer: Nagorno-Karabakh
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
+        answer_img_src: 
+      - type: simple
+        text: 
+        answer:
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
+        text: 
+        answer:
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
         text: 
         answer:
         question_img_src: 
         answer_img_src: 
 
-  - name: Sitcoms of the 2000s and 2010s
+  - name: Sitcoms of the 2000s (most of their runs in that decade)
     questions:
+      - type: simple
+        text: Following the success of the Simpsons, Matt Groening followed up in 1999 with a sci-fi comedy, Futurama. How do the charaters in the show talk to people from the distant past, such as Elvis Presley, Richard Nixon of Abraham Lincoln?
+        answer: They were preveserved as heads in jars.
+        question_img_src: 
+        answer_img_src: https://static.wikia.nocookie.net/superepicfailpedia/images/c/c0/Futurama.jpg/revision/latest?cb=20160214170307
+      - type: simple
+        text: HIMYM (2005-2014)
+        answer:
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
+        text: Family Guy (1999-)
+        answer:
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
+        text: The Office (2005-2013)
+        answer:
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
+        text: Black Books (2000-2004)
+        answer:
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
+        text: The IT Crowd (2006-2013)
+        answer:
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
+        text: That 70s show (1998-2006)
+        answer:
+        question_img_src: 
+        answer_img_src: 
 
   - name: Famous buildings
     questions:
@@ -44,8 +99,26 @@ topics:
   - name: Nepobabies
     questions:
 
-  - name: ISO standards
+  - name: ISO & Friends
     questions: 
+      - type: simple
+        text: Not even the arts are safe from the reach of the ISO. The concert pitch, also known as the universal standard pitch, is outlined in ISO 16. What is the frequency specified of the A above middle C?
+        answer: 440 Hz
+        question_img_src: 
+        answer_img_src: 
+      - type: choice
+        text: ISO 3103 from the year 1977 describes the procedure to brew a standard cup of tea. Of course, this is a highly sensitive topic with regional variations and so it has not evaded criticism. What did the country of Ireland object to?
+        answer: The omission of a teapot prewarming step.
+        wrong: 
+          - Adding the milk before pouring the infusion into the cup (rather than afterwards).
+          - The resulting liquid was called 'liquor' by the standard.
+          - It was proposed by the British Standards Institution.
+          - The ban for men named Oisín to be the brewmaster.
+      - type: simple
+        text: The MIL-C-44072C specification includes the recipe for brownies as used for rations in the US military. Name at least 5 of the 6 ingredients most abundant by weight. In total, the recipe calls for 10 ingredients.
+        answer: sugar, flour, shortening (vegetable oil), nuts (almonds, pecans or walnuts), eggs, cocoa
+      - type: simple
+        text: něco o pivu? máme nějaké standardy?
 
   - name: Dystopias
     questions:
