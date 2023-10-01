@@ -1,0 +1,66 @@
+date: 30/03/2023
+place: Loď Pivovar
+template: presentation.j2
+output: output.html
+topics_per_block: 2
+countdown_duration_minutes: 3
+topics:
+  - name: Events of 2023
+    questions:
+      - type: simple
+        text: 
+        answer:
+        question_img_src: 
+        answer_img_src: 
+
+  - name: Sitcoms of the 2000s and 2010s
+    questions:
+
+  - name: Famous buildings
+    questions:
+
+  - name: Guess the Disney Show
+    questions:
+      - type: musical
+        text: 
+        answer: 
+        audio_file: 
+        question_img_src: 
+        answer_img_src: 
+        
+  - name: Disgusting food
+    questions:
+      - type: choice
+        text:
+        answer: 
+        wrong: # will be shuffled
+          - Uruguay
+          - Spain
+          - England
+          - Germany
+        question_img_src:
+        answer_img_src: 
+
+  - name: Nepobabies
+    questions:
+
+  - name: ISO standards
+    questions: 
+
+  - name: Dystopias
+    questions:
+         
+  - name: Emojis
+    questions:
+
+  - name: Musical round 2
+    questions:
+
+  - name: Guess the famous product (IKEA furniture, Baťa shoe)
+    questions:
+
+  - name: Czech your priviledge
+    questions:
+
+  - name: Guess the year
+    questions:
