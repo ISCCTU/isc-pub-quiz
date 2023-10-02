@@ -119,18 +119,51 @@ topics:
         answer: sugar, flour, shortening (vegetable oil), nuts (almonds, pecans or walnuts), eggs, cocoa
       - type: simple
         text: něco o pivu? máme nějaké standardy?
+        answer: null
 
   - name: Dystopias
     questions:
-         
+      - type: simple
+        text: In his novel 1984, George Orwell coined a term describing a process in which subjects simultaneously accept two conflicting beliefs as true. What is this Newspeak expression?
+        answer: doublethink
+      - type: simple
+        text: RUR
+        answer: null
+      - type: simple
+        text: The Hunger Games
+        answer: null
+      - type: simple
+        text: Brave New World
+        answer: null
+      - type: simple
+        text: A Clockwork Orange
+        answer: null
+      - type: choice
+        text: What was the crime for which the main character was arrested and later sentenced for in Kafka's novel 'The Trial' (Proces/Der Process)?
+        answer: no one knows
+        wrong:
+          - excessive drinking
+          - not paying rent
+          - slacking off at work
+          - becoming a huge insect
   - name: Emojis
     questions:
 
   - name: Musical round 2
     questions:
 
-  - name: Guess the famous product (IKEA furniture, Baťa shoe)
+  - name: Pivotal products of the 20th century
     questions:
+      - type: simple
+        text: In 1979, IKEA introduced a widly successful bookcase to the market, having sold 140 million units worldwide. Under what "human" name is it known?
+        answer: Billy
+        question_img_src: 
+        answer_img_src: 
+      - type: simple
+        text: In 1993, Apple brought to the market a PDA featuring handwriting recognition and internet browsing. Due to its high price tag and the resulting low adoption, it was discontinued 1998, shortly after Steve Jobs returned to Apple. What was the scientist-inspired name of the predecessor to the iPad?
+        answer: Apple Newton
+        question_img_src: 
+        answer_img_src: 
 
   - name: Czech your priviledge
     questions:
