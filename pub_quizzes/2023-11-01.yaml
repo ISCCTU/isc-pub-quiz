@@ -36,7 +36,7 @@ topics:
   - name: Sitcoms of the 2000s (most of their runs in that decade)
     questions:
       - type: simple
-        text: Following the success of the Simpsons, Matt Groening followed up in 1999 with a sci-fi comedy, Futurama. How do the charaters in the show talk to people from the distant past, such as Elvis Presley, Richard Nixon of Abraham Lincoln?
+        text: Following the success of the Simpsons, Matt Groening followed up in 1999 with a sci-fi comedy, Futurama. How do the charaters in the show talk to people from the distant past, such as Elvis Presley, Abraham Lincoln or, perhaps most notably, Richard Nixon?
         answer: They were preveserved as heads in jars.
         question_img_src: 
         answer_img_src: https://static.wikia.nocookie.net/superepicfailpedia/images/c/c0/Futurama.jpg/revision/latest?cb=20160214170307
@@ -118,6 +118,9 @@ topics:
         text: The MIL-C-44072C specification includes the recipe for brownies as used for rations in the US military. Name at least 5 of the 6 ingredients most abundant by weight. In total, the recipe calls for 10 ingredients.
         answer: sugar, flour, shortening (vegetable oil), nuts (almonds, pecans or walnuts), eggs, cocoa
       - type: simple
+        text: Which of the following is not an emoji as per Unicode standard version 15.1?
+        answer: null
+      - type: simple
         text: něco o pivu? máme nějaké standardy?
         answer: null
 
@@ -133,11 +136,12 @@ topics:
         text: The Hunger Games
         answer: null
       - type: simple
-        text: Brave New World
-        answer: null
+        text: Society in Albert Huxley's Brave New World lacks any belief in the supernatural. However, a certain real-world figure is celebrated almost as a deity. Christian crosses had their tops cut off to look like a 'T', referencing one of their products. What was their name?
+        answer: Henry Ford
       - type: simple
         text: A Clockwork Orange
-        answer: null
+        answer: In his novel A Clockwork Orange, Anthony Burgess introduced a slang called Nadsat. What language was the inspiration for many of its words such as "gazetta" (newspaper), "maslo" (butter) or "itty" (to go)?
+        answer: Russian
       - type: choice
         text: What was the crime for which the main character was arrested and later sentenced for in Kafka's novel 'The Trial' (Proces/Der Process)?
         answer: no one knows
@@ -146,8 +150,6 @@ topics:
           - not paying rent
           - slacking off at work
           - becoming a huge insect
-  - name: Emojis
-    questions:
 
   - name: Musical round 2
     questions:
