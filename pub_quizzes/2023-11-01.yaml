@@ -41,15 +41,15 @@ topics:
         question_img_src: 
         answer_img_src: https://static.wikia.nocookie.net/superepicfailpedia/images/c/c0/Futurama.jpg/revision/latest?cb=20160214170307
       - type: simple
-        text: HIMYM (2005-2014)
-        answer:
+        text: What did Ted Mosby steal in HIMYM for Robin in the Pilot episode after she said she'd like one for her apartment?
+        answer: blue french horn (1p) | horn (0.5p)
         question_img_src: 
-        answer_img_src: 
+        answer_img_src: https://media.tenor.com/DAhoWDFeJQUAAAAC/himym-blue-horn.gif
       - type: simple
-        text: Family Guy (1999-)
-        answer:
+        text: In Family Guy, there is a recurring character named Ernie that has long drawn-out fights with Peter Griffin. What kind of creature is Ernie?
+        answer: (giant) chicken (1p) | bird (0.5p)
         question_img_src: 
-        answer_img_src: 
+        answer_img_src: https://uproxx.com/wp-content/uploads/2015/06/family-guy-chicken.png?w=650
       - type: simple
         text: The Office (2005-2013)
         answer:
@@ -66,8 +66,8 @@ topics:
         question_img_src: 
         answer_img_src: 
       - type: simple
-        text: That 70s show (1998-2006)
-        answer:
+        text: In That '70s Show, one of the lead characters comes from an unspecified foreign country and studies abroad in Wisconsin. Since his name is hard to pronounce for the Americans, he received the nickname Fez a homophone of FES. What highly descriptive label does this acronym stand for?
+        answer: Foreign Exchange Student
         question_img_src: 
         answer_img_src: 
 
