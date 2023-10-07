@@ -51,10 +51,10 @@ topics:
         question_img_src: 
         answer_img_src: https://uproxx.com/wp-content/uploads/2015/06/family-guy-chicken.png?w=650
       - type: simple
-        text: The Office (2005-2013)
-        answer:
+        text: The series The office is also popular thanks to the pranks Jim Halpert and Dwight Schrute played on each other. In one episode, what did Jim do with Dwight's stapler?
+        answer: Jim put Dwight's stapler in jello
         question_img_src: 
-        answer_img_src: 
+        answer_img_src: https://fandomwire.com/wp-content/uploads/2020/10/6-34.jpg
       - type: simple
         text: Black Books (2000-2004)
         answer:
