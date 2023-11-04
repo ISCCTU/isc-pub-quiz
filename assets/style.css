@@ -173,9 +173,13 @@ section img {
   height: calc(100vh - 0px);
 }
 
-.topics-list .general-title{
-  font-size: 300pt;
-  height: 10px;
+.topic-list ul{
+  list-style-type: none;
+  text-transform: uppercase;
+  color: var(--esn-off-white);
+  font-size: 40pt;
+  line-height: 2;
+  text-align: justify-all;
 }
 
 ul, ol {

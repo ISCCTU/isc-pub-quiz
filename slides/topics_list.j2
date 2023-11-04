@@ -1,7 +1,9 @@
 <section>
-    <div class="topics-list">
-        <h1 class="general-title">List of Topics</h1>
-        <div class="vertical-center">
+    <div class="question">
+        <div class="general-title">
+            <h2>List of Topics</h2>
+        </div>
+        <div class="vertical-center topic-list">
             <ul>
                 {% for block in blocks %}
                     {% for topic in block %}
@@ -10,5 +12,6 @@
                 {% endfor %}
             </ul>
         </div>
+        {% include "footer.html" %}
     </div>
 </section>
