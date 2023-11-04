@@ -1,5 +1,5 @@
 date: 11/11/2023
-title: KNOWLEDGE TEST
+title: ZBRADAVICE QUIZ
 place: Zbraslavice
 template: presentation.j2
 output: output.html
@@ -28,6 +28,33 @@ topics:
         answer:
         question_img_src:
         answer_img_src:
+      - type: simple
+        text:
+        answer:
+        question_img_src:
+        answer_img_src:
+  - name: Wizarding World in Media
+    questions:
+      - type: simple
+        text: Which filmmaker directed the first two installments of the Harry Potter series? <br> <br> Apart from these two films, he is most famous for directing 90s family comedies such as Home Alone and Mrs. Doubtfire.
+        answer: Chris Columbus
+        question_img_src: assets/images/zbradavice/philosophers_poster.jpg
+        answer_img_src: assets/images/zbradavice/Chris_Columbus.webp
+      - type: simple
+        text: After the main Harry Potter film series concluded in 2011, the franchise continued with the Fantastic Beasts series. <br><br> What is the name of the latest (and probably final) film released from this series?
+        answer: "Fantastic Beasts: The Secrets of Dumbledore"
+        question_img_src: assets/images/zbradavice/eddie.jpg
+        answer_img_src: assets/images/zbradavice/fb3.jpg
+      - type: simple
+        text: Between 2007 and 2016 two feature length parodies of Harry Potter called Dano Drevo were released, both of which gained cult status in Slovakia. <br> What are the full names of both films? <br><br><b>Bonus point</b> for the names of the 3 main characters.
+        answer: "Dano Drevo a Tajomná Komnata (Dano Drevo and the Chamber of Secrets)<br><br>Dano Drevo a Turnaj Mekyho Žbirku (Dano Drevo and the Meky Žbirka Tournament)<br><br> Bonus answer: Dano, Peder, Kim"
+        question_img_src: assets/images/zbradavice/dano_drevo_triko.jpg
+        answer_img_src: assets/images/zbradavice/plagat_dano_drevo.jpg
+      - type: simple
+        text: Eight films were released from the Harry Potter series. How much did they earn in cinemas worldwide in total? <br> (Answer in USD, tolerance $1 billion)
+        answer: $7.7 billion
+        question_img_src: assets/images/zbradavice/main_trio.jpg
+        answer_img_src: assets/images/zbradavice/main_trio.jpg
       - type: simple
         text:
         answer:

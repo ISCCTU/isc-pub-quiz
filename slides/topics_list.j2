@@ -1,0 +1,14 @@
+<section>
+    <div class="topics-list">
+        <h1 class="general-title">List of Topics</h1>
+        <div class="vertical-center">
+            <ul>
+                {% for block in blocks %}
+                    {% for topic in block %}
+                        <li>{{ topic.name }}</li>
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</section>

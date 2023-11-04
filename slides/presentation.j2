@@ -13,12 +13,19 @@
     <link href="https://fonts.cdnfonts.com/css/kelson-sans-bg" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/stars.css">
 </head>
 <body>
+
 <div class="reveal">
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
     <div class="slides">
         {% include "title.j2" %}
         {% include "rules.j2" %}
+        {% include "topics_list.j2" %}
+
         {% for block in blocks %}
             {% for show_answer in [false, true] %}
                 {% for topic in block %}
