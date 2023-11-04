@@ -60,3 +60,24 @@ topics:
         answer:
         question_img_src:
         answer_img_src:
+  - name: ESN
+    questions:
+      - type: simple
+        text: Which filmmaker directed the first two installments of the Harry Potter series? <br> <br> Apart from these two films, he is most famous for directing 90s family comedies such as Home Alone and Mrs. Doubtfire.
+        answer: Chris Columbus
+        question_img_src: assets/images/zbradavice/philosophers_poster.jpg
+        answer_img_src: assets/images/zbradavice/Chris_Columbus.webp
+  - name:
+    questions:
+      - type: simple
+        text: Which filmmaker directed the first two installments of the Harry Potter series? <br> <br> Apart from these two films, he is most famous for directing 90s family comedies such as Home Alone and Mrs. Doubtfire.
+        answer: Chris Columbus
+        question_img_src: assets/images/zbradavice/philosophers_poster.jpg
+        answer_img_src: assets/images/zbradavice/Chris_Columbus.webp
+  - name: Titanic
+    questions:
+      - type: simple
+        text: Which filmmaker directed the first two installments of the Harry Potter series? <br> <br> Apart from these two films, he is most famous for directing 90s family comedies such as Home Alone and Mrs. Doubtfire.
+        answer: Chris Columbus
+        question_img_src: assets/images/zbradavice/philosophers_poster.jpg
+        answer_img_src: assets/images/zbradavice/Chris_Columbus.webp
