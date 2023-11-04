@@ -32,13 +32,14 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         config = sys.argv[1]
     else:
-        config = "pub_quizzes/2023-03-30.yaml"
+        config = "pub_quizzes/zbradavice.yaml"
 
     with open(config, 'r', encoding='utf8') as fp:
         quiz_config = yaml.safe_load(fp)
 
     # parse the quiz for templating
     quiz = {
+        "title": quiz_config["title"],
         "date": quiz_config["date"],
         "place": quiz_config["place"],
         "blocks": [],

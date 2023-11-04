@@ -1,0 +1,35 @@
+date: 11/11/2023
+title: KNOWLEDGE TEST
+place: Zbraslavice
+template: presentation.j2
+output: output.html
+topics_per_block: 2
+countdown_duration_minutes: 3
+topics:
+  - name: Harry Potter
+    questions:
+      - type: simple
+        text: What does Harry Potter's Patronus charm look like?
+        answer: Stag (male deer)
+        question_img_src: assets/images/zbradavice/patronus.jpg
+        answer_img_src: assets/images/zbradavice/stag.jpg
+      - type: simple
+        text: What was Sirius Black's nickname within the group known as the Marauders?
+        answer: Padfoot
+        question_img_src: assets/images/zbradavice/sirius_black.jpg
+        answer_img_src: assets/images/zbradavice/sirius_black.jpg
+      - type: simple
+        text: What are the 'Unforgivable Curses' in the wizarding world? Name all three of these dark spells that can lead to a life sentence in Azkaban.
+        answer: Avada Kedavra (Killing Curse)<br>Imperius Curse<br>Cruciatus Curse
+        question_img_src: assets/images/zbradavice/voldemort.jpg
+        answer_img_src: assets/images/zbradavice/unforgivable_curses.png
+      - type: simple
+        text:
+        answer:
+        question_img_src:
+        answer_img_src:
+      - type: simple
+        text:
+        answer:
+        question_img_src:
+        answer_img_src:
