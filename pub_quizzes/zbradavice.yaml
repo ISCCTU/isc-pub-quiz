@@ -6,7 +6,7 @@ output: output.html
 topics_per_block: 2
 countdown_duration_minutes: 3
 topics:
-  - name: Harry Potter
+  - name: Harry Potter Films
     questions:
       - type: simple
         text: What does Harry Potter's Patronus charm look like?
@@ -24,15 +24,15 @@ topics:
         question_img_src: assets/images/zbradavice/voldemort.jpg
         answer_img_src: assets/images/zbradavice/unforgivable_curses.png
       - type: simple
-        text:
-        answer:
-        question_img_src:
-        answer_img_src:
+        text: In the Harry Potter films, what creature guards the entrance to the common room for Gryffindor House?
+        answer: The Fat Lady
+        question_img_src: assets/images/zbradavice/gryffindor_common_room.jpg
+        answer_img_src: assets/images/zbradavice/fat_lady.webp
       - type: simple
-        text:
-        answer:
-        question_img_src:
-        answer_img_src:
+        text: Who is the headmistress of Beauxbatons Academy of Magic in "Harry Potter and the Goblet of Fire"?
+        answer: Madame Olympe Maxime
+        question_img_src: assets/images/zbradavice/beau_logo.webp
+        answer_img_src: assets/images/zbradavice/Maxime.webp
   - name: Wizarding World in Media
     questions:
       - type: simple
@@ -51,15 +51,16 @@ topics:
         question_img_src: assets/images/zbradavice/dano_drevo_triko.jpg
         answer_img_src: assets/images/zbradavice/plagat_dano_drevo.jpg
       - type: simple
-        text: Eight films were released from the Harry Potter series. How much did they earn in cinemas worldwide in total? <br> (Answer in USD, tolerance $1 billion)
+        text: Eight films were released from the Harry Potter series. How much did they earn in cinemas worldwide in total? <br> (Answer in USD, tolerance $500 million)
         answer: $7.7 billion
         question_img_src: assets/images/zbradavice/main_trio.jpg
         answer_img_src: assets/images/zbradavice/main_trio.jpg
-      - type: simple
-        text:
-        answer:
-        question_img_src:
-        answer_img_src:
+      - type: musical
+        text: Which famous American composer created the most known melody from the Harry Potter films, Hedwig's Theme?
+        answer: John Williams
+        audio_file: assets/music/hedwigs_theme.webm
+        question_img_src: assets/images/zbradavice/hedwig.webp
+        answer_img_src: assets/images/zbradavice/john_williams.jpg
   - name: ESN
     questions:
       - type: simple
