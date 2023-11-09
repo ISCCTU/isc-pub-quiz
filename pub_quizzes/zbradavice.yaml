@@ -61,24 +61,63 @@ topics:
         audio_file: assets/music/hedwigs_theme.webm
         question_img_src: assets/images/zbradavice/hedwig.webp
         answer_img_src: assets/images/zbradavice/john_williams.jpg
-  - name: ESN
+  - name: Magic
     questions:
       - type: simple
-        text: Which filmmaker directed the first two installments of the Harry Potter series? <br> <br> Apart from these two films, he is most famous for directing 90s family comedies such as Home Alone and Mrs. Doubtfire.
-        answer: Chris Columbus
-        question_img_src: assets/images/zbradavice/philosophers_poster.jpg
-        answer_img_src: assets/images/zbradavice/Chris_Columbus.webp
-  - name:
+        text: What is the name of the practice of the magic that involves communication with the dead by summoning their spirits?
+        answer: Necromancy
+        question_img_src: assets/images/zbradavice/R1_Q1.avif
+        answer_img_src: assets/images/zbradavice/R1_Q1.avif
+      - type: simple
+        text: Erich Weisz was a magician who died on the Halloween. What was his stage name?
+        answer: Harry Houdini
+        question_img_src: assets/images/zbradavice/R1_Q2.jpg
+        answer_img_src: assets/images/zbradavice/R1_A2.jpg
+      - type: simple
+        text: In which country is it forbidden to have a rabbit as a pet unless you prove you are a magician?
+        answer: Australia (Queensland, Australia)
+        question_img_src: assets/images/zbradavice/R1_Q3.jpg
+        answer_img_src: assets/images/zbradavice/R1_A3.jpg
+      - type: simple
+        text: The voodoo religion combines different beliefs, traditions, and practices from African religions and Roman Catholic Christianity. In which country was this religion created?
+        answer: Haiti
+        question_img_src: assets/images/zbradavice/R1_Q4.jpg
+        answer_img_src: assets/images/zbradavice/R1_A4.jpg
+      - type: choice
+        text: Which magician became famous for their stunt of vanishing and reappearance of Statue of Liberty?<br>
+        answer: David Copperfield
+        wrong:
+          - David Blaine
+          - Criss Angel
+          - Uri Geller
+          - Ricky Jay
+        question_img_src: assets/images/zbradavice/liberty.jpg
+        answer_img_src: assets/images/zbradavice/copperfield.jpg
+  - name: Magical TV
     questions:
       - type: simple
-        text: Which filmmaker directed the first two installments of the Harry Potter series? <br> <br> Apart from these two films, he is most famous for directing 90s family comedies such as Home Alone and Mrs. Doubtfire.
-        answer: Chris Columbus
-        question_img_src: assets/images/zbradavice/philosophers_poster.jpg
-        answer_img_src: assets/images/zbradavice/Chris_Columbus.webp
-  - name: Titanic
-    questions:
+        text: What is the name of the cat of Sabrina Spellman, the main character from the series Sabrina the Teenage Witch?
+        answer: Salem Saberhagen
+        question_img_src: assets/images/zbradavice/R2_Q1.jpg
+        answer_img_src: assets/images/zbradavice/R2_A1.jpg
+      - type: musical
+        text: What is the name of the TV show, where this song played during its opening credits?
+        answer: Wizards of Waverly PLace
+        audio_file: assets/music/wízards_of_waverly.webm
+        question_img_src: assets/images/zbradavice/wizard_tv.png
+        answer_img_src: assets/images/zbradavice/waverly.jpeg
       - type: simple
-        text: Which filmmaker directed the first two installments of the Harry Potter series? <br> <br> Apart from these two films, he is most famous for directing 90s family comedies such as Home Alone and Mrs. Doubtfire.
-        answer: Chris Columbus
-        question_img_src: assets/images/zbradavice/philosophers_poster.jpg
-        answer_img_src: assets/images/zbradavice/Chris_Columbus.webp
+        text: In Netflix's hit TV show The Witcher, what is the first monster the main character Geralt encounters?
+        answer: Kikimora
+        question_img_src: assets/images/zbradavice/witcher.jpg
+        answer_img_src: assets/images/zbradavice/witcher.jpg
+      - type: simple
+        text: What is the name of the cat of Sabrina Spellman, the main character from the series Sabrina the Teenage Witch?
+        answer: Salem Saberhagen
+        question_img_src: assets/images/zbradavice/R2_Q1.jpg
+        answer_img_src: assets/images/zbradavice/R2_A1.jpg
+      - type: simple
+        text: What is the name of the cat of Sabrina Spellman, the main character from the series Sabrina the Teenage Witch?
+        answer: Salem Saberhagen
+        question_img_src: assets/images/zbradavice/R2_Q1.jpg
+        answer_img_src: assets/images/zbradavice/R2_A1.jpg
