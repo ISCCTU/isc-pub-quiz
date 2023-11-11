@@ -24,10 +24,10 @@ topics:
         question_img_src: assets/images/zbradavice/voldemort.jpg
         answer_img_src: assets/images/zbradavice/unforgivable_curses.png
       - type: simple
-        text: In the Harry Potter films, what creature guards the entrance to the common room for Gryffindor House?
-        answer: The Fat Lady
-        question_img_src: assets/images/zbradavice/gryffindor_common_room.jpg
-        answer_img_src: assets/images/zbradavice/fat_lady.webp
+        text: In "the Prisoner of Azkaban" near the lake at Hogwarts, a mysterious appear to save Harry Potter and Sirius Black, who is he/she?
+        answer: Harry Potter
+        question_img_src: assets/images/zbradavice/azkaban_poster.jpg
+        answer_img_src: assets/images/zbradavice/harry_expecto.jpg
       - type: simple
         text: Who is the headmistress of Beauxbatons Academy of Magic in "Harry Potter and the Goblet of Fire"?
         answer: Madame Olympe Maxime
@@ -137,7 +137,7 @@ topics:
       - type: simple
         text: What funny thing do Fred and George do by an accident, that involves snow and one of the professors, in the 12th chapter of the 1st book?
         answer: They bewitch snowballs to follow Professor Quirrell, and they bounce off the back of his turban.
-        question_img_src: assets/images/zbradavice/HP_1_book.jpg
+        question_img_src: assets/images/zbradavice/HP_1_book.webp
         answer_img_src: assets/images/zbradavice/bewitched.jpg
       - type: simple
         text: Who's guarding the entrance to the Gryffindor common room for a short time instead of the Fat Lady in the 3rd book?
@@ -157,5 +157,5 @@ topics:
       - type: simple
         text: What Christmas gift does Dobby give Harry in the 4th book and who compliments it?
         answer: He knitted a pair of mismatched socks for him, one is green with golden snitches on it and the other red with brooms on it.<br>Mad Eye Moody compliments them, he can see them with his magic eye.
-        question_img_src: assets/images/zbradavice/HP_4_book.png
+        question_img_src: assets/images/zbradavice/HP_4_book.jpg
         answer_img_src: assets/images/zbradavice/Dobby.webp
