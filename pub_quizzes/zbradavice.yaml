@@ -6,7 +6,7 @@ output: output.html
 topics_per_block: 2
 countdown_duration_minutes: 3
 topics:
-  - name: Harry Potter Films
+  - name: Harry Potter
     questions:
       - type: simple
         text: What does Harry Potter's Patronus charm look like?
@@ -15,7 +15,7 @@ topics:
         answer_img_src: assets/images/zbradavice/stag.jpg
       - type: simple
         text: What was Sirius Black's nickname within the group known as the Marauders?
-        answer: Padfoot
+        answer: Padfoot / Tichošlápek
         question_img_src: assets/images/zbradavice/sirius_black.jpg
         answer_img_src: assets/images/zbradavice/sirius_black.jpg
       - type: simple
@@ -33,7 +33,40 @@ topics:
         answer: Madame Olympe Maxime
         question_img_src: assets/images/zbradavice/beau_logo.webp
         answer_img_src: assets/images/zbradavice/Maxime.webp
-  - name: Wizarding World in Media
+  - name: Mystical Arts and Magic
+    questions:
+      - type: simple
+        text: What is the name of the practice of the magic that involves communication with the dead by summoning their spirits?
+        answer: Necromancy
+        question_img_src: assets/images/zbradavice/R1_Q1.avif
+        answer_img_src: assets/images/zbradavice/R1_Q1.avif
+      - type: simple
+        text: What was the stage name of Erich Weisz, a famous magician, who was most known for his water torture cell escape stunt and died on Halloween?
+        answer: Harry Houdini
+        question_img_src: assets/images/zbradavice/R1_Q2.jpg
+        answer_img_src: assets/images/zbradavice/R1_A2.jpg
+      - type: simple
+        text: In which country is it forbidden to have a rabbit as a pet unless you prove you are a magician?
+        answer: Australia (Queensland, Australia)
+        question_img_src: assets/images/zbradavice/R1_Q3.jpg
+        answer_img_src: assets/images/zbradavice/R1_A3.jpg
+      - type: simple
+        text: The voodoo religion combines different beliefs, traditions, and practices from African religions and Roman Catholic Christianity. In which country was this religion created?
+        answer: Haiti
+        question_img_src: assets/images/zbradavice/R1_Q4.jpg
+        answer_img_src: assets/images/zbradavice/haiti.jpg
+      - type: choice
+        text: Which magician became famous for their stunt of vanishing and reappearance of Statue of Liberty?
+        answer: David Copperfield
+        wrong:
+          - David Blaine
+          - Criss Angel
+          - Uri Geller
+          - Ricky Jay
+        question_img_src: assets/images/zbradavice/liberty.jpg
+        answer_img_src: assets/images/zbradavice/copperfield.jpg
+  - name: Fantastic Filmmakers and where to find them
+    short_name: Fantastic Filmmakers
     questions:
       - type: simple
         text: Which filmmaker directed the first two installments of the Harry Potter series? <br> <br> Apart from these two films, he is most famous for directing 90s family comedies such as Home Alone and Mrs. Doubtfire.
@@ -61,39 +94,7 @@ topics:
         audio_file: assets/music/hedwigs_theme.webm
         question_img_src: assets/images/zbradavice/hedwig.webp
         answer_img_src: assets/images/zbradavice/john_williams.jpg
-  - name: Magic
-    questions:
-      - type: simple
-        text: What is the name of the practice of the magic that involves communication with the dead by summoning their spirits?
-        answer: Necromancy
-        question_img_src: assets/images/zbradavice/R1_Q1.avif
-        answer_img_src: assets/images/zbradavice/R1_Q1.avif
-      - type: simple
-        text: Erich Weisz was a magician who died on the Halloween. What was his stage name?
-        answer: Harry Houdini
-        question_img_src: assets/images/zbradavice/R1_Q2.jpg
-        answer_img_src: assets/images/zbradavice/R1_A2.jpg
-      - type: simple
-        text: In which country is it forbidden to have a rabbit as a pet unless you prove you are a magician?
-        answer: Australia (Queensland, Australia)
-        question_img_src: assets/images/zbradavice/R1_Q3.jpg
-        answer_img_src: assets/images/zbradavice/R1_A3.jpg
-      - type: simple
-        text: The voodoo religion combines different beliefs, traditions, and practices from African religions and Roman Catholic Christianity. In which country was this religion created?
-        answer: Haiti
-        question_img_src: assets/images/zbradavice/R1_Q4.jpg
-        answer_img_src: assets/images/zbradavice/R1_A4.jpg
-      - type: choice
-        text: Which magician became famous for their stunt of vanishing and reappearance of Statue of Liberty?<br>
-        answer: David Copperfield
-        wrong:
-          - David Blaine
-          - Criss Angel
-          - Uri Geller
-          - Ricky Jay
-        question_img_src: assets/images/zbradavice/liberty.jpg
-        answer_img_src: assets/images/zbradavice/copperfield.jpg
-  - name: Magical TV
+  - name: Enchanted Film & TV
     questions:
       - type: simple
         text: What is the name of the cat of Sabrina Spellman, the main character from the series Sabrina the Teenage Witch?
@@ -101,23 +102,60 @@ topics:
         question_img_src: assets/images/zbradavice/R2_Q1.jpg
         answer_img_src: assets/images/zbradavice/R2_A1.jpg
       - type: musical
-        text: What is the name of the TV show, where this song played during its opening credits?
-        answer: Wizards of Waverly PLace
+        text: What is the name of the TV series, where this song played during its opening credits?
+        answer: Wizards of Waverly Place
         audio_file: assets/music/wízards_of_waverly.webm
         question_img_src: assets/images/zbradavice/wizard_tv.png
         answer_img_src: assets/images/zbradavice/waverly.jpeg
       - type: simple
-        text: In Netflix's hit TV show The Witcher, what is the first monster the main character Geralt encounters?
+        text: In Netflix's hit TV series The Witcher, what is the first monster the main character Geralt encounters?
         answer: Kikimora
         question_img_src: assets/images/zbradavice/witcher.jpg
         answer_img_src: assets/images/zbradavice/witcher.jpg
       - type: simple
-        text: What is the name of the cat of Sabrina Spellman, the main character from the series Sabrina the Teenage Witch?
-        answer: Salem Saberhagen
-        question_img_src: assets/images/zbradavice/R2_Q1.jpg
-        answer_img_src: assets/images/zbradavice/R2_A1.jpg
+        text: What is the name of the sultanate where the series Aladdin is set in?
+        answer: Agrabah
+        question_img_src: assets/images/zbradavice/R2_Q5.jpg
+        answer_img_src: assets/images/zbradavice/R2_Q5.jpg
+      - type: sort
+        text: In which order did Dorothy from The Wizard of Oz meet these characters?
+        choices:
+          - <b>A</b> - Tin Woodman
+          - <b>B</b> - The Good Witch of North
+          - <b>C</b> - Scarecrow
+          - <b>D</b> - Cowardly Lion
+        answer:
+          - <b>B</b> - The Good Witch of North
+          - <b>C</b> - Scarecrow
+          - <b>A</b> - Tin Woodman
+          - <b>D</b> - Cowardly Lion
+        question_img_src: assets/images/zbradavice/oz_Q.webp
+        answer_img_src: assets/images/zbradavice/oz_A.jpg
+  - name: Have you read the books?
+    short_name: Books
+    questions:
       - type: simple
-        text: What is the name of the cat of Sabrina Spellman, the main character from the series Sabrina the Teenage Witch?
-        answer: Salem Saberhagen
-        question_img_src: assets/images/zbradavice/R2_Q1.jpg
-        answer_img_src: assets/images/zbradavice/R2_A1.jpg
+        text: What funny thing do Fred and George do by an accident, that involves snow and one of the professors, in the 12th chapter of the 1st book?
+        answer: They bewitch snowballs to follow Professor Quirrell, and they bounce off the back of his turban.
+        question_img_src: assets/images/zbradavice/HP_1_book.jpg
+        answer_img_src: assets/images/zbradavice/bewitched.jpg
+      - type: simple
+        text: Who's guarding the entrance to the Gryffindor common room for a short time instead of the Fat Lady in the 3rd book?
+        answer: Sir Cadogan, a painting of a Knight
+        question_img_src: assets/images/zbradavice/gryffindor_common_room_2.png
+        answer_img_src: assets/images/zbradavice/cardogan.webp
+      - type: simple
+        text: Who do Harry, Ron and Hermione run into in St. Mungo's Hospital while visiting Mr. Weasley in the 5th book?
+        answer: Gilderoy Lockhart
+        question_img_src: assets/images/zbradavice/5th_book.jpg
+        answer_img_src: assets/images/zbradavice/gilderoy.webp
+      - type: simple
+        text: Which 2 people drank the potion in Voldemort's cave, where he hid his horcrux (the locket)?
+        answer: Albus Dumbledore and Regulus Black
+        question_img_src: assets/images/zbradavice/The_Cave.png
+        answer_img_src: assets/images/zbradavice/The_Cave.png
+      - type: simple
+        text: What Christmas gift does Dobby give Harry in the 4th book and who compliments it?
+        answer: He knitted a pair of mismatched socks for him, one is green with golden snitches on it and the other red with brooms on it.<br>Mad Eye Moody compliments them, he can see them with his magic eye.
+        question_img_src: assets/images/zbradavice/HP_4_book.png
+        answer_img_src: assets/images/zbradavice/Dobby.webp

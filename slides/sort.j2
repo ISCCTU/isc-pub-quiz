@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="col">
+    <div class="before-choice">
+        {{ question.text }}
+    </div>
+        <ul>
+        {% if show_answer %}
+            {% for choice in question.correct_order %}
+                    <li class="answer">
+                        {{ choice }}
+                    </li>
+            {% endfor %}
+            {% else %}
+            {% for choice in question.choices %}
+                <li>
+                    {{ choice }}
+                </li>
+            {% endfor %}
+        {% endif %}
+        </ul>
+    </div>
+    <div class="col">
+        {% include "right_pane_picture.j2" %}
+    </div>
+</div>

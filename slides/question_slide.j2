@@ -1,15 +1,22 @@
 <section>
-    <div class="question" >
+    <div class="question">
         <div class="general-title">
-            <h2>{{ topic.name }}: {% if show_answer %}Answer{% else %}Question{% endif %} #{{ question_idx }}</h2>
+            <h2>{% if topic.short_name %}
+                {{ topic.short_name }}
+            {% else %}
+                {{ topic.name }}
+            {% endif %}
+                : {% if show_answer %}Answer{% else %}Question{% endif %} #{{ question_idx }}</h2>
         </div>
         <div class="question-body">
             {% if question.type=="simple" %}
-            {% include "simple.j2" %}
+                {% include "simple.j2" %}
             {% elif question.type=="choice" %}
-            {% include "choice.j2" %}
+                {% include "choice.j2" %}
             {% elif question.type=="musical" %}
-            {% include "musical.j2" %}
+                {% include "musical.j2" %}
+            {% elif question.type=="sort" %}
+                {% include "sort.j2" %}
             {% endif %}
         </div>
         {% include "footer.html" %}

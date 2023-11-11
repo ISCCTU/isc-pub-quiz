@@ -114,7 +114,7 @@ section img {
 }
 
 .topic>* {
-  margin: 0;
+  width: 60vw;
   color: var(--zbradavice-blue);
 }
 
@@ -173,13 +173,16 @@ section img {
   height: calc(100vh - 0px);
 }
 
-.topic-list ul{
-  list-style-type: none;
+.topic-list ol{
   text-transform: uppercase;
   color: var(--esn-off-white);
   font-size: 40pt;
   line-height: 2;
   text-align: justify-all;
+}
+
+.before-choice {
+  padding-bottom: 15pt;
 }
 
 ul, ol {

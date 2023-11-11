@@ -4,13 +4,13 @@
             <h2>List of Topics</h2>
         </div>
         <div class="vertical-center topic-list">
-            <ul>
+            <ol>
                 {% for block in blocks %}
                     {% for topic in block %}
                         <li>{{ topic.name }}</li>
                     {% endfor %}
                 {% endfor %}
-            </ul>
+            </ol>
         </div>
         {% include "footer.html" %}
     </div>
