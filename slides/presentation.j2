@@ -36,7 +36,9 @@
                         {% include "question_slide.j2" %}
                     {% endfor %}
                 {% endfor %}
+                {% if show_answer == false %}
                 {% include "break.j2" %}
+                {% endif %}
             {% endfor %}
         {% endfor %}
         {% include "end.j2" %}
