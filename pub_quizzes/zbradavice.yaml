@@ -6,7 +6,7 @@ output: output.html
 topics_per_block: 2
 countdown_duration_minutes: 3
 topics:
-  - name: Harry Potter
+  - name: Harry Potter in Film
     questions:
       - type: simple
         text: What does Harry Potter's Patronus charm look like?
@@ -47,7 +47,7 @@ topics:
         answer_img_src: assets/images/zbradavice/R1_A2.jpg
       - type: simple
         text: In which country is it forbidden to have a rabbit as a pet unless you prove you are a magician?
-        answer: Australia (Queensland, Australia)
+        answer: Australia (Queensland)
         question_img_src: assets/images/zbradavice/R1_Q3.jpg
         answer_img_src: assets/images/zbradavice/R1_A3.jpg
       - type: simple
