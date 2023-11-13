@@ -124,8 +124,8 @@ topics:
         text: RUR
         answer: null
       - type: simple
-        text: The Hunger Games
-        answer: null
+        text: In the Hunger Games, what is the primary industry in District 12, Katniss Everdeen's home district?
+        answer: Coal mining
       - type: simple
         text: Society in Albert Huxley's Brave New World lacks any belief in the supernatural. However, a certain real-world figure is celebrated almost as a deity. Christian crosses had their tops cut off to look like a 'T', referencing one of their products. What was their name?
         answer: Henry Ford
@@ -160,6 +160,16 @@ topics:
 
   - name: Pivotal products of the 20th century
     questions:
+      - type: simple
+        text: What is the nickname of this iconic car designed in the 1930s in Nazi Germany that was manufactured all the way until 2003? 
+        answer: : Beetle (Volkswagen Type 1)
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
+        answer_img_src: 
+      - type: simple
+        text: In 1964, a portable music player was introduced that allowed people to listen to compact casettes. What is its name?
+        answer: Sony Walkman
+        question_img_src: 
+        answer_img_src: 
       - type: simple
         text: In 1979, IKEA introduced a widly successful bookcase to the market, having sold 140 million units worldwide. Under what "human" name is it known?
         answer: Billy
