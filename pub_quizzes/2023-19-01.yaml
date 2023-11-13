@@ -1,4 +1,4 @@
-date: 30/03/2023
+date: 19/01/2023
 place: Loď Pivovar
 template: presentation.j2
 output: output.html
@@ -73,15 +73,6 @@ topics:
 
   - name: Famous buildings
     questions:
-
-  - name: Guess the Disney Show
-    questions:
-      - type: musical
-        text: 
-        answer: 
-        audio_file: 
-        question_img_src: 
-        answer_img_src: 
         
   - name: Disgusting food
     questions:
@@ -151,8 +142,21 @@ topics:
           - slacking off at work
           - becoming a huge insect
 
-  - name: Musical round 2
+  - name: Guess the Disney Show (musical roudn 2)
     questions:
+      - type: musical
+        text: What's the name of the movie?
+        answer: Mulan
+        audio_file: https://www.youtube.com/watch?v=lGGXsm0a5s0 (to be ripped)
+        question_img_src: 
+        answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
+
+      - type: musical
+        text: What's the name of the movie?
+        answer: Treasure Planet
+        audio_file: https://www.youtube.com/watch?v=EA68KUb4e7Q (to be ripped)
+        question_img_src: 
+        answer_img_src: https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1081CC0858C2E31B0DDEEE718FE2D7B4F51433B433996C0174EC694A375C25B0/scale?width=1200&aspectRatio=1.78&format=jpeg
 
   - name: Pivotal products of the 20th century
     questions:
@@ -172,3 +176,9 @@ topics:
 
   - name: Guess the year
     questions:
+      - type: simple
+        text: In this year: <br>Martin Luther King Jr. was assasinated in Memphis
+        <br> Boeing introduced the first Jumbo Jet, Boeing 747 <br> Prague Springs and the invasion of Czechoslovakia by USSR et al. <br> French Student Rebellion in Sorbonne
+        answer: 1968
+        question_img_src: 
+        answer_img_src: 
