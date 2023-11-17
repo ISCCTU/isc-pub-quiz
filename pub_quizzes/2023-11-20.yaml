@@ -155,13 +155,13 @@ topics:
   - name: Music from Animation
     questions:
       - type: musical
-        text: What's the name of the movie?
+        text: From which animated film is this song?
         answer: Mulan
         audio_file: assets/music/Mulan.m4a
-        question_img_src: 
+        question_img_src:
         answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
       - type: musical
-        text: What's the name of the movie?
+        text: From which animated film is this song?
         answer: Treasure Planet
         audio_file: assets/music/treasure_planet.m4a
         question_img_src: 
@@ -171,14 +171,21 @@ topics:
         answer: "Puss In Boots: The Last Wish"
         audio_file: assets/music/puss_in_boots.mp3
         question_img_src:
-        answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
+        answer_img_src: https://i0.wp.com/www.thewrap.com/wp-content/uploads/2023/01/Puss-in-Boots-the-Last-Wish.jpg
       - type: musical
         text: In which Disney animated film does the main character sing this song?
         answer: "The Little Mermaid"
         audio_file: assets/music/mermaid.m4a
         question_img_src:
         answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
+      - type: musical
+        text: In which animated film does the third act begin with this song?
+        answer: "Spider-Man: Into The Spider-Verse"
+        audio_file: assets/music/spider_man.m4a
+        question_img_src:
+        answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
   - name: Pivotal products of the 20th century
+    short_name: Products
     questions:
       - type: simple
         text: What is the nickname of this iconic car designed in the 1930s in Nazi Germany that was manufactured all the way until 2003? 
