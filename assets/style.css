@@ -145,7 +145,7 @@ section img {
   margin: 0;
 }
 
-.question-title {
+.general-title {
   height: 150px;
   padding: 0 50px 0 50px;
   background-color: var(--esn-magenta);
@@ -183,7 +183,7 @@ ul, ol {
 }
 
 @media only screen and (max-width: 1500px) {
-  .question-title {
+  .general-title {
     font-size: 2vw;
     height: 100px;
   }

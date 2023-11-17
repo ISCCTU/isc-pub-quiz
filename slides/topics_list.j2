@@ -1,0 +1,17 @@
+<section>
+    <div class="question">
+        <div class="general-title">
+            <h2>List of Topics</h2>
+        </div>
+        <div class="vertical-center topic-list">
+            <ol>
+                {% for block in blocks %}
+                    {% for topic in block %}
+                        <li>{{ topic.name }}</li>
+                    {% endfor %}
+                {% endfor %}
+            </ol>
+        </div>
+        {% include "footer.html" %}
+    </div>
+</section>
