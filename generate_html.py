@@ -25,6 +25,8 @@ def parse_question(topic: Dict[str, Any], question: Dict[str, Any], question_idx
         choices, correct_idx = shuffle_choices(question["answer"], question["wrong"])
         question["choices"] = choices
         question["correct_idx"] = correct_idx
+    elif question["type"] == "sort":
+        question["correct_order"] = question["answer"]
     return question
 
 
