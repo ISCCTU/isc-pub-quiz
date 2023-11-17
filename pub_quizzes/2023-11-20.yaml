@@ -10,23 +10,23 @@ topics:
       - type: simple
         text: Which of the neighbors of the Czech republic have held elections in 2023?
         answer: All of them ;-)! Slovakia (parliament), Poland (parliament), Germany (several states), Austria (several states)
-        question_img_src: 
-        answer_img_src: 
+        question_img_src: https://d-maps.com/m/europa/czechia/tchequie/tchequie21.gif
+        answer_img_src: https://d-maps.com/m/europa/czechia/tchequie/tchequie21.gif
       - type: simple
         text: Azerbaijan launched a military offensive in what region on September 19, overcoming forces aligned with Armenia?
         answer: Nagorno-Karabakh
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
       - type: simple
-        text: In July of this year, an Internet phenomenon 'Barbenheimer'
-        answer:
-        question_img_src: https://upload.wikimedia.org/wikipedia/ru/1/1b/Barbenheimer.jpg
-        answer_img_src: https://upload.wikimedia.org/wikipedia/ru/1/1b/Barbenheimer.jpg
-      - type: simple
         text: In June of this year, a submersible operated by American company OceanGate imploded during an expedition to view the wreck of Titanic in the North Atlantic Ocean.<br>What was the name of the sumbersible?
         answer: Titan
         question_img_src: https://media.vanityfair.com/photos/64da9183d76b1f5267df6c16/master/pass/VF_1023_Titan_opener.jpg
         answer_img_src: https://media.vanityfair.com/photos/64da9183d76b1f5267df6c16/master/pass/VF_1023_Titan_opener.jpg
+      - type: simple
+        text: In July of this year, thanks to an Internet phenomenon 'Barbenheimer', the release of movies Barbie and Oppenheimer on the same date was a massive success. How much did both films earn at the box office combined?<br><br>(in USD, tollerance 200 million)
+        answer: 2,4 Billion USD
+        question_img_src: https://upload.wikimedia.org/wikipedia/ru/1/1b/Barbenheimer.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/ru/1/1b/Barbenheimer.jpg
       - type: simple
         text: In November, The Beatles released their last ever song, featuring restored vocals of John Lennon and unpublished guitar tracks by George Harrison. <br><br>What is the name of the song?
         answer: Now and Then
@@ -132,17 +132,13 @@ topics:
         text: In his novel 1984, George Orwell coined a term describing a process in which subjects simultaneously accept two conflicting beliefs as true. What is this Newspeak expression?
         answer: doublethink
       - type: simple
-        text: RUR
-        answer: null
-      - type: simple
         text: In the Hunger Games, what is the primary industry in District 12, Katniss Everdeen's home district?
         answer: Coal mining
       - type: simple
         text: Society in Albert Huxley's Brave New World lacks any belief in the supernatural. However, a certain real-world figure is celebrated almost as a deity. Christian crosses had their tops cut off to look like a 'T', referencing one of their products. What was their name?
         answer: Henry Ford
       - type: simple
-        text: A Clockwork Orange
-        answer: In his novel A Clockwork Orange, Anthony Burgess introduced a slang called Nadsat. What language was the inspiration for many of its words such as "gazetta" (newspaper), "maslo" (butter) or "itty" (to go)?
+        text: In his novel A Clockwork Orange, Anthony Burgess introduced a slang called Nadsat. What language was the inspiration for many of its words such as "gazetta" (newspaper), "maslo" (butter) or "itty" (to go)?
         answer: Russian
       - type: choice
         text: What was the crime for which the main character was arrested and later sentenced for in Kafka's novel 'The Trial' (Proces/Der Process)?
