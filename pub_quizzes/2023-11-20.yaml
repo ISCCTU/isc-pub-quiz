@@ -177,13 +177,13 @@ topics:
         answer: "The Little Mermaid"
         audio_file: assets/music/mermaid.m4a
         question_img_src:
-        answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
+        answer_img_src: https://m.media-amazon.com/images/M/MV5BOWUyNDA0ZmItMzg2My00YjJhLTk1N2QtYTAxYTc0NzMzNDI0XkEyXkFqcGdeQXVyMTI5NzUyMTIz._V1_.jpg
       - type: musical
         text: In which animated film does the third act begin with this song?
         answer: "Spider-Man: Into The Spider-Verse"
         audio_file: assets/music/spider_man.m4a
         question_img_src:
-        answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
+        answer_img_src: https://www.sonypictures.com/sites/default/files/styles/max_560x840/public/title-key-art/spiderman_verse_rating_0.jpg
   - name: Pivotal products of the 20th century
     short_name: Products
     questions:
