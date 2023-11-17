@@ -1,4 +1,4 @@
-date: 19/01/2023
+date: 20/11/2023
 place: Loď Pivovar
 template: presentation.j2
 output: output.html
@@ -16,24 +16,23 @@ topics:
         text: Azerbaijan launched a military offensive in what region on September 19, overcoming forces aligned with Armenia?
         answer: Nagorno-Karabakh
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
-        answer_img_src: 
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
       - type: simple
-        text: 
+        text: In July of this year, an Internet phenomenon 'Barbenheimer'
         answer:
-        question_img_src: 
-        answer_img_src: 
+        question_img_src: https://upload.wikimedia.org/wikipedia/ru/1/1b/Barbenheimer.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/ru/1/1b/Barbenheimer.jpg
       - type: simple
-        text: 
-        answer:
-        question_img_src: 
-        answer_img_src: 
+        text: In June of this year, a submersible operated by American company OceanGate imploded during an expedition to view the wreck of Titanic in the North Atlantic Ocean.<br>What was the name of the sumbersible?
+        answer: Titan
+        question_img_src: https://media.vanityfair.com/photos/64da9183d76b1f5267df6c16/master/pass/VF_1023_Titan_opener.jpg
+        answer_img_src: https://media.vanityfair.com/photos/64da9183d76b1f5267df6c16/master/pass/VF_1023_Titan_opener.jpg
       - type: simple
-        text: 
-        answer:
-        question_img_src: 
-        answer_img_src: 
-
-  - name: Sitcoms of the 2000s (most of their runs in that decade)
+        text: In November, The Beatles released their last ever song, featuring restored vocals of John Lennon and unpublished guitar tracks by George Harrison. <br><br>What is the name of the song?
+        answer: Now and Then
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/3/33/The_Beatles_logo.svg
+        answer_img_src: https://www.oklahoman.com/gcdn/authoring/authoring-images/2023/11/02/NOKL/71426092007-beatles-now-and-then-cover-by-ed-ruscha.jpg
+  - name: Sitcoms of the 2000s
     questions:
       - type: simple
         text: Following the success of the Simpsons, Matt Groening followed up in 1999 with a sci-fi comedy, Futurama. How do the charaters in the show talk to people from the distant past, such as Elvis Presley, Abraham Lincoln or, perhaps most notably, Richard Nixon?
@@ -56,40 +55,53 @@ topics:
         question_img_src: 
         answer_img_src: https://fandomwire.com/wp-content/uploads/2020/10/6-34.jpg
       - type: simple
-        text: Black Books (2000-2004)
-        answer:
-        question_img_src: 
-        answer_img_src: 
-      - type: simple
-        text: The IT Crowd (2006-2013)
-        answer:
-        question_img_src: 
-        answer_img_src: 
-      - type: simple
         text: In That '70s Show, one of the lead characters comes from an unspecified foreign country and studies abroad in Wisconsin. Since his name is hard to pronounce for the Americans, he received the nickname Fez a homophone of FES. What highly descriptive label does this acronym stand for?
         answer: Foreign Exchange Student
         question_img_src: 
-        answer_img_src: 
-
+        answer_img_src:
   - name: Famous buildings
     questions:
-        
-  - name: Disgusting food
-    questions:
-      - type: choice
-        text:
-        answer: 
-        wrong: # will be shuffled
-          - Uruguay
-          - Spain
-          - England
-          - Germany
+      - type: simple
+        text: Which of the neighbors of the Czech republic have held elections in 2023?
+        answer: All of them ;-)! Slovakia (parliament), Poland (parliament), Germany (several states), Austria (several states)
         question_img_src:
-        answer_img_src: 
-
-  - name: Nepobabies
+        answer_img_src:
+  - name: Culinary Conundrums
     questions:
-
+      - type: simple
+        text: How many herbs and spices does the KFC secret recipe contain?
+        answer: 11
+        question_img_src: https://www.docmercury.cz/data/0/4/1200px-kfc-logo.svg.png
+        answer_img_src: https://insanelygoodrecipes.com/wp-content/uploads/2022/10/What-Are-KFCs-11-Herbs-and-Spices-1-683x1024.jpg
+      - type: choice
+        text: Which of these ingredients would you NOT use to make the Long Island Ice Tea cocktail?
+        answer: brandy
+        wrong:
+          - gin
+          - tequilla
+          - vodka
+          - white rum
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/4/45/Long_Island_Iced_Teas.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/4/45/Long_Island_Iced_Teas.jpg
+      - type: choice
+        text: Which famous Middle Eastern dish contains fried, spiced ground chickpeas and/or fava beans in a pita or laffa bread?
+        answer: Falafel
+        wrong:
+          - Hummus
+          - Shawarma
+          - Kibbeh
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/ea/Sa-whitegreen-chickpea.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/5/57/Falafels_2.jpg
+      - type: simple
+        text: What is the main ingredient in tofu?
+        answer: soy milk (soybeans)
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/0/03/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG
+        answer_img_src: https://i.ytimg.com/vi/vt6IAbjATls/maxresdefault.jpg
+      - type: simple
+        text: What is the name of a traditional Balkan dish, consisting of small minced meat sausages and often served with flatbread and diced onions?
+        answer: Ćevapi
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/1/16/Geographic_map_of_Balkan_Peninsula.svg
+        answer_img_src: https://www.072info.com/wp-content/uploads/30-53.jpg
   - name: ISO & Friends
     questions: 
       - type: simple
@@ -114,7 +126,6 @@ topics:
       - type: simple
         text: něco o pivu? máme nějaké standardy?
         answer: null
-
   - name: Dystopias
     questions:
       - type: simple
@@ -141,8 +152,7 @@ topics:
           - not paying rent
           - slacking off at work
           - becoming a huge insect
-
-  - name: Guess the Disney Show (musical roudn 2)
+  - name: Guess the Disney Show
     questions:
       - type: musical
         text: What's the name of the movie?
@@ -150,45 +160,49 @@ topics:
         audio_file: https://www.youtube.com/watch?v=lGGXsm0a5s0 (to be ripped)
         question_img_src: 
         answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
-
       - type: musical
         text: What's the name of the movie?
         answer: Treasure Planet
         audio_file: https://www.youtube.com/watch?v=EA68KUb4e7Q (to be ripped)
         question_img_src: 
         answer_img_src: https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/1081CC0858C2E31B0DDEEE718FE2D7B4F51433B433996C0174EC694A375C25B0/scale?width=1200&aspectRatio=1.78&format=jpeg
-
+      - type: musical
+        text: What's the name of this Disney Channel original series?
+        answer: Wizards of Waverly Place
+        audio_file: https://www.youtube.com/watch?v=lGGXsm0a5s0 (to be ripped)
+        question_img_src:
+        answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
   - name: Pivotal products of the 20th century
     questions:
       - type: simple
         text: What is the nickname of this iconic car designed in the 1930s in Nazi Germany that was manufactured all the way until 2003? 
-        answer: : Beetle (Volkswagen Type 1)
+        answer: Beetle (Volkswagen Type 1)
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
-        answer_img_src: 
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
       - type: simple
         text: In 1964, a portable music player was introduced that allowed people to listen to compact casettes. What is its name?
         answer: Sony Walkman
-        question_img_src: 
-        answer_img_src: 
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/f/f0/Compactcassette.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/4/4e/Original_Sony_Walkman_TPS-L2.JPG
       - type: simple
         text: In 1979, IKEA introduced a widly successful bookcase to the market, having sold 140 million units worldwide. Under what "human" name is it known?
         answer: Billy
-        question_img_src: 
-        answer_img_src: 
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/d/dd/IKEA_Billy_bookshelf_%2880x106_cm_birch_veneer%29.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/d/dd/IKEA_Billy_bookshelf_%2880x106_cm_birch_veneer%29.jpg
       - type: simple
         text: In 1993, Apple brought to the market a PDA featuring handwriting recognition and internet browsing. Due to its high price tag and the resulting low adoption, it was discontinued 1998, shortly after Steve Jobs returned to Apple. What was the scientist-inspired name of the predecessor to the iPad?
         answer: Apple Newton
-        question_img_src: 
-        answer_img_src: 
-
-  - name: Czech your priviledge
-    questions:
-
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/e3/Colour_Apple_Newton_Logo.JPG
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/8/85/Apple_Newton-IMG_0454-cropped.jpg
+      - type: simple
+        text: What is the name of the supersonic passenger jet, which operated between 1976 and 2003? Passengers travelling this aircraft could arrive from Paris or London to New York City in approximately half the time of a regular passenger airplane.
+        answer: Concorde
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg
   - name: Guess the year
     questions:
       - type: simple
-        text: In this year: <br>Martin Luther King Jr. was assasinated in Memphis
-        <br> Boeing introduced the first Jumbo Jet, Boeing 747 <br> Prague Springs and the invasion of Czechoslovakia by USSR et al. <br> French Student Rebellion in Sorbonne
+        text: "In this year: <br>Martin Luther King Jr. was assasinated in Memphis<br> Boeing introduced the first Jumbo Jet, Boeing 747 <br> Prague Springs and the invasion of Czechoslovakia by USSR et al. <br> French Student Rebellion in Sorbonne"
         answer: 1968
         question_img_src: 
         answer_img_src: 
