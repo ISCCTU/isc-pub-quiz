@@ -146,6 +146,8 @@ topics:
       - type: simple
         text: According to the Czech national decree 248/2018, beer is divided into several groups according to the volume of alcohol. How many groups is beer divided into?
         answer: 7 Non-alcoholic beer (up to 0,5 % vol. ethanol); Low-alcohol beer (0,5-1,2 % alcohol by volume); Table beer (strength up to 6); Draught beer (grades 7-10); Lager (grading 11-12), for bottom-fermented beers only; Full-bodied beer (gravity 11-12), only for top-fermented beers; Strong beer (gravity 13 and above)
+        question_img_src: 
+        answer_img_src: https://www.regionplzen.cz/uws_images/firmy/049557/clanky/pet-pivnich-zajimavosti-z-plzne-vedeli-jste-ze-vez-stoji-na-miste-kozinovy-sibenice-153425/pivo-ilustracni_53599_plzensko_h.jpg
   - name: Dystopias
     questions:
       - type: simple
