@@ -62,10 +62,30 @@ topics:
   - name: Famous buildings
     questions:
       - type: simple
-        text: Which of the neighbors of the Czech republic have held elections in 2023?
-        answer: All of them ;-)! Slovakia (parliament), Poland (parliament), Germany (several states), Austria (several states)
+        text: What is the official name of Big Ben in London?
+        answer: Elizabeth Tower
+        question_img_src: https://i.pinimg.com/originals/a2/67/10/a26710e7d794e6867e640d01828aa02a.jpg
+        answer_img_src: https://i.pinimg.com/originals/a2/67/10/a26710e7d794e6867e640d01828aa02a.jpg
+      - type: simple
+        text: In which city is the Heydar Aliyev Centre designed by architect Zaha Hadid?
+        answer: Baku, Azerbaijan
+        question_img_src: https://azerbaijan.travel/resize3000/center/pages/714/4f986ef75f74a0bb7772e6286ad81a60Admire-the-curves-and-collections-of-the-Heydar-Aliyev-Centre-7.jpg
+        answer_img_src: https://azerbaijan.travel/resize3000/center/pages/714/4f986ef75f74a0bb7772e6286ad81a60Admire-the-curves-and-collections-of-the-Heydar-Aliyev-Centre-7.jpg
+      - type: simple
+        text: 
+        answer: 
         question_img_src:
         answer_img_src:
+      - type: simple
+        text: 
+        answer: 
+        question_img_src:
+        answer_img_src:
+      - type: simple
+        text: In which city is the largest ancient castle in the world, according to the Guinness Book of World Records.
+        answer: Prague, Czech Republic
+        question_img_src:
+        answer_img_src: https://img.fotocommunity.com/prager-burg-prask-hrad-2a8ea857-b334-4a37-bb63-74684a98cf1c.jpg?height=1080
   - name: Culinary Conundrums
     questions:
       - type: simple
