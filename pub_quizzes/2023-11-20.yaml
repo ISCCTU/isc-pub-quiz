@@ -236,4 +236,41 @@ topics:
         text: "In this year: <br>Martin Luther King Jr. was assasinated in Memphis<br> Boeing introduced the first Jumbo Jet, Boeing 747 <br> Prague Springs and the invasion of Czechoslovakia by USSR et al. <br> French Student Rebellion in Sorbonne"
         answer: 1968
         question_img_src: 
-        answer_img_src: 
+        answer_img_src:
+  - name: Covers and Samples
+    questions:
+      - type: musical
+        text: Which American rapper famously sampled this Queen song, but initially refused to pay any royalties for it? This song became nr. 1 hit in multiple countries.
+        answer: Vanilla Ice (Ice Ice Baby)
+        question_img_src: assets/images/queen.jpeg
+        answer_img_src: https://image.tmdb.org/t/p/w500/dF2Hebk1ZnAxJIxyrdQ8xfLQv5u.jpg
+        audio_file: assets/music/under_pressure.m4a
+        answer_audio_file: assets/music/vanilla_ice.m4a
+      - type: musical
+        text: Madonna sampled this 70s song in her 2005 hit Hung Up. Who is the original author and what is the song's name?
+        answer: "Abba: Gimme! Gimme! Gimme!"
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/c/cb/ABBA_-_TopPop_1974_5.png
+        audio_file: assets/music/madonna_hung_up.m4a
+        answer_audio_file: assets/music/gimme_gimme.m4a
+      - type: musical
+        text: Czech singer Karel Gott covered this 1984 song by a German band Alphaville. What is the name of the song?
+        answer: "Forever Young"
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/d/d0/Karel_Gott_2002-foto13.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/c/ca/Alphaville_on_stage_2005.jpg
+        audio_file: assets/music/byt_stale_mlad.m4a
+        answer_audio_file: assets/music/alphaville.m4a
+      - type: musical
+        text: In 2009, American singer Jason Derulo released this song and in the main chorus uses a sample of song from a British musician. Who is the author of the original song?
+        answer: "Imogen Heap (Hide and Seek)"
+        question_img_src: https://data.junkee.com/wp-content/uploads/2019/11/snlfb.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/3/37/Web_Summit_2018_-_Press_Conference_-_Day_2%2C_November_7_DSC_5326_%2845767925171%29_%28cropped%29.jpg
+        audio_file: assets/music/derulo.m4a
+        answer_audio_file: assets/music/imogen.m4a
+      - type: musical
+        text: Hawaiian singer IZ's biggest hit is a medley of two songs. Who are the original performers of both songs?
+        answer: Judy Garland and Louis Armstrong <br> (Somewhere over the Rainbow / What a Wonderful World)
+        question_img_src: https://i2-prod.mirror.co.uk/incoming/article22056193.ece/ALTERNATES/s338a/0_EHP_CHP_200520Israel-Kamakawiwoole_24254JPG.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/5/56/Judy_Garland_Over_the_Rainbow_2.jpg
+        audio_file: assets/music/iz.m4a
+        answer_audio_file: assets/music/judy.m4a

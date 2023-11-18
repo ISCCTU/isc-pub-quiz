@@ -11,7 +11,11 @@
     {% include "right_pane_picture.j2" %}
     {% if question.audio_file %}
     <audio controls>
-        <source src="{{ question.audio_file }}" type="audio/mpeg">
+        {% if show_answer and question.answer_audio_file %}
+            <source src="{{ question.answer_audio_file }}" type="audio/mpeg">
+        {% else %}
+            <source src="{{ question.audio_file }}" type="audio/mpeg">
+        {% endif %}
         Your browser does not support the audio element. I tested this functionality in Safari and Firefox.
     </audio>
     {% endif %}
