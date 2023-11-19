@@ -242,6 +242,34 @@ topics:
         answer: 1968
         question_img_src: 
         answer_img_src:
+      - type: choice
+        text: When did women get the right to vote in New Zealand (first country in the world)?
+        answer: 1893
+        wrong:
+          - 1913
+          - 1953
+          - 1983
+      - type: choice
+        text: When was the first hot air balloon flight?
+        answer: 1783
+        wrong:
+          - 1883
+          - 1583
+          - 1683
+      - type: choice
+        text: When was “Poker Face” by Lady Gaga released?
+        answer: 2008
+        wrong:
+          - 2004
+          - 2000
+          - 2006         
+      - type: choice
+        text: When was the last season of Gilmore Girls released?
+        answer: 2007
+        wrong:
+          - 2004
+          - 2011
+          - 2014        
   - name: Covers and Samples
     questions:
       - type: musical
