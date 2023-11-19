@@ -32,7 +32,7 @@ Currently, three question types are defined:
 * Simple: A basic question-answer pair.
 * Choice: A question with a list of answers - a), b), etc. The wrong answers will be shuffled and the correct one will be placed at a random spot among them.
 * Musical: A question where the player must identify the music played
-* Sort: The order will be shuffled and players must find the correct order. It's possible to include additional info in the answer.
+* Sort: The order will be shuffled and players must find the correct order. It's possible to include additional info in the answer. 
 ```yaml
 type: simple
 text: Question text that will be shown.
@@ -63,6 +63,7 @@ question_img_src: Image to be shown alongside the question.
 answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
 
 ```
+In the sort question, note that the order must be correct in both the `choices` and the `answers` field. 
 ```yaml
 type: sort
 text: Question text that will be shown.
