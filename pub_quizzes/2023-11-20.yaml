@@ -249,27 +249,35 @@ topics:
           - 1913
           - 1953
           - 1983
+        question_img_src: 
+        answer_img_src: https://pbs.twimg.com/media/CyTJNmXXgAI20_q?format=jpg&name=4096x4096
       - type: choice
         text: When was the first hot air balloon flight?
         answer: 1783
         wrong:
           - 1883
           - 1583
-          - 1683
+          - 1683        
+        question_img_src: 
+        answer_img_src: https://en.chateauversailles.fr/sites/default/files/montgolfiere.jpg
       - type: choice
         text: When was the battle of Waterloo?
         answer: 1815
         wrong:
           - 1715
           - 1615
-          - 1815         
+          - 1815 
+        question_img_src: 
+        answer_img_src: https://assets.editorial.aetnd.com/uploads/2009/11/gettyimages-599962817.jpg
       - type: choice
         text: In which year did the czech scientist Otto Wichterle invent soft contact lenses?
         answer: 1959
         wrong:
           - 1899
           - 1939
-          - 1979        
+          - 1979    
+        question_img_src: 
+        answer_img_src: https://www.kzvalmez.cz/data/title-images/wichterle60.jpg
   - name: Covers and Samples
     questions:
       - type: musical
