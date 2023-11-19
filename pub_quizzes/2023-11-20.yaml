@@ -72,15 +72,20 @@ topics:
         question_img_src: https://azerbaijan.travel/resize3000/center/pages/714/4f986ef75f74a0bb7772e6286ad81a60Admire-the-curves-and-collections-of-the-Heydar-Aliyev-Centre-7.jpg
         answer_img_src: https://azerbaijan.travel/resize3000/center/pages/714/4f986ef75f74a0bb7772e6286ad81a60Admire-the-curves-and-collections-of-the-Heydar-Aliyev-Centre-7.jpg
       - type: simple
-        text: 
-        answer: 
+        text: What is the largest standing amphitheatre?
+        answer: Colosseum in Rome
         question_img_src:
-        answer_img_src:
-      - type: simple
-        text: 
-        answer: 
-        question_img_src:
-        answer_img_src:
+        answer_img_src: https://fthmb.tqn.com/zrONHS-4SIm0ySkio8PsrtKkl-E=/5710x3799/filters:fill(auto,1)/the-roman-coliseum-during-a-warm-spring-sunset-542105331-58f15ac63df78cd3fc763275.jpg
+      - type: choice
+        text: The Space Needle was built for the 1962 Worlds Fair. In which US city is the 184 m high observation tower located?
+        answer: Seattle
+        wrong:
+          - Chicago
+          - Austin
+          - Tulsa
+          - Los Angeles
+        question_img_src: https://www.widest.com/wp-content/uploads/The-Space-Needle-Seattle-Washington.jpg
+        answer_img_src: https://aws-tiqets-cdn.imgix.net/images/content/9f07cb123f6c40dc82b86961a8beaec4.jpg?auto=format&fit=crop&ixlib=python-1.1.2&q=70&s=4a3091dbd8506dec3b88ecac5f2b157c
       - type: simple
         text: In which city is the largest ancient castle in the world, according to the Guinness Book of World Records.
         answer: Prague, Czech Republic
