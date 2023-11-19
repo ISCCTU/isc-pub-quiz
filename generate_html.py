@@ -1,10 +1,10 @@
-import sys
-
-from jinja2 import Environment, FileSystemLoader
-from typing import Optional, List, Dict, Mapping, Any
-
 import random
+import string
+import sys
+from typing import Any, Dict, List, Mapping, Optional, Tuple
+
 import yaml
+from jinja2 import Environment, FileSystemLoader
 
 
 def shuffle_choices(answer: str, wrong: List[str]):
@@ -16,6 +16,13 @@ def shuffle_choices(answer: str, wrong: List[str]):
     choices = wrong
     return choices, correct_idx
 
+def shuffle_sort(choices:List[str],answers:List[str])->Tuple[List[str],List[str]]:
+    # shuffle sorting question
+    letters=list(string.ascii_uppercase[0:len(choices)])
+    random.shuffle(letters)
+    answers=[f"{o}) {a}" for (o,a) in zip(letters,answers)]
+    choices=sorted([f"{o}) {c}" for (o,c) in zip(letters,choices)])
+    return choices, answers
 
 def parse_question(topic: Dict[str, Any], question: Dict[str, Any], question_idx: int) -> Dict[str, Any]:
     question["title"] = f"{topic['name']}: Q{question_idx + 1}"
@@ -26,7 +33,9 @@ def parse_question(topic: Dict[str, Any], question: Dict[str, Any], question_idx
         question["choices"] = choices
         question["correct_idx"] = correct_idx
     elif question["type"] == "sort":
-        question["correct_order"] = question["answer"]
+        choices,answers=shuffle_sort(question["choices"], question["answers"])
+        question["choices"] = choices
+        question["answers"] = answers
     return question
 
 

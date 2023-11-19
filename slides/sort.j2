@@ -5,7 +5,7 @@
     </div>
         <ul>
         {% if show_answer %}
-            {% for choice in question.correct_order %}
+            {% for choice in question.answer %}
                     <li class="answer">
                         {{ choice }}
                     </li>
