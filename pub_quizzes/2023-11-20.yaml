@@ -37,28 +37,27 @@ topics:
       - type: simple
         text: Following the success of the Simpsons, Matt Groening followed up in 1999 with a sci-fi comedy, Futurama. How do the charaters in the show talk to people from the distant past, such as Elvis Presley, Abraham Lincoln or, perhaps most notably, Richard Nixon?
         answer: They were preveserved as heads in jars.
-        question_img_src: 
+        question_img_src: https://variety.com/wp-content/uploads/2022/02/futurama-cast.jpg?w=1000&h=562&crop=1
         answer_img_src: https://static.wikia.nocookie.net/superepicfailpedia/images/c/c0/Futurama.jpg/revision/latest?cb=20160214170307
       - type: simple
         text: What did Ted Mosby steal in HIMYM for Robin in the Pilot episode after she said she'd like one for her apartment?
         answer: blue french horn (1p) | horn (0.5p)
-        question_img_src: 
+        question_img_src: https://media.cnn.com/api/v1/images/stellar/prod/140327194124-himym-cast.jpg?q=w_800,h_532,x_0,y_0,c_fill/h_618
         answer_img_src: https://media.tenor.com/DAhoWDFeJQUAAAAC/himym-blue-horn.gif
       - type: simple
         text: In Family Guy, there is a recurring character named Ernie that has long drawn-out fights with Peter Griffin. What kind of creature is Ernie?
         answer: (giant) chicken (1p) | bird (0.5p)
-        question_img_src: 
+        question_img_src: https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/7238583A12BC3EE570A6D8E240D67D0E6CACE9C782B434F7FFE09747512BDE0C/scale?width=1200&aspectRatio=1.78&format=jpeg
         answer_img_src: https://uproxx.com/wp-content/uploads/2015/06/family-guy-chicken.png?w=650
       - type: simple
-        text: The series The office is also popular thanks to the pranks Jim Halpert and Dwight Schrute played on each other. In one episode, what did Jim do with Dwight's stapler?
+        text: The series The Office is also popular thanks to the pranks Jim Halpert and Dwight Schrute played on each other. In one episode, what did Jim do with Dwight's stapler?
         answer: Jim put Dwight's stapler in jello
-        question_img_src: 
+        question_img_src: https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Campaign/landingpages/library/theoffice/mainpage/office-social-min.png/_jcr_content/renditions/original
         answer_img_src: https://fandomwire.com/wp-content/uploads/2020/10/6-34.jpg
       - type: simple
         text: In That '70s Show, one of the lead characters comes from an unspecified foreign country and studies abroad in Wisconsin. Since his name is hard to pronounce for the Americans, he received the nickname Fez a homophone of FES. What highly descriptive label does this acronym stand for?
         answer: Foreign Exchange Student
-        question_img_src: 
-        answer_img_src:
+        question_img_src: https://m.media-amazon.com/images/M/MV5BYjA5NzMyNjEtOWIyYy00NjdmLWI2MTMtMWMxNmYzNDU1ZTkwXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg
   - name: Famous buildings
     questions:
       - type: simple
@@ -129,11 +128,6 @@ topics:
         answer_img_src: https://www.072info.com/wp-content/uploads/30-53.jpg
   - name: ISO & Friends
     questions: 
-      - type: simple
-        text: Not even the arts are safe from the reach of the ISO. The concert pitch, also known as the universal standard pitch, is outlined in ISO 16. What is the frequency specified of the A above middle C?
-        answer: 440 Hz
-        question_img_src: 
-        answer_img_src: 
       - type: choice
         text: ISO 3103 from the year 1977 describes the procedure to brew a standard cup of tea. Of course, this is a highly sensitive topic with regional variations and so it has not evaded criticism. What did the country of Ireland object to?
         answer: The omission of a teapot prewarming step.
@@ -146,8 +140,19 @@ topics:
         text: The MIL-C-44072C specification includes the recipe for brownies as used for rations in the US military. Name at least 5 of the 6 ingredients most abundant by weight. In total, the recipe calls for 10 ingredients.
         answer: sugar, flour, shortening (vegetable oil), nuts (almonds, pecans or walnuts), eggs, cocoa
       - type: simple
-        text: Which of the following is not an emoji as per Unicode standard version 15.1?
-        answer: null
+        text: Not even the arts are safe from the reach of the ISO. The concert pitch, also known as the universal standard pitch, is outlined in ISO 16. What is the frequency specified of the A above middle C?
+        answer: 440 Hz
+        question_img_src: https://static01.nyt.com/images/2019/06/14/arts/14listings-classical2/merlin_155916339_f4a48136-9fdb-4a5b-8a07-96272af821ba-superJumbo.jpg
+      - type: sort
+        text: Sort the following emoji by their addition to the Unicode standard.
+        choices: 
+          - Airplane ✈️ 1
+          - Airplane ✈️ 2
+          - Airplane ✈️ 3
+        answers: 
+          - Airplane ✈️ (v1.1, 1993)
+          - Airplane ✈️ (v1.2, 1993)
+          - Airplane ✈️ (v1.3, 1993)
       - type: simple
         text: According to the Czech national decree 248/2018, beer is divided into several groups according to the volume of alcohol. How many groups is beer divided into?
         answer: 7 Non-alcoholic beer (up to 0,5 % vol. ethanol); Low-alcohol beer (0,5-1,2 % alcohol by volume); Table beer (strength up to 6); Draught beer (grades 7-10); Lager (grading 11-12), for bottom-fermented beers only; Full-bodied beer (gravity 11-12), only for top-fermented beers; Strong beer (gravity 13 and above)
