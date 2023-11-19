@@ -109,7 +109,7 @@ topics:
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/4/45/Long_Island_Iced_Teas.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/4/45/Long_Island_Iced_Teas.jpg
       - type: choice
-        text: Which famous Middle Eastern dish contains fried, spiced ground chickpeas and/or fava beans in a pita or laffa bread?
+        text: Which famous Middle Eastern dish contains fried, spiced ground chickpeas and/or fava beans, commonly served in a pita or laffa bread?
         answer: Falafel
         wrong:
           - Hummus
