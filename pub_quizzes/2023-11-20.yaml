@@ -4,7 +4,7 @@ template: presentation.j2
 output: output.html
 topics_per_block: 2
 countdown_duration_minutes: 3
-results_url: https://docs.google.com/spreadsheets/d/e/2PACX-1vSrecEPcCX9ze79EUd10j-5hh3q3hJK4T0Hv103gDq9h1EPqmXBM4NDIyFGNyjPjQkn7MxzBm0hsWhn/pubhtml?&gid=0&amp;single=true&amp;widget=true&amp;headers=false;
+results_url: https://docs.google.com/spreadsheets/d/e/2PACX-1vSrecEPcCX9ze79EUd10j-5hh3q3hJK4T0Hv103gDq9h1EPqmXBM4NDIyFGNyjPjQkn7MxzBm0hsWhn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
 topics:
   - name: Events of 2023
     questions:
@@ -73,7 +73,7 @@ topics:
       - type: simple
         text: What is the largest standing amphitheatre?
         answer: Colosseum in Rome
-        question_img_src:
+        question_img_src: https://as2.ftcdn.net/v2/jpg/03/04/06/79/1000_F_304067962_0jCBwRFyooNngujnNpnF4gBsWGKwVeAL.jpg
         answer_img_src: https://fthmb.tqn.com/zrONHS-4SIm0ySkio8PsrtKkl-E=/5710x3799/filters:fill(auto,1)/the-roman-coliseum-during-a-warm-spring-sunset-542105331-58f15ac63df78cd3fc763275.jpg
       - type: choice
         text: The Space Needle was built for the 1962 Worlds Fair. In which US city is the 184 m high observation tower located?

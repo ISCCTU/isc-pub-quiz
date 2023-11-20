@@ -36,7 +36,9 @@
                 {% include "break.j2" %}
                 {% endif %}
             {% endfor %}
+            {% if results_url %}
             {% include "results.j2" %}
+            {% endif %}
         {% endfor %}
         {% include "end.j2" %}
     </div>
