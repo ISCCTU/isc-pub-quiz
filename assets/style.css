@@ -182,6 +182,11 @@ ul, ol {
   margin-top: 0;
 }
 
+.results-table {
+  width:100%;
+  height: 100%;
+}
+
 @media only screen and (max-width: 1500px) {
   .general-title {
     font-size: 2vw;

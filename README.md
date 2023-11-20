@@ -10,7 +10,6 @@ As of right now, the asset folder is necessary to show the presentation properly
   * could be implemented by some dragable divider between the text and image columns, [like here](https://stackoverflow.com/questions/55565001/how-do-you-allow-a-user-to-manually-resize-a-div-element-vertically)
 * save the images locally so that internet is not needed
   * this might need some YAML caching to detect changes in the definition
-* generate iframes with a results table
 * improve layouts & make it look better in general
 * auto search & download illustration image (with a potential override, of course)
 
@@ -78,15 +77,18 @@ answer_img_src: Image to be shown alongside the question. If not provided, the q
 
 ```
 
-
 There's also a short header that defines the quiz metadata:
 ```yaml
 date: 10/10/2022
 place: ISC Point
 template: presentation.j2
 output: output.html
+countdown_duration_minutes: How long will the countdown last?
+results_url: URL of the results table
 topics_per_block: 2
-countdown_duration_minutes: How long will the countdown last? (Feature not implemented yet)
 ```
-Most of it should be self-explanatory, except the last one.
+Most of it should be self-explanatory, except the last two.
+
+The `results_url` can be a Google Sheets url (File > Share > Publish to web) that will be included before the next round of questions.
+
 The quiz will have a block of `topics_per_block` topics (e.g. 2), then a break will be inserted, so that the organizers have time to "grade" the quizzes. Afterwards, the correct answers are shown, followed by another set of topics.

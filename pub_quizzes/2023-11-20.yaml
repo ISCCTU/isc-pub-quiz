@@ -4,6 +4,7 @@ template: presentation.j2
 output: output.html
 topics_per_block: 2
 countdown_duration_minutes: 3
+results_url: https://docs.google.com/spreadsheets/d/e/2PACX-1vSrecEPcCX9ze79EUd10j-5hh3q3hJK4T0Hv103gDq9h1EPqmXBM4NDIyFGNyjPjQkn7MxzBm0hsWhn/pubhtml?&gid=0&amp;single=true&amp;widget=true&amp;headers=false;
 topics:
   - name: Events of 2023
     questions:
@@ -13,7 +14,7 @@ topics:
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
       - type: simple
-        text: Which of the neighbors of the Czech republic have held parliament elections in 2023?
+        text: Which of the neighbors of the Czech republic have held nation-wide parliament elections in 2023?
         answer: Slovakia (parliament) & Poland (parliament)
         question_img_src: https://d-maps.com/m/europa/czechia/tchequie/tchequie21.gif
       - type: simple
