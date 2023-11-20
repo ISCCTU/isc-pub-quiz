@@ -7,13 +7,11 @@ As of right now, the asset folder is necessary to show the presentation properly
 
 ## TODO:
 * make it possible to make the text or image larger
-  * could be implemented by some dragable divider between the text and image columns
+  * could be implemented by some dragable divider between the text and image columns, [like here](https://stackoverflow.com/questions/55565001/how-do-you-allow-a-user-to-manually-resize-a-div-element-vertically)
 * save the images locally so that internet is not needed
   * this might need some YAML caching to detect changes in the definition
-* generate iframes with a results table 
-* implement the countdown
+* generate iframes with a results table
 * improve layouts & make it look better in general
-* possibly support a "sorting" question (although that can technically be done using the simple question type)
 * auto search & download illustration image (with a potential override, of course)
 
 ## Quiz definition
