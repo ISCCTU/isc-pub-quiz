@@ -88,7 +88,7 @@ topics:
       - type: simple
         text: In which city can you find the largest ancient castle in the world, according to the Guinness Book of World Records?
         answer: Prague, Czech Republic
-        question_img_src:
+        question_img_src: https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/Castle_qgjlkh.jpg
         answer_img_src: https://img.fotocommunity.com/prager-burg-prask-hrad-2a8ea857-b334-4a37-bb63-74684a98cf1c.jpg?height=1080
   - name: Culinary Conundrums
     questions:
