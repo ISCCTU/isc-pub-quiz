@@ -136,9 +136,11 @@ topics:
           - The resulting liquid was called 'liquor' by the standard.
           - It was proposed by the British Standards Institution.
           - Men named Oisín are banned from being the brewmaster.
+        question_img_src: https://teawithgary.files.wordpress.com/2013/04/iso-teacup.jpg?w=640
       - type: simple
         text: The MIL-C-44072C specification includes the recipe for brownies as used for rations in the US military. Name at least 5 of the 6 ingredients most abundant by weight. In total, the recipe calls for 10 ingredients.
         answer: sugar, flour, shortening (vegetable oil), nuts (almonds, pecans or walnuts), eggs, cocoa
+        question_img_src: https://assets.bonappetit.com/photos/64272438b1072d0f16190886/4:3/w_5000,h_3750,c_limit/033123-brownies-lede.jpg
       - type: simple
         text: Not even the arts are safe from the reach of the ISO. The concert pitch, also known as the universal standard pitch, is outlined in ISO 16. What is the frequency specified of the A above middle C?
         answer: 440 Hz
@@ -253,27 +255,27 @@ topics:
       - type: simple
         text: "In this year: <br>Martin Luther King Jr. was assasinated in Memphis<br>Boeing introduced the first Jumbo Jet, Boeing 747 <br>Prague Spring and the invasion of Czechoslovakia by USSR et al. <br>French Student Rebellion in Sorbonne"
         answer: 1968
-        question_img_src: 
+        question_img_src: https://docs.rferl.org/Infographics/2018/2018_08/2018_08_68_Slider/assets/images/before-after/10-before.jpg
         answer_img_src:
       - type: simple
-        text: "In this year: <br>Ronald Reagan is elected president of the United States<br>ABBA released the album The Visitors<br>the winner of Wimbledon was John McEnroe and Chris Evert Lloyd"
+        text: "In this year: <br>Ronald Reagan is elected president of the United States<br>ABBA released the album The Visitors<br>The winner of Wimbledon was John McEnroe and Chris Evert Lloyd<br>Greece enters the European Economic Community (EEC)"
         answer: 1981
-        question_img_src: 
+        question_img_src: https://assets.editorial.aetnd.com/uploads/2009/11/reagan_flags.jpg
         answer_img_src: 
       - type: simple
-        text: "In this year: <br>Summer Olympics in Munich<br>Birth of Jaromír Jágr (Czech hockey player)<br>The Vietnam War continues<br>the movie Godfather is released"
+        text: "In this year: <br>Summer Olympics in Munich<br>Birth of Jaromír Jágr (Czech hockey player)<br>The Vietnam War continues<br>The movie Godfather is released"
         answer: 1972       
-        question_img_src: 
+        question_img_src: https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg
         answer_img_src: 
       - type: simple
-        text: "In this year: <br>Titanic received a record 14 Oscar nominations<br>France won their first title, becoming the seventh nation to win a FIFA World Cup<br>Václav Havel was re-elected as President of the Czech Republic"
+        text: "In this year: <br>Titanic received a record 14 Oscar nominations<br>France won their first title, becoming the seventh nation to win a FIFA World Cup<br>Václav Havel was re-elected as President of the Czech Republic<br>Google is founded in California"
         answer: 1998
-        question_img_src: 
+        question_img_src: https://1884403144.rsc.cdn77.org/foto/titanic-se-potapi/NjkweDQwOC9jZW50ZXIvbWlkZGxlL3NtYXJ0L2ZpbHRlcnM6cXVhbGl0eSg4NSkvaW1n/2974467.jpg?v=0&st=dyeXw0C0iNhEi7h915ppOnsWWKbQcqwTDbZ-fTSkPOI&ts=1600812000&e=0
         answer_img_src: 
       - type: simple
         text: "In this year: <br>The czech scientist Otto Wichterle invent soft contact lenses<br>US recognizes Fidel Castro's Cuban government<br>Jimi Hendrix (16) plays his first gig in the Temple De Hirsch synagogue basement, Seattle<br>Mattel's Barbie dolls debuts in the US"
         answer: 1959 
-        question_img_src: 
+        question_img_src: https://www.iprostejov.cz/obrazky/cockostroj.JPG
         answer_img_src: 
   - name: Covers and Samples
     questions:
