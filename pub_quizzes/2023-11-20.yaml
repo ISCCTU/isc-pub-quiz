@@ -253,12 +253,12 @@ topics:
   - name: Guess the year
     questions:
       - type: simple
-        text: "In this year: <br>Martin Luther King Jr. was assasinated in Memphis<br>Boeing introduced the first Jumbo Jet, Boeing 747 <br>Prague Spring and the invasion of Czechoslovakia by USSR et al. <br>French Student Rebellion in Sorbonne"
+        text: "In this year: <br>Martin Luther King Jr. is assasinated in Memphis<br>Boeing introduces the first Jumbo Jet, Boeing 747 <br>Prague Spring and the invasion of Czechoslovakia by USSR et al. <br>French Student Rebellion in Sorbonne"
         answer: 1968
         question_img_src: https://docs.rferl.org/Infographics/2018/2018_08/2018_08_68_Slider/assets/images/before-after/10-before.jpg
         answer_img_src:
       - type: simple
-        text: "In this year: <br>Ronald Reagan is elected president of the United States<br>ABBA released the album The Visitors<br>The winner of Wimbledon was John McEnroe and Chris Evert Lloyd<br>Greece enters the European Economic Community (EEC)"
+        text: "In this year: <br>Ronald Reagan is elected president of the United States<br>ABBA released the album The Visitors<br>Wimbledon winners are John McEnroe and Chris Evert Lloyd<br>Greece enters the European Economic Community (EEC)"
         answer: 1981
         question_img_src: https://assets.editorial.aetnd.com/uploads/2009/11/reagan_flags.jpg
         answer_img_src: 
@@ -268,12 +268,12 @@ topics:
         question_img_src: https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg
         answer_img_src: 
       - type: simple
-        text: "In this year: <br>Titanic received a record 14 Oscar nominations<br>France won their first title, becoming the seventh nation to win a FIFA World Cup<br>Václav Havel was re-elected as President of the Czech Republic<br>Google is founded in California"
+        text: "In this year: <br>Titanic receives a record 14 Oscar nominations<br>France wins their first title, becoming the seventh nation to win a FIFA World Cup<br>Václav Havel gets re-elected as President of the Czech Republic<br>Google is founded in California"
         answer: 1998
         question_img_src: https://1884403144.rsc.cdn77.org/foto/titanic-se-potapi/NjkweDQwOC9jZW50ZXIvbWlkZGxlL3NtYXJ0L2ZpbHRlcnM6cXVhbGl0eSg4NSkvaW1n/2974467.jpg?v=0&st=dyeXw0C0iNhEi7h915ppOnsWWKbQcqwTDbZ-fTSkPOI&ts=1600812000&e=0
         answer_img_src: 
       - type: simple
-        text: "In this year: <br>The czech scientist Otto Wichterle invent soft contact lenses<br>US recognizes Fidel Castro's Cuban government<br>Jimi Hendrix (16) plays his first gig in the Temple De Hirsch synagogue basement, Seattle<br>Mattel's Barbie dolls debuts in the US"
+        text: "In this year: <br>Czech scientist Otto Wichterle invents soft contact lenses<br>US recognizes Fidel Castro's Cuban government<br>Jimi Hendrix (16) plays his first gig in the Temple De Hirsch synagogue basement, Seattle<br>Mattel's Barbie dolls debuts in the US"
         answer: 1959 
         question_img_src: https://www.iprostejov.cz/obrazky/cockostroj.JPG
         answer_img_src: 
