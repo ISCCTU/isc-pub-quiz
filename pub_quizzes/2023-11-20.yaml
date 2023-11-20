@@ -8,15 +8,14 @@ topics:
   - name: Events of 2023
     questions:
       - type: simple
-        text: Which of the neighbors of the Czech republic have held elections in 2023?
-        answer: All of them ;-)! Slovakia (parliament), Poland (parliament), Germany (several states), Austria (several states)
-        question_img_src: https://d-maps.com/m/europa/czechia/tchequie/tchequie21.gif
-        answer_img_src: https://d-maps.com/m/europa/czechia/tchequie/tchequie21.gif
-      - type: simple
         text: Azerbaijan launched a military offensive in what region on September 19, overcoming forces aligned with Armenia?
         answer: Nagorno-Karabakh
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
+      - type: simple
+        text: Which of the neighbors of the Czech republic have held parliament elections in 2023?
+        answer: Slovakia (parliament) & Poland (parliament)
+        question_img_src: https://d-maps.com/m/europa/czechia/tchequie/tchequie21.gif
       - type: simple
         text: In June of this year, a submersible operated by American company OceanGate imploded during an expedition to view the wreck of Titanic in the North Atlantic Ocean.<br>What was the name of the sumbersible?
         answer: Titan
@@ -40,6 +39,10 @@ topics:
         question_img_src: https://variety.com/wp-content/uploads/2022/02/futurama-cast.jpg?w=1000&h=562&crop=1
         answer_img_src: https://static.wikia.nocookie.net/superepicfailpedia/images/c/c0/Futurama.jpg/revision/latest?cb=20160214170307
       - type: simple
+        text: In That '70s Show, one of the lead characters comes from an unspecified foreign country and studies abroad in Wisconsin. Since his name is hard to pronounce for the Americans, he received the nickname Fez a homophone of FES. What highly descriptive label does this acronym stand for?
+        answer: Foreign Exchange Student
+        question_img_src: https://m.media-amazon.com/images/M/MV5BYjA5NzMyNjEtOWIyYy00NjdmLWI2MTMtMWMxNmYzNDU1ZTkwXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg
+      - type: simple
         text: What did Ted Mosby steal in HIMYM for Robin in the Pilot episode after she said she'd like one for her apartment?
         answer: blue french horn (1p) | horn (0.5p)
         question_img_src: https://media.cnn.com/api/v1/images/stellar/prod/140327194124-himym-cast.jpg?q=w_800,h_532,x_0,y_0,c_fill/h_618
@@ -54,10 +57,6 @@ topics:
         answer: Jim put Dwight's stapler in jello
         question_img_src: https://roost.nbcuni.com/bin/viewasset.html/content/dam/Peacock/Campaign/landingpages/library/theoffice/mainpage/office-social-min.png/_jcr_content/renditions/original
         answer_img_src: https://fandomwire.com/wp-content/uploads/2020/10/6-34.jpg
-      - type: simple
-        text: In That '70s Show, one of the lead characters comes from an unspecified foreign country and studies abroad in Wisconsin. Since his name is hard to pronounce for the Americans, he received the nickname Fez a homophone of FES. What highly descriptive label does this acronym stand for?
-        answer: Foreign Exchange Student
-        question_img_src: https://m.media-amazon.com/images/M/MV5BYjA5NzMyNjEtOWIyYy00NjdmLWI2MTMtMWMxNmYzNDU1ZTkwXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg
   - name: Famous buildings
     questions:
       - type: simple
@@ -86,14 +85,14 @@ topics:
         question_img_src: https://www.widest.com/wp-content/uploads/The-Space-Needle-Seattle-Washington.jpg
         answer_img_src: https://aws-tiqets-cdn.imgix.net/images/content/9f07cb123f6c40dc82b86961a8beaec4.jpg?auto=format&fit=crop&ixlib=python-1.1.2&q=70&s=4a3091dbd8506dec3b88ecac5f2b157c
       - type: simple
-        text: In which city is the largest ancient castle in the world, according to the Guinness Book of World Records.
+        text: In which city can you find the largest ancient castle in the world, according to the Guinness Book of World Records?
         answer: Prague, Czech Republic
         question_img_src:
         answer_img_src: https://img.fotocommunity.com/prager-burg-prask-hrad-2a8ea857-b334-4a37-bb63-74684a98cf1c.jpg?height=1080
   - name: Culinary Conundrums
     questions:
       - type: simple
-        text: How many herbs and spices does the KFC secret recipe contain?
+        text: How many herbs and spices does the secret KFC recipe contain?
         answer: 11
         question_img_src: https://www.docmercury.cz/data/0/4/1200px-kfc-logo.svg.png
         answer_img_src: https://insanelygoodrecipes.com/wp-content/uploads/2022/10/What-Are-KFCs-11-Herbs-and-Spices-1-683x1024.jpg
@@ -129,13 +128,13 @@ topics:
   - name: ISO & Friends
     questions: 
       - type: choice
-        text: ISO 3103 from the year 1977 describes the procedure to brew a standard cup of tea. Of course, this is a highly sensitive topic with regional variations and so it has not evaded criticism. What did the country of Ireland object to?
+        text: ISO 3103 from the year 1977 describes the procedure to brew a standard cup of tea. What part of the recipe did the country of Ireland object to?
         answer: The omission of a teapot prewarming step.
         wrong: 
           - Adding the milk before pouring the infusion into the cup (rather than afterwards).
           - The resulting liquid was called 'liquor' by the standard.
           - It was proposed by the British Standards Institution.
-          - The ban for men named Oisín to be the brewmaster.
+          - Men named Oisín are banned from being the brewmaster.
       - type: simple
         text: The MIL-C-44072C specification includes the recipe for brownies as used for rations in the US military. Name at least 5 of the 6 ingredients most abundant by weight. In total, the recipe calls for 10 ingredients.
         answer: sugar, flour, shortening (vegetable oil), nuts (almonds, pecans or walnuts), eggs, cocoa
@@ -149,17 +148,13 @@ topics:
         question_img_src: https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13635399_v_h8_ad.jpg
         answer_img_src: https://media.npr.org/assets/img/2022/02/08/thumbs-2_custom-9cea3fd5139e683b27dae03f3292e85c94a7f767.jpg
       - type: sort
-        text: According to the Czech national decree 248/2018, beer is divided into 7 groups according to their alcohol content and gravity (°). What is the correct order?
+        text: According to the Czech national decree 248/2018, beer is divided into 4 groups according to the gravity (°), which roughly correlates with ABV. What is the correct order?
         choices:
-          - Non-alcoholic beer
-          - Low-alcohol beer
           - Table beer
           - Draught beer
           - Lager/Full-bodied beer
           - Strong beer
         answers:
-          - Non-alcoholic beer (<0.5% ABV)
-          - Low-alcohol beer (0.5-1.2% ABV)
           - Table beer (<6°)
           - Draught beer (7-10°)
           - Lager (bottom-fermented)/Full-bodied beer (top-fermented) (11-12°) 
@@ -172,6 +167,10 @@ topics:
         answer: doublethink
         question_img_src: https://onehotbook.cz/cdn/shop/products/George_Orwell_1984_audio_OneHotBook_webtextura_grande.jpg?v=1613136695
       - type: simple
+        text: In his novel A Clockwork Orange, Anthony Burgess introduced a slang called Nadsat. What language was the inspiration for many of its words such as "gazetta" (newspaper), "maslo" (butter) or "itty" (to go)?
+        answer: Russian
+        question_img_src: https://i1.sndcdn.com/artworks-HYGWkakmx66DvtB4-6gI1iw-t500x500.jpg
+      - type: simple
         text: In the Hunger Games, what is the primary industry in District 12, Katniss Everdeen's home district?
         answer: Coal mining
         question_img_src: https://cdn.administrace.tv/2023/04/07/medium_169/e89f614122ed97d223b595dfda1ab2c0.jpg
@@ -179,10 +178,6 @@ topics:
         text: Society in Albert Huxley's Brave New World lacks any belief in the supernatural. However, a certain real-world figure is celebrated almost as a deity. Christian crosses had their tops cut off to look like a 'T', referencing one of their products. What was their name?
         answer: Henry Ford
         question_img_src: https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg
-      - type: simple
-        text: In his novel A Clockwork Orange, Anthony Burgess introduced a slang called Nadsat. What language was the inspiration for many of its words such as "gazetta" (newspaper), "maslo" (butter) or "itty" (to go)?
-        answer: Russian
-        question_img_src: https://i1.sndcdn.com/artworks-HYGWkakmx66DvtB4-6gI1iw-t500x500.jpg
       - type: choice
         text: What was the crime for which the main character was arrested and later sentenced for in Kafka's novel 'The Trial' (Proces/Der Process)?
         answer: no one knows
@@ -195,13 +190,13 @@ topics:
   - name: Music from Animation
     questions:
       - type: musical
-        text: From which animated film is this song?
+        text: In which Disney animated film can you hear this song?
         answer: Mulan
         audio_file: assets/music/Mulan.m4a
         question_img_src:
         answer_img_src: https://musicart.xboxlive.com/7/8a9d5100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080
       - type: musical
-        text: From which animated film is this song?
+        text: In which Disney animated science fiction film can you hear this song?
         answer: Treasure Planet
         audio_file: assets/music/treasure_planet.m4a
         question_img_src: 
@@ -255,27 +250,27 @@ topics:
   - name: Guess the year
     questions:
       - type: simple
-        text: "In this year: <br>Martin Luther King Jr. was assasinated in Memphis<br> Boeing introduced the first Jumbo Jet, Boeing 747 <br> Prague Springs and the invasion of Czechoslovakia by USSR et al. <br> French Student Rebellion in Sorbonne"
+        text: "In this year: <br>Martin Luther King Jr. was assasinated in Memphis<br>Boeing introduced the first Jumbo Jet, Boeing 747 <br>Prague Spring and the invasion of Czechoslovakia by USSR et al. <br>French Student Rebellion in Sorbonne"
         answer: 1968
         question_img_src: 
         answer_img_src:
       - type: simple
-        text: "In this year: <br>Ronald Reagan is elected president of the United States<br> ABBA released the album The Visitors<br> the winner of Wimbledon was John McEnroe and Chris Evert Lloyd"
+        text: "In this year: <br>Ronald Reagan is elected president of the United States<br>ABBA released the album The Visitors<br>the winner of Wimbledon was John McEnroe and Chris Evert Lloyd"
         answer: 1981
         question_img_src: 
         answer_img_src: 
       - type: simple
-        text: "In this year: <br>Summer Olympics in Munich<br> Birth of Jaromír Jágr (Czech hockey player)<br> The Vietnam War continues"
+        text: "In this year: <br>Summer Olympics in Munich<br>Birth of Jaromír Jágr (Czech hockey player)<br>The Vietnam War continues<br>the movie Godfather is released"
         answer: 1972       
         question_img_src: 
         answer_img_src: 
       - type: simple
-        text: "In this year: <br>Titanic to receive a record 14 Oscar nominations<br> France won their first title, becoming the seventh nation to win a FIFA World Cup<br> Václav Havel was re-elected as President of the Czech Republic"
+        text: "In this year: <br>Titanic received a record 14 Oscar nominations<br>France won their first title, becoming the seventh nation to win a FIFA World Cup<br>Václav Havel was re-elected as President of the Czech Republic"
         answer: 1998
         question_img_src: 
         answer_img_src: 
       - type: simple
-        text: "In this year: <br>The czech scientist Otto Wichterle invent soft contact lenses<br> US recognizes Fidel Castro's Cuban government<br> Jimi Hendrix (16) plays his first gig in the Temple De Hirsch synagogue basement, Seattle; fired from the band after the 1st set due to wild playing"
+        text: "In this year: <br>The czech scientist Otto Wichterle invent soft contact lenses<br>US recognizes Fidel Castro's Cuban government<br>Jimi Hendrix (16) plays his first gig in the Temple De Hirsch synagogue basement, Seattle<br>Mattel's Barbie dolls debuts in the US"
         answer: 1959 
         question_img_src: 
         answer_img_src: 
