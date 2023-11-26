@@ -56,7 +56,7 @@ if __name__ == "__main__":
     quiz = {
         "date": quiz_config["date"],
         "place": quiz_config["place"],
-        "results_url": quiz_config["results_url"],
+        "results": quiz_config["results"],
         "blocks": [],
         "countdown_duration_minutes": quiz_config["countdown_duration_minutes"],
     }

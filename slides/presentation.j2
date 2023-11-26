@@ -2,13 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.js"
-            integrity="sha512-y2j3xEERQApzRH8Rl1bPspQks1/wEsJ8P0pcNQdq7L+G3tT+U5wFjKoxwQNePdnvarg/zamz05jlHDlB5IAeXA=="
-            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.4.0/reveal.min.css"
-          integrity="sha512-A5PKBHoJQHdKjxpwyV+VhMsK7L3MMV1Ch2++rS0bn3xX8+5qJb3WpPvwJH1eqb6iMRtotfiOO7Jhl1qQ02Rwuw=="
-          crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <title>Title</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/reveal.js" integrity="sha512-bwH1GwYoFg8y5A4hkotVvfYetqz1f3wyFdPIW+Jfwiu3+f1XtKhtw8MvMRqmvxH2whRckO7qAWZ3hAKYw32p/w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.0.2/reveal.min.css" integrity="sha512-8849oiyeHKp8wdWclFreBguH6cXFoZfHhVBcoxdm+2+JcXagu1Poobm5vzBqEZqL9iJbTYK1bXbx3SWfNA3kRQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Pub Quiz</title>
     <link href="https://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/kelson-sans-bg" rel="stylesheet">
 
@@ -36,27 +32,23 @@
                 {% include "break.j2" %}
                 {% endif %}
             {% endfor %}
-            {% if results_url %}
+            {% if results %}
             {% include "results.j2" %}
             {% endif %}
         {% endfor %}
         {% include "end.j2" %}
     </div>
 </div>
-<script>
-    Reveal.initialize(
-        {
-            // center: false,
-            disableLayout: true,
-            controls: false,
-            hash: true,
-            display: "flex",
-            width: 1400,
-            height: 700,
-            progress: false,
-            mouseWheel: false,
-        }
-    );
-</script>
+    <script>
+      Reveal.initialize({
+        disableLayout: true,
+        controls: false,
+        hash: true,
+        progress: false,
+        center:false,
+        display:"flex",
+        {# transition:"none", #}
+      });
+    </script>
 </body>
 </html>

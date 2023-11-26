@@ -4,7 +4,9 @@ template: presentation.j2
 output: output.html
 topics_per_block: 2
 countdown_duration_minutes: 3
-results_url: https://docs.google.com/spreadsheets/d/e/2PACX-1vSrecEPcCX9ze79EUd10j-5hh3q3hJK4T0Hv103gDq9h1EPqmXBM4NDIyFGNyjPjQkn7MxzBm0hsWhn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
+results:
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vSrecEPcCX9ze79EUd10j-5hh3q3hJK4T0Hv103gDq9h1EPqmXBM4NDIyFGNyjPjQkn7MxzBm0hsWhn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false
+  zoom: 1.2 # not working
 topics:
   - name: Events of 2023
     questions:
