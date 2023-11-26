@@ -40,6 +40,7 @@
     </div>
 </div>
     <script>
+        let timer;
         Reveal.initialize({
             disableLayout: true,
             controls: false,
@@ -51,8 +52,9 @@
           });
         Reveal.on("timer", () => {
             let slide = Reveal.getCurrentSlide();
-            timer = slide.querySelector(".countdown");
-            startTimer(timer, {{countdown_duration_minutes}}*60);
+            clearInterval(timer);
+            timer_element = slide.querySelector(".countdown");
+            timer=startTimer(timer_element, {{countdown_duration_minutes}}*60);
         });
     </script>
 </body>
