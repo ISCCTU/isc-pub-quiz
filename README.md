@@ -12,6 +12,8 @@ As of right now, the asset folder is necessary to show the presentation properly
   * this might need some YAML caching to detect changes in the definition
 * improve layouts & make it look better in general
 * auto search & download illustration image (with a potential override, of course)
+* auto download song from youtube given link and timestamps
+* come up with a better way to embed the results (iframes are annoying and Google doesn't offer any customization)
 
 ## Quiz definition
 The quiz is defined using a `.yaml` file.
@@ -25,7 +27,7 @@ topics:
   ...
 ```
 The `questions` entry is again a list of questions.
-Currently, three question types are defined:
+Currently, four question types are defined:
 * Simple: A basic question-answer pair.
 * Choice: A question with a list of answers - a), b), etc. The wrong answers will be shuffled and the correct one will be placed at a random spot among them.
 * Musical: A question where the player must identify the music played
@@ -60,7 +62,7 @@ question_img_src: Image to be shown alongside the question.
 answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
 
 ```
-In the sort question, note that the order must be correct in both the `choices` and the `answers` field. 
+In the sort question, note that the order must be correct in both the `choices` and the `answers` field. This is to allow you to include additional info in the answer.
 ```yaml
 type: sort
 text: Question text that will be shown.
@@ -83,12 +85,13 @@ date: 10/10/2022
 place: ISC Point
 template: presentation.j2
 output: output.html
-countdown_duration_minutes: How long will the countdown last?
-results_url: URL of the results table
 topics_per_block: 2
+countdown_duration_minutes: How long will the countdown last?
+results:
+  url: link to Google Sheets
 ```
 Most of it should be self-explanatory, except the last two.
 
-The `results_url` can be a Google Sheets url (File > Share > Publish to web) that will be included before the next round of questions.
+The `results.url` can be a Google Sheets url (File > Share > Publish to web) that will be included before the next round of questions.
 
 The quiz will have a block of `topics_per_block` topics (e.g. 2), then a break will be inserted, so that the organizers have time to "grade" the quizzes. Afterwards, the correct answers are shown, followed by another set of topics.
