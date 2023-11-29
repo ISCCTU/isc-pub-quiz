@@ -79,7 +79,7 @@ audio_file: assets/music/audio_file.mp3
 question_img_src: Image to be shown alongside the question.
 answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
 ```
-or you can supply a YouTube link and start/end time and the audio will be downloaded *automagically*. Note that you will need ffmpeg installed on your local machine for this.
+or you can supply a YouTube link and start/end time and the audio will be downloaded *automagically*. Note that you will need [ffmpeg](https://ffmpeg.org/download.html) installed on your local machine for this.
 ```yaml
 type: musical
 text: Question text that will be shown.
