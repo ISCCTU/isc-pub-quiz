@@ -1,52 +1,41 @@
-import random
-import string
 import sys
+from dataclasses import astuple, dataclass
 from typing import Any, Dict, List, Mapping, Optional, Tuple
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
 
-
-def shuffle_choices(answer: str, wrong: List[str]):
-    # generate a random order and remember the correct answer
-    num_options = len(wrong) + 1  # +1 for answer
-    correct_idx = random.randint(0, num_options - 1)
-    random.shuffle(wrong)
-    wrong.insert(correct_idx, answer)
-    choices = wrong
-    return choices, correct_idx
-
-
-def shuffle_sort(choices: List[str], answers: List[str]) -> Tuple[List[str], List[str]]:
-    # shuffle sorting question
-    letters = list(string.ascii_uppercase[0 : len(choices)])
-    random.shuffle(letters)
-    answers = [f"{o}) {a}" for (o, a) in zip(letters, answers)]
-    choices = sorted([f"{o}) {c}" for (o, c) in zip(letters, choices)])
-    return choices, answers
+from questions import ChoiceQ, CommonQData, MusicQ, SimpleQ, SortQ
 
 
 def parse_question(
     topic: Dict[str, Any], question: Dict[str, Any], question_idx: int
 ) -> Dict[str, Any]:
-    question["title"] = f"{topic['name']}: Q{question_idx + 1}"
-    if question["type"] == "simple":
-        pass
-    elif question["type"] == "choice":
-        choices, correct_idx = shuffle_choices(question["answer"], question["wrong"])
-        question["choices"] = choices
-        question["correct_idx"] = correct_idx
-    elif question["type"] == "sort":
-        choices, answers = shuffle_sort(question["choices"], question["answers"])
-        question["choices"] = choices
-        question["answers"] = answers
-    return question
+    title = f"{topic['name']}: Q{question_idx + 1}"
+    common_data = CommonQData(
+        title,
+        question["text"],
+        question.get("question_img_src"),
+        question.get("answer_img_src"),
+    )
+    # this could possibly be refactored by searching for the class with correct ype but that might relate the yaml and class a bit too much...
+    if question["type"] == SimpleQ.type:
+        return SimpleQ(common_data, question["answer"])
+    elif question["type"] == ChoiceQ.type:
+        return ChoiceQ(common_data, question["answer"], question["wrong"])
+    elif question["type"] == SortQ.type:
+        return SortQ(common_data, question["choices"], question["answers"])
+    elif question["type"] == MusicQ.type:
+        return MusicQ(common_data, question["audio_file"])
+    else:
+        raise NotImplementedError("Unknown question type:", question["type"])
 
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
         config = sys.argv[1]
     else:
+        # TODO: this should take the latest yaml...
         config = "pub_quizzes/2023-11-20.yaml"
 
     with open(config, "r", encoding="utf8") as fp:
@@ -66,7 +55,9 @@ if __name__ == "__main__":
         parsed_questions = []
         for q, question in enumerate(topic["questions"]):
             parsed_questions.append(parse_question(topic, question, q))
-        topic["questions"] = parsed_questions
+        topic["questions"] = [
+            parse_question(topic, q, i) for i, q in enumerate(topic["questions"])
+        ]
         quiz["blocks"][-1].append(topic)
 
     # generate the web page from the template
