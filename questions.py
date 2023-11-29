@@ -1,8 +1,16 @@
+import logging
 import random
 import string
 from abc import ABC
 from dataclasses import astuple, dataclass
-from typing import Any, Dict, List, Mapping, Optional, Tuple
+from io import BytesIO
+from pathlib import Path
+from typing import Any, Dict, List, Mapping, Optional, Self, Tuple
+
+import pytube
+from pydub import AudioSegment
+from pytube import YouTube
+from pytube.query import StreamQuery
 
 
 class Question(ABC):
@@ -85,3 +93,38 @@ class MusicQ(Question):
     def __init__(self, common_data: CommonQData, audio_file: str):
         super().__init__(*common_data)
         self.audio_file = audio_file
+
+    @classmethod
+    def from_youtube(
+        cls, common_data: CommonQData, url: str, start_time: int, end_time: int
+    ) -> Self:
+        video = YouTube(url)
+        video_id = pytube.extract.video_id(url)
+        relative_filename = f"assets/music/youtube/{video_id}.mp3"
+        filename = Path(__file__).parent / relative_filename
+        filename.parent.mkdir(parents=True, exist_ok=True)
+        if filename.is_file():
+            logging.debug("Already downloaded video", video_id)
+            return cls(common_data, relative_filename)
+        else:
+            logging.debug("Downloading video", video_id)
+        if not (0 <= start_time <= video.length):
+            raise ValueError(
+                f"Invalid choice of start/end of YouTube audio in {common_data.title}"
+            )
+        audio_stream = StreamQuery(video.streams).get_audio_only(subtype="mp4")
+        audio_buffer = BytesIO()
+        audio_stream.stream_to_buffer(audio_buffer)
+        # get to the start of the buffer to feed it to pydub
+        audio_buffer.seek(0)
+        # NOTE: ffmpeg needed for this
+        audio = AudioSegment.from_file(
+            audio_buffer,
+            format="mp4",
+        )
+        # trim audio and add fade-in/-out
+        trimmed_audio = audio[start_time * 1000 : end_time * 1000]
+        fade_l = 1000 * min(2, 0.1 * (end_time - start_time))
+        trimmed_audio = trimmed_audio.fade_in(fade_l).fade_out(fade_l)
+        trimmed_audio.export(filename, format="mp3")
+        return cls(common_data, relative_filename)

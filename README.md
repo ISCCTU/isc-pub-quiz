@@ -12,11 +12,28 @@ As of right now, the asset folder is necessary to show the presentation properly
   * this might need some YAML caching to detect changes in the definition
 * improve layouts & make it look better in general
 * auto search & download illustration image (with a potential override, of course)
-* auto download song from youtube given link and timestamps
 * come up with a better way to embed the results (iframes are annoying and Google doesn't offer any customization)
 
 ## Quiz definition
-The quiz is defined using a `.yaml` file.
+The quiz is defined using a `.yaml` file which begins by a short header that defines the quiz metadata:
+```yaml
+date: 10/10/2022
+place: ISC Point
+template: presentation.j2
+output: output.html
+topics_per_block: 2
+countdown_duration_minutes: How long will the countdown last?
+results:
+  url: link to Google Sheets
+```
+Most of it should be self-explanatory except for the following:
+
+The `results.url` field is currently a Google Sheets url (File > Share > Publish to web) that will be included before the next round of questions. If not included, the results slide will not be included.
+
+The quiz will have a block of `topics_per_block` topics (e.g. 2), then a break will be inserted, so that the organizers have time to "grade" the quizzes. Afterwards, the correct answers are shown, followed by another set of topics.
+
+
+### Topics & Questions
 The list of topics for the pub quiz is defined simply by
 ```yaml
 topics:
@@ -53,15 +70,28 @@ question_img_src: Image to be shown alongside the question.
 answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
 
 ```
+To configure a musical question, you can either supply a file yourself:
 ```yaml
 type: musical
 text: Question text that will be shown.
 answer: The correct answer.
-wrong:
+audio_file: assets/music/audio_file.mp3
 question_img_src: Image to be shown alongside the question.
 answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
-
 ```
+or you can supply a YouTube link and start/end time and the audio will be downloaded *automagically*. Note that you will need ffmpeg installed on your local machine for this.
+```yaml
+type: musical
+text: Question text that will be shown.
+answer: The correct answer.
+question_img_src: Image to be shown alongside the question.
+answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
+youtube: 
+  url: https://www.youtube.com/watch?v=rFMgixWg9-U
+  start_time: 29 # [s]
+  end_time: 50 # [s]
+```
+
 In the sort question, note that the order must be correct in both the `choices` and the `answers` field. This is to allow you to include additional info in the answer.
 ```yaml
 type: sort
@@ -78,20 +108,3 @@ question_img_src: Image to be shown alongside the question.
 answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
 
 ```
-
-There's also a short header that defines the quiz metadata:
-```yaml
-date: 10/10/2022
-place: ISC Point
-template: presentation.j2
-output: output.html
-topics_per_block: 2
-countdown_duration_minutes: How long will the countdown last?
-results:
-  url: link to Google Sheets
-```
-Most of it should be self-explanatory, except the last two.
-
-The `results.url` can be a Google Sheets url (File > Share > Publish to web) that will be included before the next round of questions.
-
-The quiz will have a block of `topics_per_block` topics (e.g. 2), then a break will be inserted, so that the organizers have time to "grade" the quizzes. Afterwards, the correct answers are shown, followed by another set of topics.

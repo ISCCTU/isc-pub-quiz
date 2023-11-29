@@ -26,7 +26,17 @@ def parse_question(
     elif question["type"] == SortQ.type:
         return SortQ(common_data, question["choices"], question["answers"])
     elif question["type"] == MusicQ.type:
-        return MusicQ(common_data, question["audio_file"])
+        audio_file = question.get("audio_file")
+        if audio_file is not None:
+            return MusicQ(common_data, audio_file)
+        else:
+            youtube_cfg = question["youtube"]
+            return MusicQ.from_youtube(
+                common_data,
+                youtube_cfg["url"],
+                youtube_cfg["start_time"],
+                youtube_cfg["end_time"],
+            )
     else:
         raise NotImplementedError("Unknown question type:", question["type"])
 
@@ -52,9 +62,6 @@ if __name__ == "__main__":
     for t, topic in enumerate(quiz_config["topics"]):
         if t % quiz_config["topics_per_block"] == 0:
             quiz["blocks"].append([])
-        parsed_questions = []
-        for q, question in enumerate(topic["questions"]):
-            parsed_questions.append(parse_question(topic, question, q))
         topic["questions"] = [
             parse_question(topic, q, i) for i, q in enumerate(topic["questions"])
         ]
