@@ -1,7 +1,7 @@
 # ISC Pub Quiz
 A script to generate ISC Pub Quizzes as an HTML presentation.
-The quiz is defined using a YAML file, which is then passed to a Python script.
-Using `pyyaml` and `jinja2`, an HTML file is generated.
+The quiz is defined using a YAML file, which is then passed to a Python script (use Python 3.11).
+Using `pyyaml` and `jinja2`, an HTML file is generated. Optionally, `pytube` and `pydub` can be used to automate a part of the process of musical rounds.
 The presentation uses [reveal.js](https://github.com/hakimel/reveal.js) for interactivity.
 As of right now, the asset folder is necessary to show the presentation properly.
 
