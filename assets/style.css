@@ -96,7 +96,7 @@ section img {
   display: flex;
   max-height: 100%;
   gap: 50px;
-  flex:1;
+  flex: 1;
 }
 
 .col {
@@ -144,7 +144,7 @@ section img {
   height: 150px;
   background-color: white;
   padding: 30px 5% 30px 5%;
-
+  z-index: 1;
   box-sizing: border-box;
 }
 
