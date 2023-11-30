@@ -41,6 +41,7 @@
 </div>
     <script>
         let timer;
+
         Reveal.initialize({
             disableLayout: true,
             controls: false,
@@ -55,6 +56,11 @@
             clearInterval(timer);
             timer_element = slide.querySelector(".countdown");
             timer=startTimer(timer_element, {{countdown_duration_minutes}}*60);
+        });
+        Reveal.on("results",()=>{
+            let slide = Reveal.getCurrentSlide();
+            iframe=slide.querySelector(".results-table");
+            iframe.src=iframe.src; // force reload
         });
     </script>
 </body>
