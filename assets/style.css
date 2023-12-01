@@ -211,6 +211,11 @@ ol {
   transition: all 0.8s cubic-bezier(.2, 15, 0, .61);
 }
 
+audio{
+  min-height: auto;
+  min-width: auto;
+}
+
 @media only screen and (max-width: 1500px) {
   .general-title {
     font-size: 2vw;
