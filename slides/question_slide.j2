@@ -4,9 +4,9 @@
             <h2>{% if topic.short_name %}
                 {{ topic.short_name }}
             {% else %}
-                {{ topic.name }}
+                {{ topic.name }}:
             {% endif %}
-                : {% if show_answer %}Answer{% else %}Question{% endif %} #{{ question_idx }}</h2>
+             {% if show_answer %}Answer{% else %}Question{% endif %} #{{ question_idx }}</h2>
         </div>
         <div class="question-body">
             {% if question.type=="simple" %}

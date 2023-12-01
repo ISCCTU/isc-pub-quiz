@@ -16,12 +16,10 @@ from pytube.query import StreamQuery
 class Question(ABC):
     def __init__(
         self,
-        title: str,
         text: str,
         question_img_src: str | None,
         answer_img_src: str | None,
     ):
-        self.title = title
         self.text = text
         self.question_img_src = question_img_src
         if answer_img_src is None:
@@ -31,7 +29,6 @@ class Question(ABC):
 
 @dataclass
 class CommonQData:
-    title: str
     text: str
     question_img_src: str | None
     answer_img_src: str | None
@@ -140,4 +137,4 @@ class MusicQ(Question):
         fade_l = 1000 * min(2, 0.1 * (end_time - start_time))
         trimmed_audio = trimmed_audio.fade_in(fade_l).fade_out(fade_l)
         trimmed_audio.export(filename, format="mp3")
-        return cls(common_data, relative_filename)
+        return cls(common_data, answer, relative_filename)

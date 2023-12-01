@@ -11,9 +11,7 @@ from questions import ChoiceQ, CommonQData, MusicQ, SimpleQ, SortQ
 def parse_question(
     topic: Dict[str, Any], question: Dict[str, Any], question_idx: int
 ) -> Dict[str, Any]:
-    title = f"{topic['name']}: Q{question_idx + 1}"
     common_data = CommonQData(
-        title,
         question["text"],
         question.get("question_img_src"),
         question.get("answer_img_src"),
