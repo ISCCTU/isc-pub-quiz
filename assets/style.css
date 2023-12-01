@@ -154,7 +154,7 @@ section img {
 
 .question {
   margin: 50px;
-  border: var(--esn-magenta) solid 5px;
+  border: var(--esn-magenta) solid 10px;
   background-color: var(--esn-dark-blue);
   display: flex;
   flex-direction: column;
