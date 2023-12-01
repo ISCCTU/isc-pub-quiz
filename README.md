@@ -76,6 +76,7 @@ type: musical
 text: Question text that will be shown.
 answer: The correct answer.
 audio_file: assets/music/audio_file.mp3
+answer_audio_file: path to another file; if missing, `audio_file` will be used
 question_img_src: Image to be shown alongside the question.
 answer_img_src: Image to be shown alongside the question. If not provided, the question image will be shown.
 ```

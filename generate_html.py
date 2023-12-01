@@ -27,8 +27,10 @@ def parse_question(
         return SortQ(common_data, question["choices"], question["answers"])
     elif question["type"] == MusicQ.type:
         audio_file = question.get("audio_file")
+        # TODO: add possible answer audio from YouTube
         if audio_file is not None:
-            return MusicQ(common_data, audio_file)
+            answer_audio_file = question.get("answer_audio_file")
+            return MusicQ(common_data, audio_file, answer_audio_file)
         else:
             youtube_cfg = question["youtube"]
             return MusicQ.from_youtube(

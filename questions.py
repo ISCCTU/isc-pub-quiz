@@ -90,9 +90,15 @@ class SortQ(Question):
 class MusicQ(Question):
     type: str = "musical"
 
-    def __init__(self, common_data: CommonQData, audio_file: str):
+    def __init__(
+        self,
+        common_data: CommonQData,
+        audio_file: str,
+        answer_audio_file: str | None = None,
+    ):
         super().__init__(*common_data)
         self.audio_file = audio_file
+        self.answer_audio_file = answer_audio_file
 
     @classmethod
     def from_youtube(
