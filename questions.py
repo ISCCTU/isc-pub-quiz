@@ -93,16 +93,23 @@ class MusicQ(Question):
     def __init__(
         self,
         common_data: CommonQData,
+        answer: str,
         audio_file: str,
         answer_audio_file: str | None = None,
     ):
         super().__init__(*common_data)
+        self.answer = answer
         self.audio_file = audio_file
         self.answer_audio_file = answer_audio_file
 
     @classmethod
     def from_youtube(
-        cls, common_data: CommonQData, url: str, start_time: int, end_time: int
+        cls,
+        common_data: CommonQData,
+        answer: str,
+        url: str,
+        start_time: int,
+        end_time: int,
     ) -> Self:
         video = YouTube(url)
         video_id = pytube.extract.video_id(url)
