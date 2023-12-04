@@ -1,9 +1,8 @@
 # ISC Pub Quiz
 A script to generate ISC Pub Quizzes as an HTML presentation.
 The quiz is defined using a YAML file, which is then passed to a Python script (use Python 3.11).
-Using `pyyaml` and `jinja2`, an HTML file is generated. Optionally, `pytube` and `pydub` can be used to automate a part of the process of musical rounds.
+Using `pyyaml` and `jinja2`, an HTML file is generated. Optionally, `pytube` and `pydub` can be used to automate a part of the process of creating musical rounds.
 The presentation uses [reveal.js](https://github.com/hakimel/reveal.js) for interactivity.
-As of right now, the asset folder is necessary to show the presentation properly.
 
 ## TODO:
 * make it possible to make the text or image larger
@@ -28,10 +27,9 @@ results:
 ```
 Most of it should be self-explanatory except for the following:
 
-The `results.url` field is currently a Google Sheets url (File > Share > Publish to web) that will be included before the next round of questions. If not included, the results slide will not be included.
+The quiz will have a block of `topics_per_block` topics (e.g. 2), then a there will be a slide with a timer with `countdown_duration_minutes` to allow the teams to finish up. Once the time is up, it will change to a break slide, so that the organizers have time to "grade" the quizzes. The correct answer will be included after the break.
 
-The quiz will have a block of `topics_per_block` topics (e.g. 2), then a break will be inserted, so that the organizers have time to "grade" the quizzes. Afterwards, the correct answers are shown, followed by another set of topics.
-
+If the `results.url` field is not empty, results will be shown before the next round of questions. To find the URL of a Google Sheets table with the results, click (File > Share > Publish to web).
 
 ### Topics & Questions
 The list of topics for the pub quiz is defined simply by
