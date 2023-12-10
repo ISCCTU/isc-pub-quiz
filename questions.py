@@ -1,16 +1,25 @@
 import logging
 import random
+import re
 import string
 from abc import ABC
 from dataclasses import astuple, dataclass
 from io import BytesIO
 from pathlib import Path
 from typing import Any, Dict, List, Mapping, Optional, Self, Tuple
+from urllib.parse import urlparse
+from urllib.request import url2pathname
 
 import pytube
+import requests
+from pathvalidate import sanitize_filename
 from pydub import AudioSegment
 from pytube import YouTube
 from pytube.query import StreamQuery
+
+
+def asset_folder_path() -> Path:
+    return Path(__file__).parent / "assets"
 
 
 class Question(ABC):
@@ -21,10 +30,37 @@ class Question(ABC):
         answer_img_src: str | None,
     ):
         self.text = text
-        self.question_img_src = question_img_src
+        self.question_img_src = self.cache_image(question_img_src)
         if answer_img_src is None:
-            answer_img_src = self.question_img_src
-        self.answer_img_src = answer_img_src
+            self.answer_img_src = self.question_img_src
+        else:
+            self.answer_img_src = self.cache_image(answer_img_src)
+
+    def cache_image(self, img_src: str | None) -> str:
+        # if the image is an URL, tries to download it
+        # returns the path to be included in the website
+        if img_src is None:
+            return None
+        if (Path(__file__).parent / img_src).is_file():
+            # this is an actual file already present -> skip
+            return img_src
+        url = urlparse(img_src)
+        filename = url2pathname(url.path).split("\\")[-1]
+        suffix = f"images/cache/{url.netloc}/{filename}"
+
+        filepath = asset_folder_path() / suffix
+        filepath.parent.mkdir(parents=True, exist_ok=True)
+        if filepath.is_file():
+            return "assets/" + suffix
+        try:
+            img_data = requests.get(img_src).content
+        except requests.ConnectionError as e:
+            # must not be a URL
+            pass
+        with filepath.open("wb") as f:
+            f.write(img_data)
+
+        return "assets/" + suffix
 
 
 @dataclass
@@ -115,7 +151,7 @@ class MusicQ(Question):
         filename.parent.mkdir(parents=True, exist_ok=True)
         if filename.is_file():
             logging.debug("Already downloaded video", video_id)
-            return cls(common_data, relative_filename)
+            return cls(common_data, answer, relative_filename)
         else:
             logging.debug("Downloading video", video_id)
         if not (0 <= start_time <= video.length):

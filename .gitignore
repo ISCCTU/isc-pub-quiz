@@ -6,3 +6,6 @@ output.html
 .idea/vcs.xml
 .idea/workspace.xml
 .idea/inspectionProfiles/profiles_settings.xml
+assets/images/cache
+*debug.log
+test.html
