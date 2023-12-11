@@ -56,6 +56,7 @@ if __name__ == "__main__":
         "place": quiz_config["place"],
         "results": quiz_config.get("results"),
         "blocks": [],
+        "additional_rules": quiz_config.get("additional_rules", []),
         "countdown_duration_minutes": quiz_config["countdown_duration_minutes"],
     }
     for t, topic in enumerate(quiz_config["topics"]):

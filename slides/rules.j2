@@ -7,11 +7,13 @@
         <div class="vertical-center question-body" style="">
             <ul>
                 <li>There will be 2 blocks of 2x5 questions.</li>
-                <li>At the beginning of the game, you can select one topic from the list, where you get x2 multiplier.</li>
                 <li>Please do not use internet, phones, etc. — it ruins the game for others.</li>
-                <li>At the beginning of each round, there will be specified, if the questions are referencing movies or books.</li>
                 <li>Please write your answers in English (Czech and Slovak if necessary).</li>
                 <li>In case of disagreements, the organizers have the final word.</li>
+                <li>At the beginning of the game, you can select one topic from the list, where you get x2 multiplier.</li>
+                {% for rule in additional_rules %}
+                <li>{{rule}}</li>
+                {% endfor %}
                 <li>Have fun (this is mandatory, we will be checking! :-))</li>
             </ul>
         </div>

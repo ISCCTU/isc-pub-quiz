@@ -22,6 +22,9 @@ template: presentation.j2
 output: output.html
 topics_per_block: 2
 countdown_duration_minutes: How long will the countdown last?
+additional_rules: # will be included in the 'Game Rules' page
+  - To get bonus points, do a headstand!
+  - Every beer drunk counts as 1/π points.
 results:
   url: link to Google Sheets
 ```
