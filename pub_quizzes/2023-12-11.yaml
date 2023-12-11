@@ -173,19 +173,19 @@ topics:
         audio_file: assets/music/under_pressure.m4a
         answer_audio_file: assets/music/vanilla_ice.m4a
       - type: musical
-        text: Madonna sampled this 70s song in her 2005 hit Hung Up. Who is the original author and what is the song's name?
-        answer: "Abba: Gimme! Gimme! Gimme!"
+        text: In 2022 a duet between Elton John and another singer was released. The song was basically a remake of this John's 1972 hit. What is the name of the singer who sings in the remake alongside Elton John?
+        answer: "Britney Spears"
+        audio_file: assets/music/tiny_dancer.m4a
+        answer_audio_file: assets/music/hold_me_closer.m4a
+        question_image_src: https://akns-images.eonline.com/eol_images/Entire_Site/2020921/rs_819x1024-201021163325-634-elton-john-barbie-doll-mh.jpg
+        answer_image_src: https://i.scdn.co/image/ab67616d0000b2735d872e7b0c1ba964541f07e8
+      - type: musical
+        text: Madonna sampled this 70s song in her 2005 hit Hung Up. Who is the original author of the song?
+        answer: "Abba (Gimme! Gimme! Gimme!)"
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/c/cb/ABBA_-_TopPop_1974_5.png
         audio_file: assets/music/madonna_hung_up.m4a
         answer_audio_file: assets/music/gimme_gimme.m4a
-      - type: musical
-        text: Czech singer Karel Gott covered this 1984 song by a German band Alphaville. What is the name of the song?
-        answer: "Forever Young"
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/d/d0/Karel_Gott_2002-foto13.jpg
-        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/c/ca/Alphaville_on_stage_2005.jpg
-        audio_file: assets/music/byt_stale_mlad.m4a
-        answer_audio_file: assets/music/alphaville.m4a
       - type: musical
         text: In 2009, American singer Jason Derulo released this song and in the main chorus uses a sample of song from a British musician. Who is the author of the original song?
         answer: "Imogen Heap (Hide and Seek)"
