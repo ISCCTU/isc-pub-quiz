@@ -3,7 +3,7 @@ place: Pivní jistota
 template: presentation.j2
 output: output.html
 topics_per_block: 2
-countdown_duration_minutes: 3
+countdown_duration_minutes: 1.5
 results:
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRY7A38bOXxMkEz3p50RUyRiatJQvif55Mc6cISD59qWcu5qYoggKoPt42qtPtICODQqC8Ilg0LAXec/pubhtml?gid=0&single=true
   zoom: 1.2 # not working
@@ -80,7 +80,6 @@ topics:
           url: https://www.youtube.com/watch?v=tSMuaZXe-44
           start_time: 66
           end_time: 91
-        question_img_src: 
       - type: musical
         text: In what Czech musical can you hear Monika Absolonová sing "Teď královnou jsem já" ("Now I'm the queen")?
         answer: Kleopatra
@@ -110,9 +109,10 @@ topics:
         answer: The Pilsner Urquell brewery main gate
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pilsner-Urquell-Main-Gate.jpg/1280px-Pilsner-Urquell-Main-Gate.jpg
       - type: simple
-        text: ???
-        answer: ???
-        question_img_src: ???
+        text: Between Prague and Pilsen, you can find a geological area known for its trilobite fossils. After what French paleontologist was it named?
+        answer: Joachim Barrande
+        question_img_src: https://cdn.kudyznudy.cz/files/84/844bf922-be9d-4742-b770-6cf4c16db1e1.jpg?v=20210405081119
+        answer_img_src: https://www.lib.cas.cz/wp-content/uploads/Barrande.png
 
 
   - name: Culinary Conundrums
@@ -201,7 +201,7 @@ topics:
           - Men named Oisín are banned from being the brewmaster.
         question_img_src: https://teawithgary.files.wordpress.com/2013/04/iso-teacup.jpg?w=640
       - type: simple
-        text: The MIL-C-44072C specification includes the recipe for brownies as used for rations in the US military. Name at least 5 of the 6 ingredients most abundant by weight. In total, the recipe calls for 10 ingredients.
+        text: The MIL-C-44072C specification includes the recipe for brownies as used for rations in the US military. Name the 6 ingredients most abundant by weight. In total, the recipe calls for 10 ingredients. <br>(5/6 correct answers will still yield a point.)
         answer: sugar, flour, shortening (vegetable oil), nuts (almonds, pecans or walnuts), eggs, cocoa
         question_img_src: https://assets.bonappetit.com/photos/64272438b1072d0f16190886/4:3/w_5000,h_3750,c_limit/033123-brownies-lede.jpg
       - type: simple
@@ -262,18 +262,20 @@ topics:
       - type: simple
         text: Who was the first person to win two Nobel prizes in two different fields?
         answer: Marie Curie
-        question_img_src: 
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/e/ed/Nobel_Prize.png
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Marie_Curie_c._1920s.jpg/1200px-Marie_Curie_c._1920s.jpg
       - type: simple
         text: What physicist is credited with the famous line "God does not play dice" which was ultimately proven wrong?
         answer: Albert Einstein
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/2-Dice-Icon.svg/1200px-2-Dice-Icon.svg.png
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg
       - type: simple
         text: "Fridrich Engels was a close friend, coauthor and colleague of which famous German/Prussian philosopher? Hint: The philosopher in question had a glorious beard."
         answer: Karl Marx
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/2/21/Friedrich_Engels_portrait_%28cropped%29.jpg
         answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Karl_Marx_001.jpg/800px-Karl_Marx_001.jpg
       - type: simple
-        text: Who is the author of this book "On the Origin of Species by Means of Natural Selection"
+        text: Who is the author of the book "On the Origin of Species by Means of Natural Selection"
         answer: Charles Darwin
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg/800px-Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg
         answer_img_src: https://www.dymocks.com.au/Pages/ImageHandler.ashx?q=9780486450063&w=&h=570
@@ -292,24 +294,28 @@ topics:
       - type: simple
         text: In what movie did the protagonist say "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, moulded by it."?
         answer: The Dark Knight Rises
-        question_img_src: 
+        question_img_src: https://cdn.cloudflare.steamstatic.com/steam/apps/2105690/capsule_616x353.jpg?t=1699418329
+        answer_img_src: https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_.jpg
       - type: simple
         text: Where does "Snakes. Why Did It Have To Be Snakes?" come from?
         answer: Indiana Jones, Raiders of the lost Ark
-        question_img_src: 
+        question_img_src: https://res.cloudinary.com/roundglass/image/upload/c_crop,h_1324,w_1765,x_0,y_0/ar_4:3,c_fill,f_auto,g_face,q_auto/c_limit,w_900/v1671178696/rg/collective/media/common-trinket-snake-coelognathus-helena-helena-vipul-ramanuj_ob8olr.jpg
+        answer_img_src: https://s3.amazonaws.com/nightjarprod/content/uploads/sites/249/2023/10/15113129/ceG9VzoRAVGwivFU403Wc3AHRys-scaled.jpg
       - type: simple
         text: In what movie can you hear "Stern, if this factory ever produces a shell that can actually be fired, I'll be very unhappy."?
         answer: Schindler's List
-        question_img_src: 
+        question_img_src: https://c8.alamy.com/comp/2BW2CG6/turning-out-small-arms-by-the-thousand-in-a-british-factory-these-pictures-were-made-in-a-royal-ordinance-factory-of-the-ministry-of-supply-specialising-in-the-production-of-small-arms-here-thousands-of-weapons-such-as-machine-guns-rifles-and-revolvers-are-being-turned-out-at-a-high-speed-for-the-use-of-britains-rapidly-growing-force-photo-shows-vickers-machine-guns-in-the-making-15-november-1939-2BW2CG6.jpg
+        answer_img_src: https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg
       - type: simple
         text: What character uttered "I find your lack of faith disturbing"?
         answer: Darth Vader
-        question_img_src: 
+        question_img_src: assets/images/faith.png
         answer_img_src: https://printler.com/media/photo/146602.jpg
       - type: simple
         text: What is the movie where you can hear "Good morning, and in case I don't see ya, Good afternoon, good evening, and goodnight!"?
         answer: The Truman Show
-        question_img_src: 
+        question_img_src: https://m.media-amazon.com/images/I/61X-E73EihL._AC_UF1000,1000_QL80_.jpg
+        answer_img_src: https://m.media-amazon.com/images/W/MEDIAX_792452-T2/images/I/71zEnyA+49L._AC_UF1000,1000_QL80_.jpg
   
 
   # - name: Bonus round
