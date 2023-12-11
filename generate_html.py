@@ -1,6 +1,5 @@
 import sys
-from dataclasses import astuple, dataclass
-from typing import Any, Dict, List, Mapping, Optional, Tuple
+from typing import Any, Dict, List, Mapping, Tuple
 
 import yaml
 from jinja2 import Environment, FileSystemLoader
@@ -8,9 +7,7 @@ from jinja2 import Environment, FileSystemLoader
 from questions import ChoiceQ, CommonQData, MusicQ, SimpleQ, SortQ
 
 
-def parse_question(
-    topic: Dict[str, Any], question: Dict[str, Any], question_idx: int
-) -> Dict[str, Any]:
+def parse_question(question: Dict[str, Any]) -> Dict[str, Any]:
     common_data = CommonQData(
         question["text"],
         question.get("question_img_src"),
@@ -64,9 +61,7 @@ if __name__ == "__main__":
     for t, topic in enumerate(quiz_config["topics"]):
         if t % quiz_config["topics_per_block"] == 0:
             quiz["blocks"].append([])
-        topic["questions"] = [
-            parse_question(topic, q, i) for i, q in enumerate(topic["questions"])
-        ]
+        topic["questions"] = [parse_question(q) for q in topic["questions"]]
         quiz["blocks"][-1].append(topic)
 
     # generate the web page from the template

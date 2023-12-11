@@ -52,6 +52,7 @@ class Question(ABC):
             logging.debug(f"File {img_src} already exists!")
             return "assets/" + suffix
         try:
+            # wikimedia sometimes refuses to return the image without a user-agent...
             headers = {"User-Agent": "ISC Pub Quiz Caching"}
             img_data = requests.get(img_src, stream=True, headers=headers).content
         except requests.ConnectionError as e:
@@ -156,7 +157,7 @@ class MusicQ(Question):
             logging.debug("Already downloaded video", video_id)
             return cls(common_data, answer, "assets/" + relative_filename)
         else:
-            logging.debug("Downloading video", video_id)
+            logging.info("Downloading video", video_id)
         if not (0 <= start_time <= video.length):
             raise ValueError(
                 f"Invalid choice of start/end of YouTube audio in {common_data.title}"
