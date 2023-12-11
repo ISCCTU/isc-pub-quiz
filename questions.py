@@ -53,7 +53,8 @@ class Question(ABC):
         if filepath.is_file():
             return "assets/" + suffix
         try:
-            img_data = requests.get(img_src).content
+            headers = {"User-Agent": "ISC Pub Quiz Caching"}
+            img_data = requests.get(img_src, stream=True, headers=headers).content
         except requests.ConnectionError as e:
             # must not be a URL
             return img_src
