@@ -1,7 +1,7 @@
 <section data-state="timer">
     <div class="vertical-center">
         <div class="timer-background" style="transform:scale(1);">
-            <h1 class="countdown" data-used="false">{{countdown_duration_minutes}}:00</h1>
+            <h1 class="countdown" data-used="false">{{(countdown_duration_minutes//1) | int}}:{{((countdown_duration_minutes%1)*60) | int}}</h1>
         </div>
     </div>
     {% include "footer.html" %}
