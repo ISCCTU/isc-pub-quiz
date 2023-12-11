@@ -1,5 +1,6 @@
 date: 11/12/2023
 place: Pivní jistota
+name: ESN Pub Quiz
 template: presentation.j2
 output: output.html
 topics_per_block: 2
