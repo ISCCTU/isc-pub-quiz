@@ -45,7 +45,7 @@ class Question(ABC):
             # this is an actual file already present -> skip
             return img_src
         url = urlparse(img_src)
-        filename = url2pathname(url.path).split("\\")[-1]
+        filename = url2pathname(url.path.replace(":", "")).split("\\")[-1]
         suffix = f"images/cache/{url.netloc}/{filename}"
 
         filepath = asset_folder_path() / suffix
@@ -56,7 +56,9 @@ class Question(ABC):
             img_data = requests.get(img_src).content
         except requests.ConnectionError as e:
             # must not be a URL
-            pass
+            return img_src
+        except requests.exceptions.MissingSchema as e:
+            return img_src
         with filepath.open("wb") as f:
             f.write(img_data)
 
