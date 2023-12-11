@@ -1,18 +1,16 @@
 import logging
 import random
-import re
 import string
 from abc import ABC
 from dataclasses import astuple, dataclass
 from io import BytesIO
 from pathlib import Path
-from typing import Any, Dict, List, Mapping, Optional, Self, Tuple
+from typing import Any, Dict, List, Mapping, Self, Tuple
 from urllib.parse import urlparse
 from urllib.request import url2pathname
 
 import pytube
 import requests
-from pathvalidate import sanitize_filename
 from pydub import AudioSegment
 from pytube import YouTube
 from pytube.query import StreamQuery
@@ -42,7 +40,7 @@ class Question(ABC):
         if img_src is None:
             return None
         if (Path(__file__).parent / img_src).is_file():
-            # this is an actual file already present -> skip
+            logging.debug(f"File {img_src} already exists!")
             return img_src
         url = urlparse(img_src)
         filename = url2pathname(url.path.replace(":", "")).split("\\")[-1]
@@ -51,14 +49,16 @@ class Question(ABC):
         filepath = asset_folder_path() / suffix
         filepath.parent.mkdir(parents=True, exist_ok=True)
         if filepath.is_file():
+            logging.debug(f"File {img_src} already exists!")
             return "assets/" + suffix
         try:
             headers = {"User-Agent": "ISC Pub Quiz Caching"}
             img_data = requests.get(img_src, stream=True, headers=headers).content
         except requests.ConnectionError as e:
-            # must not be a URL
+            logging.info(f"Connection error ({e}) for image {img_src}")
             return img_src
         except requests.exceptions.MissingSchema as e:
+            logging.info(f"Invalid URL for image {img_src} ({e})")
             return img_src
         with filepath.open("wb") as f:
             f.write(img_data)
@@ -149,12 +149,12 @@ class MusicQ(Question):
     ) -> Self:
         video = YouTube(url)
         video_id = pytube.extract.video_id(url)
-        relative_filename = f"assets/music/youtube/{video_id}.mp3"
-        filename = Path(__file__).parent / relative_filename
+        relative_filename = f"music/youtube/{video_id}.mp3"
+        filename = asset_folder_path() / relative_filename
         filename.parent.mkdir(parents=True, exist_ok=True)
         if filename.is_file():
             logging.debug("Already downloaded video", video_id)
-            return cls(common_data, answer, relative_filename)
+            return cls(common_data, answer, "assets/" + relative_filename)
         else:
             logging.debug("Downloading video", video_id)
         if not (0 <= start_time <= video.length):
@@ -176,4 +176,4 @@ class MusicQ(Question):
         fade_l = 1000 * min(2, 0.1 * (end_time - start_time))
         trimmed_audio = trimmed_audio.fade_in(fade_l).fade_out(fade_l)
         trimmed_audio.export(filename, format="mp3")
-        return cls(common_data, answer, relative_filename)
+        return cls(common_data, answer, "assets/" + relative_filename)
