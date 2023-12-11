@@ -9,3 +9,5 @@ output.html
 assets/images/cache
 *debug.log
 test.html
+*.pyc
+assets/music/youtube/*
