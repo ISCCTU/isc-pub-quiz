@@ -44,6 +44,12 @@ class Question(ABC):
             return img_src
         url = urlparse(img_src)
         filename = url2pathname(url.path.replace(":", "")).split("\\")[-1]
+        prefix = f"images/cache/{url.netloc}/"
+        folder_char_l = len(str(asset_folder_path())) + len(prefix)
+        if folder_char_l + len(filename) > 255:
+            # Windows only supports paths of max length 255 -> shorten filename
+            characters_left = 255 - folder_char_l
+            filename = filename[-characters_left:]
         suffix = f"images/cache/{url.netloc}/{filename}"
 
         filepath = asset_folder_path() / suffix
