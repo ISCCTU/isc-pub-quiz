@@ -51,9 +51,8 @@ if __name__ == "__main__":
         quiz_config = yaml.safe_load(fp)
 
     # parse the quiz for templating
-    quiz = {
-        "date": quiz_config["date"],
-        "place": quiz_config["place"],
+    quiz = quiz_config | {
+        "name": quiz_config.get("name", "ISC Pub Quiz"),
         "results": quiz_config.get("results"),
         "blocks": [],
         "additional_rules": quiz_config.get("additional_rules", []),

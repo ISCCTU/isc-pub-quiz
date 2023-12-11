@@ -16,6 +16,7 @@ The quiz is defined using a `.yaml` file which begins by a short header that def
 ```yaml
 date: 10/10/2022
 place: ISC Point
+name: ESN Pub Quiz
 template: presentation.j2
 output: output.html
 topics_per_block: 2
