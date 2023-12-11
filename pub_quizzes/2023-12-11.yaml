@@ -36,34 +36,35 @@ topics:
         answer: Now and Then
         question_img_src: https://upload.wikimedia.org/wikipedia/commons/3/33/The_Beatles_logo.svg
         answer_img_src: https://www.oklahoman.com/gcdn/authoring/authoring-images/2023/11/02/NOKL/71426092007-beatles-now-and-then-cover-by-ed-ruscha.jpg
-  - name: Dystopias
+  - name: Pivotal products of the 20th century
+    short_name: Products
     questions:
       - type: simple
-        text: In his novel 1984, George Orwell coined a term describing a process in which subjects simultaneously accept two conflicting beliefs as true. What is this Newspeak expression?
-        answer: doublethink
-        question_img_src: https://onehotbook.cz/cdn/shop/products/George_Orwell_1984_audio_OneHotBook_webtextura_grande.jpg?v=1613136695
+        text: What is the nickname of this iconic car designed in the 1930s in Nazi Germany that was manufactured all the way until 2003? 
+        answer: Beetle (Volkswagen Type 1)
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
       - type: simple
-        text: In his novel A Clockwork Orange, Anthony Burgess introduced a slang called Nadsat. What language was the inspiration for many of its words such as "gazetta" (newspaper), "maslo" (butter) or "itty" (to go)?
-        answer: Russian
-        question_img_src: https://i1.sndcdn.com/artworks-HYGWkakmx66DvtB4-6gI1iw-t500x500.jpg
+        text: In 1964, a portable music player was introduced that allowed people to listen to compact casettes. What is its name?
+        answer: Sony Walkman
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/f/f0/Compactcassette.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/4/4e/Original_Sony_Walkman_TPS-L2.JPG
       - type: simple
-        text: In the Hunger Games, what is the primary industry in District 12, Katniss Everdeen's home district?
-        answer: Coal mining
-        question_img_src: https://cdn.administrace.tv/2023/04/07/medium_169/e89f614122ed97d223b595dfda1ab2c0.jpg
+        text: In 1979, IKEA introduced a widly successful bookcase to the market, having sold 140 million units worldwide. Under what "human" name is it known?
+        answer: Billy
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/d/dd/IKEA_Billy_bookshelf_%2880x106_cm_birch_veneer%29.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/d/dd/IKEA_Billy_bookshelf_%2880x106_cm_birch_veneer%29.jpg
       - type: simple
-        text: Society in Albert Huxley's Brave New World lacks any belief in the supernatural. However, a certain real-world figure is celebrated almost as a deity. Christian crosses had their tops cut off to look like a 'T', referencing one of their products. What was their name?
-        answer: Henry Ford
-        question_img_src: https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg
-      - type: choice
-        text: What was the crime for which the main character was arrested and later sentenced for in Kafka's novel 'The Trial' (Proces/Der Process)?
-        answer: no one knows
-        wrong:
-          - excessive drinking
-          - not paying rent
-          - slacking off at work
-          - becoming a huge insect
-        question_img_src: https://cdn.xsd.cz/resize/5e3e4be7bb6e35428b95906253751007_extract=30,0,370,209_resize=680,383_.jpg?hash=f8f11892611a0259b2e3757f622cd259
-        
+        text: In 1993, Apple brought to the market a PDA featuring handwriting recognition and internet browsing. Due to its high price tag and the resulting low adoption, it was discontinued 1998, shortly after Steve Jobs returned to Apple. What was the scientist-inspired name of the predecessor to the iPad?
+        answer: Apple Newton
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/e3/Colour_Apple_Newton_Logo.JPG
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/8/85/Apple_Newton-IMG_0454-cropped.jpg
+      - type: simple
+        text: What is the name of the supersonic passenger jet, which operated between 1976 and 2003? Passengers travelling this aircraft could arrive from Paris or London to New York City in approximately half the time of a regular passenger airplane.
+        answer: Concorde
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg
+
   - name: Musicals
     questions:
       - type: simple
@@ -100,7 +101,7 @@ topics:
         answer: The Tony awards/Tonies
         question_img_src: assets/images/tony.png
 
-  - name: Czech you facts
+  - name: Czech your facts
     questions:
       - type: simple
         text: What is the largest pond in Czechia?
@@ -237,37 +238,36 @@ topics:
           - Lager (bottom-fermented)/Full-bodied beer (top-fermented) (11-12°) 
           - Strong beer (>=13°)
         question_img_src: https://www.regionplzen.cz/uws_images/firmy/049557/clanky/pet-pivnich-zajimavosti-z-plzne-vedeli-jste-ze-vez-stoji-na-miste-kozinovy-sibenice-153425/pivo-ilustracni_53599_plzensko_h.jpg
-
-  - name: Pivotal products of the 20th century
-    short_name: Products
+  - name: Dystopias
     questions:
       - type: simple
-        text: What is the nickname of this iconic car designed in the 1930s in Nazi Germany that was manufactured all the way until 2003? 
-        answer: Beetle (Volkswagen Type 1)
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
-        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
+        text: In his novel 1984, George Orwell coined a term describing a process in which subjects simultaneously accept two conflicting beliefs as true. What is this Newspeak expression?
+        answer: doublethink
+        question_img_src: https://onehotbook.cz/cdn/shop/products/George_Orwell_1984_audio_OneHotBook_webtextura_grande.jpg?v=1613136695
       - type: simple
-        text: In 1964, a portable music player was introduced that allowed people to listen to compact casettes. What is its name?
-        answer: Sony Walkman
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/f/f0/Compactcassette.jpg
-        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/4/4e/Original_Sony_Walkman_TPS-L2.JPG
+        text: In his novel A Clockwork Orange, Anthony Burgess introduced a slang called Nadsat. What language was the inspiration for many of its words such as "gazetta" (newspaper), "maslo" (butter) or "itty" (to go)?
+        answer: Russian
+        question_img_src: https://i1.sndcdn.com/artworks-HYGWkakmx66DvtB4-6gI1iw-t500x500.jpg
       - type: simple
-        text: In 1979, IKEA introduced a widly successful bookcase to the market, having sold 140 million units worldwide. Under what "human" name is it known?
-        answer: Billy
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/d/dd/IKEA_Billy_bookshelf_%2880x106_cm_birch_veneer%29.jpg
-        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/d/dd/IKEA_Billy_bookshelf_%2880x106_cm_birch_veneer%29.jpg
+        text: In the Hunger Games, what is the primary industry in District 12, Katniss Everdeen's home district?
+        answer: Coal mining
+        question_img_src: https://cdn.administrace.tv/2023/04/07/medium_169/e89f614122ed97d223b595dfda1ab2c0.jpg
       - type: simple
-        text: In 1993, Apple brought to the market a PDA featuring handwriting recognition and internet browsing. Due to its high price tag and the resulting low adoption, it was discontinued 1998, shortly after Steve Jobs returned to Apple. What was the scientist-inspired name of the predecessor to the iPad?
-        answer: Apple Newton
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/e3/Colour_Apple_Newton_Logo.JPG
-        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/8/85/Apple_Newton-IMG_0454-cropped.jpg
-      - type: simple
-        text: What is the name of the supersonic passenger jet, which operated between 1976 and 2003? Passengers travelling this aircraft could arrive from Paris or London to New York City in approximately half the time of a regular passenger airplane.
-        answer: Concorde
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg
-        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg
+        text: Society in Albert Huxley's Brave New World lacks any belief in the supernatural. However, a certain real-world figure is celebrated almost as a deity. Christian crosses had their tops cut off to look like a 'T', referencing one of their products. What was their name?
+        answer: Henry Ford
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg
+      - type: choice
+        text: What was the crime for which the main character was arrested and later sentenced for in Kafka's novel 'The Trial' (Proces/Der Process)?
+        answer: no one knows
+        wrong:
+          - excessive drinking
+          - not paying rent
+          - slacking off at work
+          - becoming a huge insect
+        question_img_src: https://cdn.xsd.cz/resize/5e3e4be7bb6e35428b95906253751007_extract=30,0,370,209_resize=680,383_.jpg?hash=f8f11892611a0259b2e3757f622cd259
+        
 
-  - name: Famous scientists of 19th and 20th century
+  - name: Famous scientists of the 19th and 20th century
     short_name: Famous Scientists
     questions:
       - type: simple
