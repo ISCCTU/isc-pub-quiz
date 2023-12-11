@@ -7,6 +7,8 @@ countdown_duration_minutes: 1.5
 results:
   url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRY7A38bOXxMkEz3p50RUyRiatJQvif55Mc6cISD59qWcu5qYoggKoPt42qtPtICODQqC8Ilg0LAXec/pubhtml?gid=0&single=true
   zoom: 1.2 # not working
+additional_rules:
+  - Please, disconnect all of your devices from the WiFi so that the Pub Quiz works well.
 topics:
   - name: Events of 2023
     questions:
