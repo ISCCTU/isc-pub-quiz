@@ -1,0 +1,321 @@
+date: 11/12/2023
+place: Pivní jistota
+template: presentation.j2
+output: output.html
+topics_per_block: 2
+countdown_duration_minutes: 3
+results:
+  url: https://docs.google.com/spreadsheets/d/e/2PACX-1vRY7A38bOXxMkEz3p50RUyRiatJQvif55Mc6cISD59qWcu5qYoggKoPt42qtPtICODQqC8Ilg0LAXec/pubhtml?gid=0&single=true
+  zoom: 1.2 # not working
+topics:
+  - name: Events of 2023
+    questions:
+      - type: simple
+        text: Azerbaijan launched a military offensive in what region on September 19, overcoming forces aligned with Armenia?
+        answer: Nagorno-Karabakh
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Kaukasus.jpg/1280px-Kaukasus.jpg
+      - type: simple
+        text: Which of the neighbors of the Czech republic have held nation-wide parliament elections in 2023?
+        answer: Slovakia (parliament) & Poland (parliament)
+        question_img_src: https://d-maps.com/m/europa/czechia/tchequie/tchequie21.gif
+      - type: simple
+        text: In June of this year, a submersible operated by American company OceanGate imploded during an expedition to view the wreck of Titanic in the North Atlantic Ocean.<br>What was the name of the sumbersible?
+        answer: Titan
+        question_img_src: https://media.vanityfair.com/photos/64da9183d76b1f5267df6c16/master/pass/VF_1023_Titan_opener.jpg
+        answer_img_src: https://media.vanityfair.com/photos/64da9183d76b1f5267df6c16/master/pass/VF_1023_Titan_opener.jpg
+      - type: simple
+        text: In July of this year, thanks to an Internet phenomenon 'Barbenheimer', the release of movies Barbie and Oppenheimer on the same date was a massive success. How much did both films earn at the box office combined?<br><br>(in USD, tollerance 200 million)
+        answer: 2,4 Billion USD
+        question_img_src: https://upload.wikimedia.org/wikipedia/ru/1/1b/Barbenheimer.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/ru/1/1b/Barbenheimer.jpg
+      - type: simple
+        text: In November, The Beatles released their last ever song, featuring restored vocals of John Lennon and unpublished guitar tracks by George Harrison. <br><br>What is the name of the song?
+        answer: Now and Then
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/3/33/The_Beatles_logo.svg
+        answer_img_src: https://www.oklahoman.com/gcdn/authoring/authoring-images/2023/11/02/NOKL/71426092007-beatles-now-and-then-cover-by-ed-ruscha.jpg
+  - name: Dystopias
+    questions:
+      - type: simple
+        text: In his novel 1984, George Orwell coined a term describing a process in which subjects simultaneously accept two conflicting beliefs as true. What is this Newspeak expression?
+        answer: doublethink
+        question_img_src: https://onehotbook.cz/cdn/shop/products/George_Orwell_1984_audio_OneHotBook_webtextura_grande.jpg?v=1613136695
+      - type: simple
+        text: In his novel A Clockwork Orange, Anthony Burgess introduced a slang called Nadsat. What language was the inspiration for many of its words such as "gazetta" (newspaper), "maslo" (butter) or "itty" (to go)?
+        answer: Russian
+        question_img_src: https://i1.sndcdn.com/artworks-HYGWkakmx66DvtB4-6gI1iw-t500x500.jpg
+      - type: simple
+        text: In the Hunger Games, what is the primary industry in District 12, Katniss Everdeen's home district?
+        answer: Coal mining
+        question_img_src: https://cdn.administrace.tv/2023/04/07/medium_169/e89f614122ed97d223b595dfda1ab2c0.jpg
+      - type: simple
+        text: Society in Albert Huxley's Brave New World lacks any belief in the supernatural. However, a certain real-world figure is celebrated almost as a deity. Christian crosses had their tops cut off to look like a 'T', referencing one of their products. What was their name?
+        answer: Henry Ford
+        question_img_src: https://upload.wikimedia.org/wikipedia/en/6/62/BraveNewWorld_FirstEdition.jpg
+      - type: choice
+        text: What was the crime for which the main character was arrested and later sentenced for in Kafka's novel 'The Trial' (Proces/Der Process)?
+        answer: no one knows
+        wrong:
+          - excessive drinking
+          - not paying rent
+          - slacking off at work
+          - becoming a huge insect
+        question_img_src: https://cdn.xsd.cz/resize/5e3e4be7bb6e35428b95906253751007_extract=30,0,370,209_resize=680,383_.jpg?hash=f8f11892611a0259b2e3757f622cd259
+        
+  - name: Musicals
+    questions:
+      - type: simple
+        text: Who are the authors of the musical "Jesus Christ Superstar"? (Each surname is worth half a point.)
+        answer: Webber & Rice
+        question_img_src: https://www.datocms-assets.com/31357/1684768107-jesus-christ-superstar-muzikal-hdk-praha-vstupenky-00-colosseumticket.jpg
+      - type: simple
+        text: What's the Academy award (Oscars) equivalent in musical theatre? 
+        answer: The Tony awards/Tonies
+        question_img_src: assets/images/tony.png
+      - type: musical
+        text: What is the meter (how many beats in a measure) of this song from Broadway's Evita?
+        answer: 7/8
+        question_img_src: https://onmilwaukee.com/images/articles/ev/evita/evita_fullsize_story1.jpg
+        youtube:
+          url: https://www.youtube.com/watch?v=tSMuaZXe-44
+          start_time: 66
+          end_time: 91
+        question_img_src: 
+      - type: musical
+        text: In what Czech musical can you hear Monika Absolonová sing "Teď královnou jsem já" ("Now I'm the queen")?
+        answer: Kleopatra
+        question_img_src: https://d25-a.sdn.cz/d_25/d_15050149/img/93/551x550_6FD8lt.jpg?fl=res%2C350%2C350%2C1%7Cwebp%2C80
+        youtube: 
+          url: https://www.youtube.com/watch?v=AHqhrpTPvr4
+          start_time: 173
+          end_time: 200
+
+  - name: Czech you facts
+    questions:
+      - type: simple
+        text: What is the largest pond in Czechia?
+        answer: Rožmberk
+        question_img_src: https://budejovice.rozhlas.cz/sites/default/files/styles/cro_16x9_tablet/public/images/cfacd6662ed8495994fe1dabc22f1bb2.jpg?itok=YGxxLMqT
+      - type: simple
+        text: What building is located at the joint of Vltava and Otava?
+        answer: (Zvíkov) castle
+        question_img_src: https://www.astrocesty.eu/images/lokality/big/p-soutok-becev-02-1293911424.jpg
+        answer_img_src: https://d34-a.sdn.cz/d_34/c_img_F_N/WxOixo.jpeg?fl=res,500,500,1
+      - type: simple
+        text: A statue of what slavic god is located on top of the mountain Radhošť?
+        answer: Radegast
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/a/a0/New_granite_sculpture_of_Radegast.jpg
+      - type: simple
+        text: What is located in the picture?
+        answer: The Pilsner Urquell brewery main gate
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pilsner-Urquell-Main-Gate.jpg/1280px-Pilsner-Urquell-Main-Gate.jpg
+      - type: simple
+        text: ???
+        answer: ???
+        question_img_src: ???
+
+
+  - name: Culinary Conundrums
+    questions:
+      - type: simple
+        text: How many herbs and spices does the secret KFC recipe contain?
+        answer: 11
+        question_img_src: https://www.docmercury.cz/data/0/4/1200px-kfc-logo.svg.png
+        answer_img_src: https://insanelygoodrecipes.com/wp-content/uploads/2022/10/What-Are-KFCs-11-Herbs-and-Spices-1-683x1024.jpg
+      - type: choice
+        text: Which of these ingredients would you NOT use to make the Long Island Ice Tea cocktail?
+        answer: brandy
+        wrong:
+          - gin
+          - tequilla
+          - vodka
+          - white rum
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/4/45/Long_Island_Iced_Teas.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/4/45/Long_Island_Iced_Teas.jpg
+      - type: choice
+        text: Which famous Middle Eastern dish contains fried, spiced ground chickpeas and/or fava beans, commonly served in a pita or laffa bread?
+        answer: Falafel
+        wrong:
+          - Hummus
+          - Shawarma
+          - Kibbeh
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/ea/Sa-whitegreen-chickpea.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/5/57/Falafels_2.jpg
+      - type: simple
+        text: What is the main ingredient in tofu?
+        answer: soy milk (soybeans)
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/0/03/Japanese_SilkyTofu_%28Kinugoshi_Tofu%29.JPG
+        answer_img_src: https://i.ytimg.com/vi/vt6IAbjATls/maxresdefault.jpg
+      - type: simple
+        text: What is the name of a traditional Balkan dish, consisting of small minced meat sausages and often served with flatbread and diced onions?
+        answer: Ćevapi
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/1/16/Geographic_map_of_Balkan_Peninsula.svg
+        answer_img_src: https://www.072info.com/wp-content/uploads/30-53.jpg
+  - name: Covers and Samples
+    questions:
+      - type: musical
+        text: Which American rapper famously sampled this Queen song, but initially refused to pay any royalties for it? This song became nr. 1 hit in multiple countries.
+        answer: Vanilla Ice (Ice Ice Baby)
+        question_img_src: assets/images/queen.jpeg
+        answer_img_src: https://image.tmdb.org/t/p/w500/dF2Hebk1ZnAxJIxyrdQ8xfLQv5u.jpg
+        audio_file: assets/music/under_pressure.m4a
+        answer_audio_file: assets/music/vanilla_ice.m4a
+      - type: musical
+        text: Madonna sampled this 70s song in her 2005 hit Hung Up. Who is the original author and what is the song's name?
+        answer: "Abba: Gimme! Gimme! Gimme!"
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/7/78/MadonnaO2171023_%2897_of_133%29_%2853269593787%29_%28cropped%29.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/c/cb/ABBA_-_TopPop_1974_5.png
+        audio_file: assets/music/madonna_hung_up.m4a
+        answer_audio_file: assets/music/gimme_gimme.m4a
+      - type: musical
+        text: Czech singer Karel Gott covered this 1984 song by a German band Alphaville. What is the name of the song?
+        answer: "Forever Young"
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/d/d0/Karel_Gott_2002-foto13.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/c/ca/Alphaville_on_stage_2005.jpg
+        audio_file: assets/music/byt_stale_mlad.m4a
+        answer_audio_file: assets/music/alphaville.m4a
+      - type: musical
+        text: In 2009, American singer Jason Derulo released this song and in the main chorus uses a sample of song from a British musician. Who is the author of the original song?
+        answer: "Imogen Heap (Hide and Seek)"
+        question_img_src: https://data.junkee.com/wp-content/uploads/2019/11/snlfb.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/3/37/Web_Summit_2018_-_Press_Conference_-_Day_2%2C_November_7_DSC_5326_%2845767925171%29_%28cropped%29.jpg
+        audio_file: assets/music/derulo.m4a
+        answer_audio_file: assets/music/imogen.m4a
+      - type: musical
+        text: Hawaiian singer IZ's biggest hit is a medley of two songs. Who are the original performers of both songs?
+        answer: Judy Garland and Louis Armstrong <br> (Somewhere over the Rainbow / What a Wonderful World)
+        question_img_src: https://i2-prod.mirror.co.uk/incoming/article22056193.ece/ALTERNATES/s338a/0_EHP_CHP_200520Israel-Kamakawiwoole_24254JPG.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/5/56/Judy_Garland_Over_the_Rainbow_2.jpg
+        audio_file: assets/music/iz.m4a
+        answer_audio_file: assets/music/judy.m4a
+
+  - name: ISO & Friends
+    questions: 
+      - type: choice
+        text: ISO 3103 from the year 1977 describes the procedure to brew a standard cup of tea. What part of the recipe did the country of Ireland object to?
+        answer: The omission of a teapot prewarming step.
+        wrong: 
+          - Adding the milk before pouring the infusion into the cup (rather than afterwards).
+          - The resulting liquid was called 'liquor' by the standard.
+          - It was proposed by the British Standards Institution.
+          - Men named Oisín are banned from being the brewmaster.
+        question_img_src: https://teawithgary.files.wordpress.com/2013/04/iso-teacup.jpg?w=640
+      - type: simple
+        text: The MIL-C-44072C specification includes the recipe for brownies as used for rations in the US military. Name at least 5 of the 6 ingredients most abundant by weight. In total, the recipe calls for 10 ingredients.
+        answer: sugar, flour, shortening (vegetable oil), nuts (almonds, pecans or walnuts), eggs, cocoa
+        question_img_src: https://assets.bonappetit.com/photos/64272438b1072d0f16190886/4:3/w_5000,h_3750,c_limit/033123-brownies-lede.jpg
+      - type: simple
+        text: Not even the arts are safe from the reach of the ISO. The concert pitch, also known as the universal standard pitch, is outlined in ISO 16. What is the frequency specified of the A above middle C?
+        answer: 440 Hz
+        question_img_src: https://static01.nyt.com/images/2019/06/14/arts/14listings-classical2/merlin_155916339_f4a48136-9fdb-4a5b-8a07-96272af821ba-superJumbo.jpg
+      - type: simple
+        text: The Unicode Consortium's Emoji Subcommittee introduced skin tone modifiers for certain emojis in 2015 to promote diversity. How many skin tone options are available for emojis with this modification (including the default yellow)?
+        answer: 6
+        question_img_src: https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p13635399_v_h8_ad.jpg
+        answer_img_src: https://media.npr.org/assets/img/2022/02/08/thumbs-2_custom-9cea3fd5139e683b27dae03f3292e85c94a7f767.jpg
+      - type: sort
+        text: According to the Czech national decree 248/2018, beer is divided into 4 groups according to the gravity (°), which roughly correlates with ABV. What is the correct order?
+        choices:
+          - Table beer
+          - Draught beer
+          - Lager/Full-bodied beer
+          - Strong beer
+        answers:
+          - Table beer (<6°)
+          - Draught beer (7-10°)
+          - Lager (bottom-fermented)/Full-bodied beer (top-fermented) (11-12°) 
+          - Strong beer (>=13°)
+        question_img_src: https://www.regionplzen.cz/uws_images/firmy/049557/clanky/pet-pivnich-zajimavosti-z-plzne-vedeli-jste-ze-vez-stoji-na-miste-kozinovy-sibenice-153425/pivo-ilustracni_53599_plzensko_h.jpg
+
+  - name: Pivotal products of the 20th century
+    short_name: Products
+    questions:
+      - type: simple
+        text: What is the nickname of this iconic car designed in the 1930s in Nazi Germany that was manufactured all the way until 2003? 
+        answer: Beetle (Volkswagen Type 1)
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/VW_K%C3%A4fer_Baujahr_1966.jpg/1024px-VW_K%C3%A4fer_Baujahr_1966.jpg
+      - type: simple
+        text: In 1964, a portable music player was introduced that allowed people to listen to compact casettes. What is its name?
+        answer: Sony Walkman
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/f/f0/Compactcassette.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/4/4e/Original_Sony_Walkman_TPS-L2.JPG
+      - type: simple
+        text: In 1979, IKEA introduced a widly successful bookcase to the market, having sold 140 million units worldwide. Under what "human" name is it known?
+        answer: Billy
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/d/dd/IKEA_Billy_bookshelf_%2880x106_cm_birch_veneer%29.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/d/dd/IKEA_Billy_bookshelf_%2880x106_cm_birch_veneer%29.jpg
+      - type: simple
+        text: In 1993, Apple brought to the market a PDA featuring handwriting recognition and internet browsing. Due to its high price tag and the resulting low adoption, it was discontinued 1998, shortly after Steve Jobs returned to Apple. What was the scientist-inspired name of the predecessor to the iPad?
+        answer: Apple Newton
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/e3/Colour_Apple_Newton_Logo.JPG
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/8/85/Apple_Newton-IMG_0454-cropped.jpg
+      - type: simple
+        text: What is the name of the supersonic passenger jet, which operated between 1976 and 2003? Passengers travelling this aircraft could arrive from Paris or London to New York City in approximately half the time of a regular passenger airplane.
+        answer: Concorde
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/e/eb/British_Airways_Concorde_G-BOAC_03.jpg
+
+  - name: Famous scientists of 19th and 20th century
+    short_name: Famous Scientists
+    questions:
+      - type: simple
+        text: Who was the first person to win two Nobel prizes in two different fields?
+        answer: Marie Curie
+        question_img_src: 
+      - type: simple
+        text: What physicist is credited with the famous line "God does not play dice" which was ultimately proven wrong?
+        answer: Albert Einstein
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg
+      - type: simple
+        text: "Fridrich Engels was a close friend, coauthor and colleague of which famous German/Prussian philosopher? Hint: The philosopher in question had a glorious beard."
+        answer: Karl Marx
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/2/21/Friedrich_Engels_portrait_%28cropped%29.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Karl_Marx_001.jpg/800px-Karl_Marx_001.jpg
+      - type: simple
+        text: Who is the author of this book "On the Origin of Species by Means of Natural Selection"
+        answer: Charles Darwin
+        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg/800px-Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg
+        answer_img_src: https://www.dymocks.com.au/Pages/ImageHandler.ashx?q=9780486450063&w=&h=570
+      - type: simple
+        text: What is name of the person with blacked out in the image?
+        answer: Ludwig Boltzmann
+        question_img_src: assets/images/boltzmann.png
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/a/ad/Boltzmann2.jpg
+      # - type: simple
+      #   text: Who is the only person with two unshared nobel prizes?
+      #   answer: Linus Pauling (chemistry & peace)
+      #   question_img_src: https://upload.wikimedia.org/wikipedia/commons/3/3d/Linus_Pauling_1962.jpg
+
+  - name: Movie quotes
+    questions:
+      - type: simple
+        text: In what movie did the protagonist say "Oh, you think darkness is your ally. But you merely adopted the dark; I was born in it, moulded by it."?
+        answer: The Dark Knight Rises
+        question_img_src: 
+      - type: simple
+        text: Where does "Snakes. Why Did It Have To Be Snakes?" come from?
+        answer: Indiana Jones, Raiders of the lost Ark
+        question_img_src: 
+      - type: simple
+        text: In what movie can you hear "Stern, if this factory ever produces a shell that can actually be fired, I'll be very unhappy."?
+        answer: Schindler's List
+        question_img_src: 
+      - type: simple
+        text: What character uttered "I find your lack of faith disturbing"?
+        answer: Darth Vader
+        question_img_src: 
+        answer_img_src: https://printler.com/media/photo/146602.jpg
+      - type: simple
+        text: What is the movie where you can hear "Good morning, and in case I don't see ya, Good afternoon, good evening, and goodnight!"?
+        answer: The Truman Show
+        question_img_src: 
+  
+
+  # - name: Bonus round
+  #   questions: 
+  #     - type: simple
+  #       question: What year was LASER first manufactured?
+  #       answer: 1960
+  #       question_img_src: https://upload.wikimedia.org/wikipedia/commons/8/85/Maiman_with_the_first_laser.jpg
+    
