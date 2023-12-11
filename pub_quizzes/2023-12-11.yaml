@@ -177,8 +177,8 @@ topics:
         answer: "Britney Spears"
         audio_file: assets/music/tiny_dancer.m4a
         answer_audio_file: assets/music/hold_me_closer.m4a
-        question_image_src: https://akns-images.eonline.com/eol_images/Entire_Site/2020921/rs_819x1024-201021163325-634-elton-john-barbie-doll-mh.jpg
-        answer_image_src: https://i.scdn.co/image/ab67616d0000b2735d872e7b0c1ba964541f07e8
+        question_img_src: https://akns-images.eonline.com/eol_images/Entire_Site/2020921/rs_819x1024-201021163325-634-elton-john-barbie-doll-mh.jpg
+        answer_img_src: https://i.scdn.co/image/ab67616d0000b2735d872e7b0c1ba964541f07e8
       - type: musical
         text: Madonna sampled this 70s song in her 2005 hit Hung Up. Who is the original author of the song?
         answer: "Abba (Gimme! Gimme! Gimme!)"
