@@ -168,7 +168,12 @@ class MusicQ(Question):
             raise ValueError(
                 f"Invalid choice of start/end of YouTube audio in {common_data.title}"
             )
-        audio_stream = StreamQuery(video.streams).get_audio_only(subtype="mp4")
+        try:
+            audio_stream = StreamQuery(video.streams).get_audio_only(subtype="mp4")
+        except pytube.exceptions.AgeRestrictedError as e:
+            raise ValueError(
+                f"Video {url} for question '{common_data.text}' is age restricted and cannot be automatically downloaded. You will need to download it manually..."
+            )
         audio_buffer = BytesIO()
         audio_stream.stream_to_buffer(audio_buffer)
         # get to the start of the buffer to feed it to pydub
