@@ -7,9 +7,7 @@ The presentation uses [reveal.js](https://github.com/hakimel/reveal.js) for inte
 ## TODO:
 * make it possible to make the text or image larger
   * could be implemented by some dragable divider between the text and image columns, [like here](https://stackoverflow.com/questions/55565001/how-do-you-allow-a-user-to-manually-resize-a-div-element-vertically)
-* save the images locally so that internet is not needed
-  * this might need some YAML caching to detect changes in the definition
-* improve layouts & make it look better in general
+* improve layouts & make it look better in general (the ESN colors don't look good next to each other IMO)
 * auto search & download illustration image (with a potential override, of course)
 * come up with a better way to embed the results (iframes are annoying and Google doesn't offer any customization)
 
