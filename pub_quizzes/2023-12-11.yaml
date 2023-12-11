@@ -68,18 +68,6 @@ topics:
         text: Who are the authors of the musical "Jesus Christ Superstar"? (Each surname is worth half a point.)
         answer: Webber & Rice
         question_img_src: https://www.datocms-assets.com/31357/1684768107-jesus-christ-superstar-muzikal-hdk-praha-vstupenky-00-colosseumticket.jpg
-      - type: simple
-        text: What's the Academy award (Oscars) equivalent in musical theatre? 
-        answer: The Tony awards/Tonies
-        question_img_src: assets/images/tony.png
-      - type: musical
-        text: What is the meter (how many beats in a measure) of this song from Broadway's Evita?
-        answer: 7/8
-        question_img_src: https://onmilwaukee.com/images/articles/ev/evita/evita_fullsize_story1.jpg
-        youtube:
-          url: https://www.youtube.com/watch?v=tSMuaZXe-44
-          start_time: 66
-          end_time: 91
       - type: musical
         text: In what Czech musical can you hear Monika Absolonová sing "Teď královnou jsem já" ("Now I'm the queen")?
         answer: Kleopatra
@@ -88,6 +76,27 @@ topics:
           url: https://www.youtube.com/watch?v=AHqhrpTPvr4
           start_time: 173
           end_time: 200
+      - type: musical
+        text: What is the meter (how many beats in a measure) of this song from Broadway's Evita?
+        answer: 7/8
+        question_img_src: https://onmilwaukee.com/images/articles/ev/evita/evita_fullsize_story1.jpg
+        youtube:
+          url: https://www.youtube.com/watch?v=tSMuaZXe-44
+          start_time: 66
+          end_time: 96
+      - type: musical
+        text: The authors of South Park (Trey Parker & Matt Stone) also made an award-winning musical. What is the name of this musical?
+        answer: The Book of Mormon
+        question_img_src: https://static01.nyt.com/images/2011/03/25/arts/25MORMON-span/MORMON-articleLarge.jpg?quality=75&auto=webp&disable=upscale
+        answer_img_src: https://upload.wikimedia.org/wikipedia/en/8/8c/The_Book_of_Mormon_poster.jpg
+        youtube:
+          url: https://www.youtube.com/watch?v=NHb_BNA3fn8
+          start_time: 121
+          end_time: 151
+      - type: simple
+        text: What's the Academy award (Oscars) equivalent in musical theatre? 
+        answer: The Tony awards/Tonies
+        question_img_src: assets/images/tony.png
 
   - name: Czech you facts
     questions:
