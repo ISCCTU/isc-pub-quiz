@@ -116,7 +116,8 @@ topics:
       - type: simple
         text: A statue of what slavic god is located on top of the mountain Radhošť?
         answer: Radegast
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/a/a0/New_granite_sculpture_of_Radegast.jpg
+        question_img_src: https://www.pustevny.cz/wp-content/uploads/2018/06/Radhost-1000.jpg
+        answer_img_src: https://upload.wikimedia.org/wikipedia/commons/a/a0/New_granite_sculpture_of_Radegast.jpg
       - type: simple
         text: What is located in the picture?
         answer: The Pilsner Urquell brewery main gate
@@ -289,7 +290,7 @@ topics:
       - type: simple
         text: Who is the author of the book "On the Origin of Species by Means of Natural Selection"
         answer: Charles Darwin
-        question_img_src: https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg/800px-Charles_Darwin_by_Julia_Margaret_Cameron%2C_c._1868.jpg
+        question_img_src: https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/Animal_kingdom_nzwbda.jpg
         answer_img_src: https://www.dymocks.com.au/Pages/ImageHandler.ashx?q=9780486450063&w=&h=570
       - type: simple
         text: What is name of the person with blacked out in the image?
